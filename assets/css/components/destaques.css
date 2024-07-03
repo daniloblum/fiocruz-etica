@@ -1,0 +1,103 @@
+/* --- DESTAQUES --- */
+
+/*** Destaque Olho de texto - Baixa ênfase ***/
+.olho-de-texto {
+	padding: var(--fio-sys-size-padding-xl) 0;
+	text-align: center;
+}
+/* .olho-de-texto p:first-child::before {
+	content: url('../../../media/templates/destaque-graphism.svg');
+	display: block;
+	width:80px;
+	height:80px;
+	position:relative;
+	left:50%;
+	transform: translate(-50%, -45%);
+}  */
+
+.olho-de-texto p:last-child::after {
+	content: url('../../../media/templates/destaque-graphism.svg');
+	display: block;
+	width:80px;
+	height:80px;
+	position:relative;
+	left:50%;
+	transform: translate(-50%, 20%);
+}
+
+.olho-de-texto p {
+	font-family: var(--fio-sys-typography-family-secondary-regular);
+	font-size: var(--fio-sys-typography-size-1);
+	line-height: var(--fio-sys-typography-height-125);
+	color: var(--fio-sys-color-tertiary-dark);
+}
+
+@media (min-width: 768px) {
+	.olho-de-texto {
+		padding: var(--fio-sys-size-padding-xl);
+		text-align: center;
+	}
+}
+
+/*** Destaque Parallax - Alta ênfase ***/
+
+.destaque-parallax {
+	/* background: linear-gradient(0deg, rgba(0, 48, 102, 0.7), rgba(0, 48, 102, 0.7)), url('../../../media/templates/bg-destaque.jpg'); */
+	background: url('../../../media/templates/bg-destaque.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: var(--fio-sys-color-primary-medium);
+	padding: var(--fio-sys-size-padding-xl);
+	padding-bottom:0;
+	margin: var(--fio-sys-size-margin-xxl) 0;
+}
+
+/* BORDAS PARA CONTAINER NO DESKTOP*/
+@media (min-width: 768px) {
+	.destaque-parallax {
+		border-image-source: url('../../../media/templates/border-image.svg');
+		border-image-slice: 12;
+		border-image-width: 0 32px;
+		border-image-outset: 0 8px;
+		border-image-repeat: round;
+	}
+}
+
+.destaque-parallax span:first-child {
+	display: block;
+	margin-bottom: var(--fio-sys-size-margin-xl);
+}
+
+.destaque-parallax span:first-child,
+.destaque-parallax p {
+	color: var(--fio-sys-color-primary-dark);
+}
+
+.destaque-parallax p {
+	font-size: var(--fio-sys-typography-size-1);
+}
+
+.destaque-parallax p:last-child {
+	margin-bottom: 0;
+}
+
+.destaque-parallax a {
+	color: var(--fio-sys-color-accent-medium);
+}
+
+.destaque-parallax {
+	background-color: transparent;
+	/* background-image: url(images/parallax/parallax-bg.jpg); */
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+}
+
+.destaque-parallax .parallax-footer{
+	display:flex;
+	justify-content: space-between;
+	align-items: end;
+	padding: 0 1rem;
+	max-height: 100px;
+}
