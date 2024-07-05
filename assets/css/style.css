@@ -128,7 +128,7 @@ body {
 @media (min-width: 992px) {
 	.main .content {
 		margin-left: 120px;
-		padding-top: 86px;
+		padding-top: 80px;
 	}
 }
 @media (min-width: 1200px) {
@@ -170,21 +170,6 @@ section {
 
 #page-content section .container:first-child .row:first-child {padding-top:40px;}
 
-/* BORDAS PARA CONTAINER NO DESKTOP*/
-@media (min-width: 768px) {
-	.content {
-		border-image-source: url(../../media/templates/border-image.svg);
-		border-image-slice: 12;
-		border-image-width: 0 32px 32px;
-		border-image-outset: 0 8px;
-		border-image-repeat: round;
-	}
-
-	.img-full .container-fluid {
-		position: relative;
-		z-index: -1;
-	}
-}
 
 /* BORDAS */
 .border-radius-xs {

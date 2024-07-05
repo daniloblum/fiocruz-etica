@@ -1,6 +1,6 @@
 .sidebar,
 .m-sidebar {
-	--_color-background: var(--fio-sys-color-primary-dark);
+	--_color-background: var(--fio-sys-color-primary-extra-dark);
 	--_color-font: var(--fio-sys-color-primary-extra-light);
 	--_color-accent: var(--fio-sys-color-accent-light);
 	--_color-topic: var(--fio-sys-color-primary-light);

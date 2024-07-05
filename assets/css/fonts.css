@@ -38,6 +38,32 @@
 /* Montserrat */
 
 @font-face {
+	font-family: 'Montserrat Light';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../../source/fonts/Montserrat-Light.ttf');
+}
+@font-face {
+	font-family: 'Montserrat Light Italic';
+	font-style: italic;
+	font-weight: 500;
+	src: url('../../source/fonts/Montserrat-LightItalic.ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat Regular';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../../source/fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+	font-family: 'Montserrat Italic';
+	font-style: italic;
+	font-weight: 500;
+	src: url('../../source/fonts/Montserrat-Italic.ttf');
+}
+
+@font-face {
 	font-family: 'Montserrat Medium';
 	font-style: normal;
 	font-weight: 500;
@@ -62,6 +88,21 @@
 	src: url('../../source/fonts/Montserrat-BoldItalic.ttf');
 }
 
+@font-face {
+	font-family: 'Montserrat ExtraBold';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../../source/fonts/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat ExtraBold Italic';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../../source/fonts/Montserrat-ExtraBoldItalic.ttf');
+}
+
+
 @supports (font-variation-settings: normal) {
 	@font-face {
 		font-family: 'Montserrat';
@@ -77,13 +118,4 @@
 		font-display: swap;
 		font-style: italic;
 	}
-}
-
-/* Cordel Encantado */
-
-@font-face {
-	font-family: 'Cordel Encantado';
-	font-style: normal;
-	font-weight: bolder;
-	src: url('../../source/fonts/Cordel-Encarnado-II.woff');
 }

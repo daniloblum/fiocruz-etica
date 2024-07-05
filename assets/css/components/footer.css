@@ -10,12 +10,6 @@ footer {
 	padding: 60px 0 60px;
 	position: relative;
 	z-index: 99;
-
-	border-image-source: url('../../../media/templates/border-image.svg');
-    border-image-slice: 12;
-    border-image-width: 0 32px 32px;
-    border-image-outset: 0 8px;
-    border-image-repeat: round;
 }
 
 footer .logos {
