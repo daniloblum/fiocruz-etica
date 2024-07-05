@@ -83,23 +83,28 @@
 
 .image-dropdown .image-button[aria-expanded='true'] .image-button-label::after {
     /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23C70596'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"); */
-	background-image:url(../../../media/templates/accordion-icon.svg);
+	/* background-image:url(../../../media/templates/accordion-icon.svg); */
     transform: rotate(-180deg);
 }
 
 .image-dropdown .image-button .image-button-label::after {
-	flex-shrink: 0;
+	content: 'keyboard_arrow_down';
+	font-family: 'Material Symbols Rounded';
+	width: auto;
+	height: auto;
+	
+	/* flex-shrink: 0;
 	width: 2rem;
-	height: 2rem;
+	height: 2rem; */
 	margin-left: 10px;
-	content: '';
+	/* content: ''; */
 	/* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23C70596'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"); */
-	background-image:url(../../../media/templates/accordion-icon.svg);
+	/* background-image:url(../../../media/templates/accordion-icon.svg); */
 	background-repeat: no-repeat;
 	background-size: 2rem;
 	transition: transform 0.2s ease-in-out;
 	
-	background-image: url(../../../media/templates/accordion-icon.svg);
+	/* background-image: url(../../../media/templates/accordion-icon.svg); */
 	background-color:var(--fio-sys-color-secondary-medium);
 	background-size:var(--fio-sys-size-padding-lg);
 	background-position: center;
