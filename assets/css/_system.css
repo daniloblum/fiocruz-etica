@@ -173,7 +173,6 @@
 	--fio-sys-typography-family-primary-extra-bold: var(--fio-ref-typography-family-primary) ExtraBold, sans-serif;
 	--fio-sys-typography-family-primary-extra-bold-italic: var(--fio-ref-typography-family-primary) ExtraBold Italic, sans-serif;
 
-
 	/* Size */
 	--fio-sys-typography-multiplier: 1; /* Caso necessário */
 
@@ -227,9 +226,7 @@
 	--fio-sys-typography-size-: calc(var(--fio-ref-typography-size-base) * 4);
 	--fio-sys-typography-size-: calc(var(--fio-ref-typography-size-base) * 5);
 
-
 	/* ELEMENTS */
-
 
 	/* Hr line */
 	--fio-sys-hr-color: var(--fio-sys-color-neutral-light);
