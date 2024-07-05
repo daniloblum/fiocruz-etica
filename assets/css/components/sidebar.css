@@ -2,7 +2,7 @@
 .m-sidebar {
 	--_color-background: var(--fio-sys-color-primary-extra-dark);
 	--_color-font: var(--fio-sys-color-primary-extra-light);
-	--_color-accent: var(--fio-sys-color-accent-light);
+	--_color-accent: var(--fio-sys-color-secondary-medium);
 	--_color-topic: var(--fio-sys-color-primary-light);
 	--_color-topic-accent: var(--fio-sys-color-secondary-medium);
 }
@@ -383,7 +383,7 @@ body {
 }
 .sidebar .sidebar__group .sidebar__group-item span.text {
 	display: block;
-	color: var(--_color-accent);
+	color: var(--fio-sys-color-accent-dark-contrast);
 	font-family: var(--fio-sys-typography-family-primary-bold), sans-serif;
 	text-align: center;
 	padding: 8px 12px;
@@ -502,7 +502,7 @@ body {
 	font-family: var(--fio-ref-typography-family-primary);
 	font-size: var(--fio-sys-typography-size-1);
 	line-height: var(--fio-sys-typography-height-125);
-	color: var(--_color-accent);
+	color: var(--fio-sys-color-accent-dark-contrast);
 	padding: 12px 16px;
 	font-weight: 700;
 }

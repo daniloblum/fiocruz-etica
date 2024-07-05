@@ -19,6 +19,7 @@ a:visited {
 	overflow-wrap: anywhere;
 }
 
+
 a[role='button'] {
 	cursor:pointer;
 }
@@ -46,6 +47,20 @@ a[target='_blank']:not(.no-after):after {
 a[target='_blank']:after :hover {
 	text-decoration: none;
 }
+
+/* LINKS QUE ESTIVEREM EM TEXTO CORRIDO */
+#page-content p > a,
+#page-content p > a:visited {
+	background-color:var(--fio-sys-color-secondary-light);
+	padding:0 10px;
+}
+
+#page-content p > a:hover {
+	background-color:var(--fio-sys-color-secondary-medium);
+	color: var(--fio-sys-color-accent-medium);
+	text-decoration: none;
+}
+
 
 h1,
 .h1,
@@ -79,13 +94,6 @@ h3,
 	/* font-size: calc(var(--fio-sys-typography-head-lg-size) * 0.8); */
 	font-size: var(--fio-sys-typography-size-4);
 }
-
-h3:after,
-.h3:after {
-	content: url(../../media/templates/head-block-line-large.svg);
-	display: block;
-}
-
 h4,
 .h4 {
 	/* font-size: calc(var(--fio-sys-typography-head-md-size) * 0.8); */
