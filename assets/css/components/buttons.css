@@ -29,6 +29,7 @@ button,
 
 	cursor: pointer;
 	border:none;
+	border-radius: var(--_button-border-radius);
 	/* border-radius: var(--_button-border-radius);
 	border-style: solid;
 	border-width: var(--_button-border-width); */

@@ -40,26 +40,26 @@
 @font-face {
 	font-family: 'Montserrat Light';
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 300;
 	src: url('../../source/fonts/Montserrat-Light.ttf');
 }
 @font-face {
 	font-family: 'Montserrat Light Italic';
 	font-style: italic;
-	font-weight: 500;
+	font-weight: 300;
 	src: url('../../source/fonts/Montserrat-LightItalic.ttf');
 }
 
 @font-face {
 	font-family: 'Montserrat Regular';
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 400;
 	src: url('../../source/fonts/Montserrat-Regular.ttf');
 }
 @font-face {
 	font-family: 'Montserrat Italic';
 	font-style: italic;
-	font-weight: 500;
+	font-weight: 400;
 	src: url('../../source/fonts/Montserrat-Italic.ttf');
 }
 
@@ -91,14 +91,14 @@
 @font-face {
 	font-family: 'Montserrat ExtraBold';
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 800;
 	src: url('../../source/fonts/Montserrat-ExtraBold.ttf');
 }
 
 @font-face {
 	font-family: 'Montserrat ExtraBold Italic';
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 800;
 	src: url('../../source/fonts/Montserrat-ExtraBoldItalic.ttf');
 }
 
