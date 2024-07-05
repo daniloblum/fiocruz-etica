@@ -166,6 +166,8 @@
 	--fio-sys-typography-family-primary-italic: var(--fio-ref-typography-family-primary) Italic, sans-serif;
 	--fio-sys-typography-family-primary-medium: var(--fio-ref-typography-family-primary) Medium, sans-serif;
 	--fio-sys-typography-family-primary-medium-italic: var(--fio-ref-typography-family-primary) Medium Italic, sans-serif;
+	--fio-sys-typography-family-primary-semi-bold: var(--fio-ref-typography-family-primary) SemiBold, sans-serif;
+	--fio-sys-typography-family-primary-semi-bold-italic: var(--fio-ref-typography-family-primary) SemiBold Italic, sans-serif;
 	--fio-sys-typography-family-primary-bold: var(--fio-ref-typography-family-primary) Bold, sans-serif;
 	--fio-sys-typography-family-primary-bold-italic: var(--fio-ref-typography-family-primary) Bold Italic, sans-serif;
 	--fio-sys-typography-family-primary-extra-bold: var(--fio-ref-typography-family-primary) ExtraBold, sans-serif;
