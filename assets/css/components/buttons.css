@@ -18,7 +18,7 @@ button,
 	--_button-size: var(--fio-sys-typography-size-0);
 	--_button-decoration: none;
 	--_button-transform: none;
-	--_button-color: var(--fio-sys-color-text-dark);
+	--_button-color: var(--fio-sys-color-primary-dark);
 
 	--_button-border-radius: var(--fio-sys-size-radius-0);
 	--_button-border-width: var(--fio-sys-size-stroke-md);
