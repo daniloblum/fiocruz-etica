@@ -12,9 +12,9 @@ a[data-bs-toggle="popover"]:not([href]):not([class]):hover {
 
 .popover {
     background-color: var(--fio-sys-color-neutral-white);
-    border: var(--fio-sys-size-stroke-md) solid var(--fio-sys-color-primary-dark);
+    border: var(--fio-sys-size-stroke-xs) solid var(--fio-sys-color-primary-extra-light);
     border-radius: var(--fio-sys-size-radius-lg);
-    box-shadow: var(--fio-sys-elevation-lg);
+    box-shadow: var(--fio-sys-size-shadow-lg);
     color:var(--fio-sys-color-primary-dark);
     font-family: var(--fio-sys-typography-family-primary-medium);
     font-size: var(--fio-sys-typography-size-0);
@@ -33,14 +33,14 @@ a[data-bs-toggle="popover"]:not([href]):not([class]):hover {
 
 
 .popover-header {
-    color:var(--fio-sys-color-primary-dark);
-    padding: 0.5rem 1rem;
-    margin-bottom: 0;
-    font-size: var(--fio-sys-typography-size-1);
-    background-color: var(--fio-sys-color-secondary-light);
+    background-color: var(--fio-sys-color-primary-extra-light);
     border-bottom: none;
     border-top-left-radius: var(--fio-sys-size-radius-lg);
     border-top-right-radius: var(--fio-sys-size-radius-lg);
+    color:var(--fio-sys-color-primary-dark);
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    font-size: var(--fio-sys-typography-size-1); 
 }
 
 .bs-popover-auto[data-popper-placement^=top]>.popover-arrow::after, 

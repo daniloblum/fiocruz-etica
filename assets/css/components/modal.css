@@ -1,7 +1,7 @@
 /* --- MODAL --- */
 
 .modal {
-	--_modal-header-background: var(--fio-sys-color-secondary-light);
+	--_modal-header-background: var(--fio-sys-color-primary-extra-light);
 	--_modal-color: var(--fio-sys-color-primary-dark);
 	--_modal-header-padding: var(--fio-sys-size-padding-lg);
 	--_modal-border-color: var(--fio-sys-color-primary-dark);
@@ -28,7 +28,7 @@
 	pointer-events: auto;
 	background-color: #fff;
 	background-clip: padding-box;
-	border: var(--_modal-border-width) solid var(--_modal-border-color);
+	border: none;
 	border-radius: var(--_modal-border-radius);
 	outline: 0;
 }

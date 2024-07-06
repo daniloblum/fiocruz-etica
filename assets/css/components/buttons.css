@@ -20,7 +20,7 @@ button,
 	--_button-transform: none;
 	--_button-color: var(--fio-sys-color-primary-dark);
 
-	--_button-border-radius: var(--fio-sys-size-radius-0);
+	--_button-border-radius: var(--fio-sys-size-radius-xs);
 	--_button-border-width: var(--fio-sys-size-stroke-md);
 
 	--_button-padding-x: var(--fio-sys-size-padding-lg);
@@ -69,7 +69,7 @@ button,
 	--_button-text-color-primary: var(--_button-color);
 	--_button-text-color-primary--hover: var(--_button-color);
 	--_button-color-primary--active: var(--fio-sys-color-secondary-dark);
-	--_button-text-color-primary--active: var(--fio-sys-color-primary-dark);
+	--_button-text-color-primary--active: var(--fio-sys-color-neutral-white);
 
 	background-color: var(--_button-color-primary);
 	color: var(--_button-text-color-primary);
@@ -150,6 +150,7 @@ button,
 	--_button-outline-color-secondary: var(--fio-sys-color-primary-dark);
 	--_button-outline-color-secondary--hover: var(--fio-sys-color-primary-dark);
 	--_button-color-secondary--active: var(--fio-sys-color-primary-dark);
+	--_button-text-color-secondary--active: var(--fio-sys-color-neutral-white);
 
 	background-color: var(--_button-color-secondary);
 	color: var(--_button-text-color-secondary);
@@ -163,6 +164,7 @@ button,
 }
 .fio-button-secondary:active {
 	background-color: var(--_button-color-secondary--active);
+	color: var(--_button-text-color-secondary--active);
 }
 
 /* Secondary outline button */
@@ -280,7 +282,7 @@ button,
 
 	padding: var(--_button-sm-padding-y) var(--_button-sm-padding-x);
 	font-size: var(--_button-sm-size);
-	border-radius:var(--_button-sm-border-radius);
+	/* border-radius:var(--_button-sm-border-radius); */
 }
 
 .fio-button.button-lg {
@@ -292,5 +294,5 @@ button,
 
 	padding: var(--_button-lg-padding-y) var(--_button-lg-padding-x);
 	font-size: var(--_button-lg-size);
-	border-radius:var(--_button-lg-border-radius);
+	/* border-radius:var(--_button-lg-border-radius); */
 }

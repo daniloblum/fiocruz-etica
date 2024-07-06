@@ -8,7 +8,7 @@
 .componente-video::before {
 	margin-bottom:var(--fio-sys-size-margin-xl)
 }
-.componente-video::before, 
+/* .componente-video::before, 
 .componente-video::after {
 	content: url(../../../media/templates/destaque-graphism.svg);
     display: block;
@@ -17,7 +17,7 @@
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
-}
+} */
 
 .video {
 	position: relative;
@@ -31,6 +31,7 @@
 	border-radius: 0.75rem;
 	background-color: #999ea5;
 	z-index: 1;
+	box-shadow: var(--fio-sys-size-shadow-lg);
 }
 
 .video::before {

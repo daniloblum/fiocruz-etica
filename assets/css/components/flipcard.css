@@ -145,17 +145,9 @@
 .flipcard .flip-card-front .card-footer .fio-button,
 .flipcard .flip-card-back .card-footer .fio-button {
 	margin: 0 auto;
-	border: transparent;
-	background: var(--_flipcard-button-color);
 	border-radius: var(--_flipcard-button-border-radius);
-	border-style: solid;
-	border-width: var(--_flipcard-button-border-width);
-	border-color:var(--_flipcard-button-color);
 }
 
-.flipcard .flip-card-front .card-footer .fio-button:hover {
-	background-color: var(--_flipcard-button-color--hover);	
-}
 
 .flipcard .flip-card-front .card-footer label {
 	margin-bottom: 0;
@@ -206,7 +198,7 @@
 	border-top: transparent;
 }
 
-.flipcard .flip-card-back .card-footer .fio-button {
+/* .flipcard .flip-card-back .card-footer .fio-button {
 	border-color:  var(--fio-sys-color-accent-medium);
 	border-width: 2px;
 	color: var(--fio-sys-color-neutral-white);
@@ -217,6 +209,10 @@
 .flipcard .flip-card-back .card-footer .fio-button:focus {
 	background-color: var(--fio-sys-color-accent-dark);
 	color: var(--fio-sys-color-neutral-white);
+} */
+
+.flicard .flip-card-back .card-footer .fio-button span.material-symbols-rounded {
+	font-weight: 900;
 }
 
 .flipcard .flip-card-back .card-footer .fio-button:focus {
