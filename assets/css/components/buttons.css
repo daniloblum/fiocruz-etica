@@ -39,7 +39,6 @@ button,
 	padding: var(--_button-padding-y) var(--_button-padding-x);
 	text-align: center;
 	text-decoration: none;
-	text-transform: uppercase;
 }
 .fio-button:hover {
 	text-decoration: none;

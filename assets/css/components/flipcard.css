@@ -3,7 +3,7 @@
 .flipcard {
 	--_flipcard-border-radius:var(--fio-sys-size-radius-lg);
 	--_flipcard-color: var(--fio-sys-color-secondary-light);
-	--_flipcard-text-color: var(--fio-sys-color-primary-dark);
+	--_flipcard-text-color: var(--fio-sys-color-neutral-white);
 	--_flipcard-line-height: var(--fio-sys-typography-height-150);
 	--_flipcard-padding: var(--fio-sys-size-padding-lg);
 	--_flipcard-border-color: var(--fio-sys-color-primary-dark);
@@ -179,11 +179,11 @@
 	border-color: var(--_flipcard-border-color);
 	background-repeat: no-repeat;
 	background-position: top center;
-	border-image-source: url('../../../media/templates/border-image.svg');
+	/* border-image-source: url('../../../media/templates/border-image.svg');
 	border-image-slice: 10;
     border-image-width: 32px;
     border-image-outset: 2 3;
-	border-image-repeat: round;
+	border-image-repeat: round; */
 }
 
 /*Configuração do verso*/

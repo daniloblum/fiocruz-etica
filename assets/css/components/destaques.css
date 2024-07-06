@@ -26,8 +26,8 @@
 }
 
 .olho-de-texto p {
-	font-family: var(--fio-sys-typography-family-secondary-regular);
-	font-size: var(--fio-sys-typography-size-1);
+	font-family: var(--fio-sys-typography-family-primary-light);
+	font-size: var(--fio-sys-typography-size-2);
 	line-height: var(--fio-sys-typography-height-125);
 	color: var(--fio-sys-color-tertiary-dark);
 }
@@ -36,6 +36,47 @@
 	.olho-de-texto {
 		padding: var(--fio-sys-size-padding-xl);
 		text-align: center;
+	}
+}
+
+/*** Destaque Box Cor - Média ênfase ***/
+
+.napratica .napratica__base {
+	background-color: var(--fio-sys-color-primary-dark-contrast);
+	padding: var(--fio-sys-size-padding-xl);
+	border-radius: var(--fio-sys-size-radius-sm);
+	border: none;
+}
+
+.napratica .base-header {
+	border-bottom-width: var(--fio-sys-size-stroke-sm);
+	border-bottom-style: solid;
+	border-color: var(--fio-sys-color-secondary-medium);
+	padding-bottom: var(--fio-sys-size-padding-lg);
+}
+.napratica .base-header p {
+	color: var(--fio-sys-color-primary-dark);
+}
+
+.napratica .base-body {
+	padding: var(--fio-sys-size-padding-lg) 0;
+}
+
+.napratica .base-footer {
+	gap: 30px;
+}
+.napratica .base-footer button {
+	width: 100%;
+}
+.napratica .base-footer button[aria-expanded='true'] {
+	background-color: var(--fio-sys-color-accent-medium);
+	color: var(--fio-sys-color-primary-medium-contrast);
+}
+
+@media (min-width: 768px) {
+	.napratica .base-footer button {
+		width: 100%;
+		max-width: 200px;
 	}
 }
 
@@ -49,19 +90,7 @@
 	background-attachment: fixed;
 	background-color: var(--fio-sys-color-primary-medium);
 	padding: var(--fio-sys-size-padding-xl);
-	padding-bottom:0;
 	margin: var(--fio-sys-size-margin-xxl) 0;
-}
-
-/* BORDAS PARA CONTAINER NO DESKTOP*/
-@media (min-width: 768px) {
-	.destaque-parallax {
-		border-image-source: url('../../../media/templates/border-image.svg');
-		border-image-slice: 12;
-		border-image-width: 0 32px;
-		border-image-outset: 0 8px;
-		border-image-repeat: round;
-	}
 }
 
 .destaque-parallax span:first-child {
@@ -71,20 +100,13 @@
 
 .destaque-parallax span:first-child,
 .destaque-parallax p {
-	color: var(--fio-sys-color-primary-dark);
+	color: var(--fio-sys-color-neutral-white);
 }
 
 .destaque-parallax p {
 	font-size: var(--fio-sys-typography-size-1);
 }
 
-.destaque-parallax p:last-child {
-	margin-bottom: 0;
-}
-
-.destaque-parallax a {
-	color: var(--fio-sys-color-accent-medium);
-}
 
 .destaque-parallax {
 	background-color: transparent;
