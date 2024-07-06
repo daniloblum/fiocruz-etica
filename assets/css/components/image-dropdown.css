@@ -13,15 +13,6 @@
 	--_image-dropdown-content-background: var(--fio-ref-color-primary-99);
 	--_image-dropdown-content-text-color: var(--fio-sys-color-tertiary-dark);
 	--_image-dropdown-content-text-size: var(--fio-sys-typography-size--1);
-
-	--_image-dropdown-border-color:var(--fio-sys-color-primary-dark);
-	--_image-dropdown-border-radius:var(--fio-sys-size-radius-xs);
-	--_image-dropdown-border-width:var(--fio-sys-size-stroke-md);
-	--_image-dropdown-header-family:var(--fio-sys-typography-family-secondary-regular);
-	--_image-dropdown-text-family: var(--fio-sys-typography-family-primary-medium);
-
-	--_image-dropdown-padding: var(--fio-sys-size-padding-md);
-	--_image-dropdown-margin:var(--fio-sys-size-margin-md);
 }
 
 .image-dropdown .image-button {
@@ -118,7 +109,7 @@
     border-radius: var(--_image-dropdown-content-border-radius);
 	/* font-family: var(--_image-dropdown-text-family); */
 	font-size: var(--_image-dropdown-content-text-size);
-    padding: var(--_image-dropdown-padding);
+    padding: var(--fio-sys-size-padding-md);
 	color: var(--_image-dropdown-content-text-color);
 } 
 /* 

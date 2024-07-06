@@ -3,42 +3,33 @@
 .card {
 	/* Card - base */
 	--_card-background: var(--fio-sys-color-neutral-white);
-	--_card-border-color: var(--fio-sys-color-primary-dark);
-	--_card-border-width: var(--fio-sys-size-stroke-md);
-	--_card-border-radius: var(--fio-sys-size-radius-lg);
-
-	/* Card - elevation */
-	--_card-elevation-low: var(--fio-sys-elevation-sm);
-	--_card-elevation-medium: var(--fio-sys-elevation-md);
-	--_card-elevation-high: var(--fio-sys-elevation-lg);
-	--_card-elevation-higher: var(--fio-sys-elevation-xl);
-
-	/* Card - primary color */
-	--_card-background-primary: var(--fio-sys-color-primary-medium-contrast);
-	--_card-border-color-primary: var(--fio-sys-color-primary-dark-contrast);
+	--_card-border-color: none;
+	--_card-border-width: var(--fio-sys-size-stroke-0);
+	--_card-border-radius: var(--fio-sys-size-radius-sm);
+	--_card-shadow: var(--fio-sys-size-shadow-lg);
 
 	/* Card - thumb */
-	--_card-thumb-padding: var(--fio-sys-spacing-padding-0);
-	--_card-thumb-border-radius: var(--fio-sys-spacing-border-radius-0);
+	--_card-thumb-border-radius: var(--_card-border-radius);
 
 	/* Card - header */
-	--_card-header-padding-y: var(--fio-sys-size-padding-md);
-	--_card-header-padding-x: var(--fio-sys-size-padding-md);
+	--_card-header-padding-y: var(--fio-sys-size-padding-sm);
+	--_card-header-padding-x: var(--fio-sys-size-padding-sm);
 
-	--_card-header-background: var(--fio-sys-color-secondary-light);
-	--_card-header-family: var(--fio-sys-typography-family-secondary-regular);
-	--_card-header-line-height: var(--fio-sys-typography-height-150);
+	--_card-header-background: var(--fio-sys-color-primary-extra-light);
+	--_card-header-family: var(--fio-sys-typography-family-primary-semi-bold);
+	--_card-header-line-height: var(--fio-sys-typography-height-125);
 	--_card-header-size: var(--fio-sys-typography-size-0);
-	--_card-header-tracking: var(--fio-sys-typography-spacing-normal);
+	--_card-header-color: var(--fio-sys-color-primary-medium);
+	--_card-header-border-color: var(--fio-sys-color-tertiary-extra-dark-contrast);
+	--_card-header-border-width: var(--fio-sys-size-stroke-sm);
 
 	/* Card - body */
 	--_card-body-padding-y: var(--fio-sys-size-padding-md);
-	--_card-body-padding-x: var(--fio-sys-size-padding-md);
+	--_card-body-padding-x: var(--fio-sys-size-padding-sm);
 
 	/* Card - footer */
 	--_card-footer-padding-y: var(--fio-sys-size-padding-md);
-	--_card-footer-padding-x: var(--fio-sys-size-padding-md);
-
+	--_card-footer-padding-x: var(--fio-sys-size-padding-sm);
 
 	background-color: var(--_card-background);
 	border-color: var(--_card-border-color);
@@ -47,6 +38,7 @@
 	overflow: hidden;
 	transition: ease-out;
 	transition-duration: 0.5s;
+	box-shadow: var(--_card-shadow);
 }
 
 .card.card-primary {
@@ -55,9 +47,9 @@
 }
 
 .card .card-thumb {
-	padding: var(--_card-thumb-padding);
+	padding: 0;
 	margin: 0;
-	border-radius: var(--_card-border-radius);
+	border-radius: var(--_card-thumb-border-radius);
 }
 .card .card-thumb img {
 	height: auto;
@@ -82,6 +74,9 @@
 	line-height: var(--_card-header-line-height);
 	margin: 0;
 	padding: var(--_card-header-padding-y) var(--_card-header-padding-x);
+	border-bottom-width: var(--_card-header-border-width);
+	border-bottom-color: var(--_card-header-border-color);
+	border-bottom-style: solid;
 }
 
 /* .card .card-body,
@@ -97,18 +92,19 @@
 }
 .card .card-footer {
 	border-bottom-left-radius: var(--_card-border-radius);
-    border-bottom-right-radius: var(--_card-border-radius);
-    padding: var(--_card-footer-padding-y) var(--_card-footer-padding-x);
-    background-color: var(--fio-sys-color-neutral-white);
-    display: flex;
-    flex-direction: column;
+	border-bottom-right-radius: var(--_card-border-radius);
+	padding: var(--_card-footer-padding-y) var(--_card-footer-padding-x);
+	background-color: var(--fio-sys-color-neutral-white);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	gap: var(--fio-sys-size-padding-sm);
-    justify-content: space-around;
+	justify-content: space-around;
 }
 
 /* Compare cards */
 .compare-symbol span {
-	color:var(--fio-sys-color-primary-dark);
+	color: var(--fio-sys-color-primary-dark);
 	font-family: var(--fio-sys-typography-family-secondary-regular);
 	font-size: var(--fio-sys-typography-size-5);
 }
@@ -124,10 +120,10 @@
 }
 
 /*Desktop from 992px and above*/
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
 	.card .card-footer {
 		flex-direction: row;
-		gap:0;
+		gap: 0;
 		padding: var(--_card-footer-padding-y) var(--fio-sys-size-padding-xs);
 	}
-}
+} */
