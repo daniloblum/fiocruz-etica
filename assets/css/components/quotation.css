@@ -39,40 +39,56 @@
 } */
 
 .quotation {
-	--_quotation-border-width: var(--fio-ref-size-16);
-	--_quotation-color: var(--fio-sys-color-secondary-light);
+	--_quotation-body-border-radius: var(--fio-sys-size-radius-sm);
+	--_quotation-body-border-color: var(--fio-sys-color-primary-medium);
+	--_quotation-body-border-width: var(--fio-sys-size-stroke-0);
+	--_quotation-body-text-color: var(--fio-sys-color-secondary-light);
+	--_quotation-body-background: var(--fio-sys-color-primary-extra-light);
+
+	--_quotation-lines-border-color: var(--fio-sys-color-tertiary-medium);
+	--_quotation-lines-border-width: var(--fio-sys-size-stroke-xl);
+	--_quotation-lines-border-radius: var(--fio-sys-size-radius-md);
+
+	--_quotation-mark-border-radius: var(--_quotation-body-border-radius);
+	--_quotation-mark-background: var(--_quotation-lines-border-color);
+	--_quotation-mark-text-color: var(--fio-sys-color-secondary-medium);
 }
 
 .quotation blockquote {
-	border:none;
-    color: var(--fio-sys-color-primary-dark);
-    position: relative;
-    margin: var(--fio-sys-size-margin-xl) 0;
-	transition: 0.4s;
+	position: relative;
+	border: none;
+	color: var(--fio-sys-color-primary-dark);
+	margin: var(--fio-sys-size-margin-xl) 0;
 	overflow: visible;
+	transition: 0.4s;
 }
 
 .quotation blockquote .quotation-body {
-	border-radius: var(--fio-sys-size-radius-lg);
-	padding: 60px 80px 0;
-    position: relative;
+	position: relative;
+	background-color: var(--_quotation-body-background);
+	border-color: var(--_quotation-body-border-color);
+	border-radius: var(--_quotation-body-border-radius);
+	border-style: solid;
+	border-width: var(--_quotation-body-border-width);
+	padding: 60px 80px;
+	box-shadow: 0 0 24px var(--fio-sys-shadow-color);
 	z-index: 0;
-	background:var(--_quotation-color);
+	transition: 0.4s;
 }
 
 .quotation blockquote .quotation-body p {
-	font-size:var(--fio-sys-typography-size-0);
+	font-size: var(--fio-sys-typography-size-0);
 }
 
 .quotation blockquote .quotation-autor {
 	display: block;
-	font-size:var(--fio-sys-typography-size-0);
-	font-family: var(--fio-sys-typography-family-primary-bold);
-	text-align:right;
+	text-align: right;
+	font-family: var(--fio-sys-typography-family-primary-semi-bold);
+	font-size: var(--fio-sys-typography-size--1);
 }
 
 .quotation blockquote .quotation-footer {
-	display:flex;
+	display: flex;
 	justify-content: space-between;
 	align-items: end;
 	padding: var(--fio-sys-size-padding-lg) 1rem 0;
@@ -80,89 +96,82 @@
 }
 
 .quotation blockquote:before {
-	content: "";
-    position: absolute;
-    top: -30px;
-    left: 30px;
-    width: calc(100% - 60px);
-    height: calc(100% + 60px);
-    background: transparent;
-    border-top: var(--_quotation-border-width) solid var(--fio-sys-color-primary-dark);
-    border-left: var(--_quotation-border-width) solid var(--fio-sys-color-primary-dark);
-    border-radius: var(--fio-sys-size-radius-md);
-    box-sizing: border-box;
-	z-index:-1;
+	content: '';
+	position: absolute;
+	top: -30px;
+	left: 30px;
+	width: calc(100% - 60px);
+	height: calc(100% + 60px);
+	background: transparent;
+	border-top: var(--_quotation-lines-border-width) solid var(--_quotation-lines-border-color);
+	border-left: var(--_quotation-lines-border-width) solid var(--_quotation-lines-border-color);
+	border-radius: var(--_quotation-lines-border-radius);
+	box-sizing: border-box;
+	z-index: -1;
 	transition: 0.4s;
-  }
+}
 
 .quotation blockquote:after {
-	content: "";
-    position: absolute;
-    bottom: -30px;
-    right: 30px;
-    width: calc(100% - 60px);
-    height: calc(100% + 60px);
-    border-bottom: var(--_quotation-border-width) solid var(--fio-sys-color-primary-dark);
-    border-right: var(--_quotation-border-width) solid var(--fio-sys-color-primary-dark);
-    border-radius: var(--fio-sys-size-radius-md);
-    box-sizing: border-box;
+	content: '';
+	position: absolute;
+	bottom: -30px;
+	right: 30px;
+	width: calc(100% - 60px);
+	height: calc(100% + 60px);
+	border-bottom: var(--_quotation-lines-border-width) solid var(--_quotation-lines-border-color);
+	border-right: var(--_quotation-lines-border-width) solid var(--_quotation-lines-border-color);
+	border-radius: var(--_quotation-lines-border-radius);
+	box-sizing: border-box;
 	transition: 0.4s;
-  }
+}
 
 .quotation blockquote .quotation-mark {
-	padding:var(--fio-sys-size-vertical-sm);
-	height: 64px;
-	width: 64px;
-	line-height: 50px !important;
-	background-color: var(--fio-sys-color-primary-dark);
-	color: var(--fio-sys-color-tertiary-light);
-	border-radius:var(--fio-sys-size-radius-xs);
 	position: absolute;
-	z-index:3;
- }
+	width: 64px;
+	height: 64px;
+	line-height: 50px !important;
+	background-color: var(--_quotation-mark-background);
+	color: var(--_quotation-mark-text-color);
+	border-radius: var(--_quotation-mark-border-radius);
+	padding: var(--fio-sys-size-vertical-sm);
+	z-index: 3;
+}
 
- .quotation blockquote .quotation-mark.fa1 {
+.quotation blockquote .quotation-mark.fa1 {
 	content: url('../../../media/templates/quotation-marks-open.svg');
-	top:0;
-	left:0;
- }
-
- .quotation blockquote .quotation-mark.fa1 {
 	position: absolute;
 	top: 0;
 	left: 0;
+	transition: 0.4s;
 }
 
 .quotation blockquote .quotation-mark.fa2 {
 	content: url('../../../media/templates/quotation-marks-close.svg');
-    position: absolute;
-    bottom: -30px;
-    right: 30px;
-    z-index: 1;
- }
-
- /* Animation */
- .quotation blockquote:hover {
-	transform-style: preserve-3d;
-	transform: rotateY(-20deg) skewY(3deg);
-}
-
-/* .quotation blockquote:hover .quotation-body {
-	transform: rotateY(20deg) skewY(-3deg);
-} */
- 
- .quotation blockquote:hover::before,
- .quotation blockquote:hover::after,
- .quotation blockquote:hover.quotation-mark.fa1{
-	transform: rotateY(-10deg) skewY(-2deg);
-
- }
-
- .quotation blockquote:hover .quotation-mark.fa2 {
-    right: 64px;
-    transform: rotateY(0deg) skewY(-1deg);
-    /* transform-origin: left; */
-    bottom: -16px;
+	position: absolute;
+	bottom: -30px;
+	right: 30px;
+	z-index: 1;
 	transition: 0.4s;
 }
- 
+
+/* Animation */
+/* .quotation blockquote:hover {
+	transform-style: preserve-3d;
+	transform: rotateY(15deg) skewY(5deg);
+} */
+
+.quotation blockquote:hover .quotation-body {
+	transform: rotateY(10deg) skewY(3deg);
+	box-shadow: -12px 0 24px var(--fio-sys-shadow-color);
+}
+
+.quotation blockquote:hover::before,
+.quotation blockquote:hover::after,
+.quotation blockquote:hover .quotation-mark.fa2 {
+	transform: rotateY(-10deg) skewY(-3deg);
+}
+
+.quotation blockquote:hover .quotation-mark.fa2 {
+	right: 36px;
+	bottom: -17px;
+}
