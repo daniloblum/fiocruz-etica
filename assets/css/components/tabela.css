@@ -20,7 +20,7 @@
 	border: none;
 	border-spacing: 0;
 	border-collapse: separate;
-    border-radius: var(--fio-sys-size-radius-lg);
+    border-radius: var(--fio-sys-size-radius-sm);
 	overflow: hidden;
 }
 
