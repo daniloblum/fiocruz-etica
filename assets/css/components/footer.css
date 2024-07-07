@@ -1,12 +1,14 @@
 /* --- FOOTER --- */
 
 :root {
-	--logo-space: 20px;
+	--logo-space: 60px;
 }
 
 footer {
 	background-color: inherit;
-	/* border-bottom: 20px solid var(--fio-sys-color-primary-dark); */
+	background-image: url("../../../media/templates/bg-footer.svg");
+	background-position: 0 bottom;
+	border-bottom: 20px solid var(--fio-sys-color-primary-dark);
 	padding: 60px 0 60px;
 	position: relative;
 	z-index: 99;
@@ -19,6 +21,7 @@ footer .logos {
 	list-style: none;
 	margin: 0;
 	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: space-evenly;
 }
 
@@ -43,9 +46,15 @@ footer .logos.principais {
 }
 
 footer .logos img {
-	height: 100px;
+	height: 60px;
 }
+
+
 @media (min-width: 768px) {
+	footer .logos {
+		flex-direction: row;
+	}
+
 	footer .logos img {
 		height: 80px;
 	}

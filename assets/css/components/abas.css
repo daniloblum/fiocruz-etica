@@ -1,7 +1,7 @@
 /* --- ABAS --- */
 
 .aba {
-	--_abas-nav-border-radius: 0;
+	--_abas-nav-border-radius: var(--fio-sys-size-radius-xs);
 
 	--_abas-nav-background: var(--fio-sys-color-secondary-extra-light);
 	--_abas-nav-text-color: var(--fio-sys-color-primary-medium);

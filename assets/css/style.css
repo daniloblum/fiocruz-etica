@@ -266,6 +266,7 @@ section .page-nav {
 
 section .page-nav .fio-button {
 	min-width: 70%;
+	margin-bottom: var(--fio-sys-size-margin-lg);
 }
 
 @media (min-width: 768px) {
