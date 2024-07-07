@@ -1,22 +1,50 @@
-<svg width="1920" height="400" viewBox="0 0 1920 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_46_13145)">
-<path d="M1996.87 472.33H-20.13V342.33L1996.87 292.33V472.33Z" fill="#251D92"/>
-<path d="M-215.9 196.03H211.53C303.54 196.03 378.39 270.88 378.39 362.89V643.36H435.63V362.89C435.63 239.32 335.1 138.79 211.53 138.79H-215.9C-307.91 138.79 -382.76 63.94 -382.76 -28.07V-360L-440 -288.28V-28.07C-440 95.5 -339.47 196.03 -215.9 196.03Z" fill="url(#paint0_radial_46_13145)"/>
-<path d="M1779.5 746.99L1774.98 419.59C1773.71 327.59 1847.52 251.71 1939.52 250.44C1954.64 250.23 1959 192.92 1938.73 193.2C1815.17 194.91 1716.04 296.82 1717.75 420.38L1722.27 747.78L1779.51 746.99H1779.5Z" fill="url(#paint1_radial_46_13145)"/>
-</g>
-<defs>
-<radialGradient id="paint0_radial_46_13145" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-422.64 -339.24) rotate(-180) scale(184.98 184.98)">
-<stop offset="0.21" stop-color="#001A5C" stop-opacity="0"/>
-<stop offset="0.33" stop-color="#0E1D6C" stop-opacity="0.0256"/>
-<stop offset="0.8" stop-color="#442AAB" stop-opacity="0.5776"/>
-<stop offset="1" stop-color="#5A30C5"/>
-</radialGradient>
-<radialGradient id="paint1_radial_46_13145" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1950.43 234.792) rotate(-0.79) scale(323.59 323.59)">
-<stop offset="0.43" stop-color="#FF9801"/>
-<stop offset="1" stop-color="#001A5C" stop-opacity="0"/>
-</radialGradient>
-<clipPath id="clip0_46_13145">
-<rect width="2436.87" height="1107.78" fill="white" transform="translate(-440 -360)"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1920 275.7">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-5 {
+        fill: #251d92;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="-440" y="-484.3" width="2436.9" height="1107.8"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="451.4" cy="590.6" fx="451.4" fy="590.6" r="1" gradientTransform="translate(82896.4 -109670.4) rotate(-180) scale(185 -185)" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#001a5c" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#0e1d6c" stop-opacity="0"/>
+      <stop offset=".8" stop-color="#442aab" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#5a30c5"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="446.6" cy="587.7" fx="446.6" fy="587.7" r="1" gradientTransform="translate(-139929.6 192274.2) rotate(-.8) scale(323.6 -323.6)" gradientUnits="userSpaceOnUse">
+      <stop offset=".4" stop-color="#ff9801"/>
+      <stop offset="1" stop-color="#001a5c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g class="cls-1">
+    <g>
+      <path class="cls-5" d="M1996.9,395.7H-20.1v-130l2017-50v180Z"/>
+      <path class="cls-3" d="M-392.7,123.2H34.7c92,0,166.9,74.9,166.9,166.9v280.5h57.2v-280.5c0-123.6-100.5-224.1-224.1-224.1h-427.4c-92,0-166.9-74.8-166.9-166.9v-331.9l-57.2,71.7V-100.9c0,123.6,100.5,224.1,224.1,224.1Z"/>
+      <path class="cls-4" d="M1779.5,622.7l-4.5-327.4c-1.3-92,72.5-167.9,164.5-169.1,15.1-.2,19.5-57.5-.8-57.2-123.6,1.7-222.7,103.6-221,227.2l4.5,327.4,57.2-.8h0Z"/>
+    </g>
+  </g>
 </svg>

@@ -8,7 +8,9 @@ footer {
 	background-color: inherit;
 	background-image: url("../../../media/templates/bg-footer.svg");
 	background-position: 0 bottom;
-	border-bottom: 20px solid var(--fio-sys-color-primary-dark);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/* border-bottom: 20px solid var(--fio-sys-color-primary-dark); */
 	padding: 60px 0 60px;
 	position: relative;
 	z-index: 99;
@@ -78,7 +80,7 @@ footer .logos img {
 		gap: var(--logo-space);
 	}
 	footer .logos img {
-		height: 60px;
+		height: 40px;
 	}
 }
 @media (min-width: 1200px) {
@@ -87,7 +89,7 @@ footer .logos img {
 	}
 
 	footer .logos img {
-		height: 60px;
+		height: 50px;
 	}
 }
 @media (min-width: 1320px) {
