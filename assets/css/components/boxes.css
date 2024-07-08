@@ -59,6 +59,7 @@
 .box .card .card-header .label {
 	padding-left: var(--fio-sys-size-padding-sm);
 	vertical-align: middle;
+	color:var(--_box-header-text-color);
 }
 
 /* Atenção */

@@ -110,6 +110,12 @@ h6,
 	font-size: var(--fio-sys-typography-size-1);
 }
 
+.label {
+	font-size: var(--fio-sys-typography-size-0);
+	font-family: var(--fio-sys-typography-family-primary-bold);
+	color: var(--fio-sys-color-primary-dark);
+}
+
 p {
 	color: var(--fio-sys-color-neutral-dark);
 	font-family: var(--fio-sys-typography-family-primary-regular);

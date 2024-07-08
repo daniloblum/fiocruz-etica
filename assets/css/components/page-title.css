@@ -47,6 +47,7 @@
 }
 
 #page-title .title .label {
+	color: var(--fio-sys-color-neutral-white);
 	display: block;
 	font-family: var(--fio-sys-typography-family-primary-medium);
 	font-size: var(--fio-sys-typography-size-1);
