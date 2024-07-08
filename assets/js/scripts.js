@@ -292,48 +292,56 @@ const modalInfos = {
 	bibliografiaMod1: {
 		ariaLabel: 'bibliografiaMod1',
 		modalSize: 'modal-xl',
-		modalTitle: 'Bibliografia',
+		modalTitle: 'Bibliografia Módulo 1',
 		modalBody: `
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
-						<p>HOMEDES, N. ; UGALDE, A. (Org.) Ética y ensayos clínicos em America Latina. 1ª ed. Buenos Aires: Lugar Editorial. 2012. 420p. <span class="text-muted">ISBN: 978-950-892-419-3.</span></p>
-						<p>OLIVEIRA, G. G. e colaboradores. Ensaios Clínicos: Princípios e Prática. 1ª ed. Brasília. Editora ANVISA. 2006. 328p.</p>
-						<p>BARBOZA, M.F.S. Manual básico para realização de ensaios clínicos conduzidos por um “Investigador-Patrocinador”: abordagem dos procedimentos por gestão de processos. Dissertação (mestrado) – Farmanguinhos/FIOCRUZ, 2015. 173p. Disponível em: <a href="https://www.arca.fiocruz.br/bitstream/handle/icict/13163/6.pdf?sequence=1&isAllowed=y" target="_blank" rel="noopener noreferrer">https://www.arca.fiocruz.br/bitstream/handle/icict/13163/6.pdf?sequence=1&isAllowed=y</a>. Acesso em: 23 set. 2023.</p>
-						<p>FREITAS, C. B. D. <em>et al.</em> Brasil: sistema de protección de los voluntários que participan en investigación. <em>In</em>: HOMEDES, N.;  UGALDE, A. (Org.). Ética y ensayos clínicos em América Latina. Buenos Aires: Lugar Editorial; 2012. p. 215-237.</p>
-						<p>FRANCISCONI, C.F. <em>et al.</em> Comitês de Ética em Pesquisa: levantamento de 26 hospitais brasileiros. <strong>Revista Bioética</strong> v. 3, p. 61-67, 1995. Disponivel em: <a href="https://revistabioetica.cfm.org.br/revista_bioetica/article/view/431/499" target="_blank" rel="noopener noreferrer">https://revistabioetica.cfm.org.br/revista_bioetica/article/view/431/499</a>. Acesso em: 23 set. 2023.</p>
-						<p>CLOTET, J. O consentimento informado nos Comitês de Ética em pesquisa e na prática médica: conceituação, origens e atualidade. <strong>Revista Bioética</strong>. v.3, n. 1, p. 51-9, 1995. Disponível em: <a href="https://revistabioetica.cfm.org.br/index.php/revista_bioetica/article/view/430" target="_blank" rel="noopener noreferrer">https://revistabioetica.cfm.org.br/index.php/revista_bioetica/article/view/430</a>. Acesso em: 23 set. 2023.</p>
-					</div>
-					
-					<div class="mb-5">
-						<span class="h5 mb-3 d-block">Documentos Internacionais</span>
-						
-						<p>ASSEMBLEIA MÉDICA MUNDIAL (FINLÂNDIA). Declaração de Helsinque, 1964. 5 p. Disponível em: <a href="https://www.fcm.unicamp.br/fcm/sites/default/files/declaracao_de_helsinque.pdf" target="_blank" rel="noopener noreferrer">https://www.fcm.unicamp.br/fcm/sites/default/files/declaracao_de_helsinque.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>TRIBUNAL MILITAR INTERNACIONAL (NURENBERG, ALEMANHA). Código de Nuremberg, 1947. Disponível em: <a href="https://www.ghc.com.br/files/CODIGO%20DE%20NEURENBERG.pdf" target="_blank" rel="noopener noreferrer">https://www.ghc.com.br/files/CODIGO%20DE%20NEURENBERG.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>BRASIL. Ministério da Saúde. Diretrizes Operacionais para Comités de Ética que Avaliam Protocolos de Pesquisa. Organização Mundial da Saúde, 2008. Disponível em: <a href="https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_operacionais_biomedicas.pdf" target="_blank" rel="noopener noreferrer">https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_operacionais_biomedicas.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>CONSELHO DAS ORGANIZAÇÕES INTERNACIONAIS DE CIÊNCIAS MÉDICAS ÉTICA. Diretrizes Internacionais de Ética para Pesquisa Médica envolvendo Seres Humanos. CIOMS. Disponível em: <a href="https://cioms.ch/wp-content/uploads/2018/11/CIOMS-final-Diretrizes-Eticas-Internacionais-Out18.pdf" target="_blank" rel="noopener noreferrer">https://cioms.ch/wp-content/uploads/2018/11/CIOMS-final-Diretrizes-Eticas-Internacionais-Out18.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>Código de Ética da Ciência e Tecnologia, Decreto n°71/2007, de 24 Dezembro de 2007-Moçambique. Disponível em: <a href="https://iset-oneworld.ac.mz/images/phocadownload/Biblioteca/ES/5.Decreto_71-2207_Codigo_Etica_CT.pdf" target="_blank" rel="noopener noreferrer">https://iset-oneworld.ac.mz/images/phocadownload/Biblioteca/ES/5.Decreto_71-2207_Codigo_Etica_CT.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>GOOD Clinical Practices (Harmonized Tripartite Guideline for Good Clinical Practice)  ICHE6(R2), 2016. Disponível em: <a href="https://www.tga.gov.au/resources/publication/publications/ich-guideline-good-clinical-practice" target="_blank" rel="noopener noreferrer">https://www.tga.gov.au/resources/publication/publications/ich-guideline-good-clinical-practice</a>. Acesso em: 23 set. 2023.</p>
-					</div>
-					
-					<div class="mb-5">
-					<span class="h5 mb-3 d-block">Conselho Nacional de Saúde</span>
+						<p>ACADEMIA BRASILEIRA DE CIÊNCIAS. <strong>Rigor e Integridade na condução da pesquisa científica</strong>. Guia de recomendações de práticas responsáveis. ABC, 2013. Disponível em: <a href='http://www.abc.org.br/IMG/pdf/doc-4311.pdf' target='_blank'>http://www.abc.org.br/IMG/pdf/doc-4311.pdf</a>. Acesso em: 20 maio 2024.</p>
 
-						<p>CONSELHO NACIONAL DE SAÚDE. Resolução CNS 466/2012. Diretrizes e normas regulamentadoras de pesquisas envolvendo seres humanos. Disponível em: <a href="https://conselho.saude.gov.br/resolucoes/2012/Reso466.pdf" target="_blank" rel="noopener noreferrer">https://conselho.saude.gov.br/resolucoes/2012/Reso466.pdf</a>. Acesso em: 23 set. 2023.</p>
+						<p>ALL EUROPEAN ACADEMIES. T<strong>he European code of conduct for research integrity</strong>. Berlin: ALLEA, 2017. Disponível em: <a href='https://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf' target='_blank'>https://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf</a>. Acesso em: 20 maio 2024.</p>
+
+						<p>BAKER, Monya. Is There a Reproducibility Crisis? <strong>Nature</strong>, v. 533, 26 maio 2016. Disponível em: <a href='https://www.nature.com/news/polopoly_fs/1.19970!/menu/main/topColumns/topLeftColumn/pdf/533452a.pdf' target='_blank'>https://www.nature.com/news/polopoly_fs/1.19970!/menu/main/topColumns/topLeftColumn/pdf/533452a.pdf</a>. Acesso em: 20 maio 2024.</p>
+
+						<p>DORA. Declaração de São Francisco sobre Avaliação de Pesquisa. Disponível em: <a href='https://sfdora.org/wp-content/uploads/2020/12/DORA_Brazilian-Portuguese.pdf' target='_blank'>https://sfdora.org/wp-content/uploads/2020/12/DORA_Brazilian-Portuguese.pdf</a>.  Acesso em: 20 maio 2024.</p>
+
+						<p>INSTITUTE OF MEDICINE NATIONAL RESEARCH COUNCL. <strong>Integrity in Scientific Research:</strong> creating an environment that promotes responsible conduct. Washington, D. C., 2002. The National Academic Press, 2002. Disponível em: <a href='https://nap.nationalacademies.org/read/10430/chapter/1#ii' target='_blank'>https://nap.nationalacademies.org/read/10430/chapter/1#ii</a>. Acesso em: 20 maio 2024.</p>
+
+						<p>IOANNIDIS, John P. A. Why Most Published Research Findings are False. <strong>Plos Medicine</strong>, v. 19, n. 8, 2005. Disponível em: <a href='https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124' target='_blank'>https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124</a>. Acesso em: 20 maio 2024.</p>
+
+						<p>GLOBAL RESEARCH COUNCIL. <strong>Statement of Principles for Research Integrity</strong>. Disponível em: h<a href='ttps://www.globalresearchcouncil.org/fileadmin/documents/GRC_Publications/grc_statement_principles_research_integrity_FINAL.pdf' target='_blank'>ttps://www.globalresearchcouncil.org/fileadmin/documents/GRC_Publications/grc_statement_principles_research_integrity_FINAL.pdf</a>. Acesso em: 20 maio 2024.</p>
+
+						<p>KALICHMAN, M.W. A Modest Proposal to Move RCR Education Out of the Classroom and into Research. <strong>J Microbiol Biol Educ</strong>, v. 15, n. 2, p. 93-5, 15 Dez. 2014. Doi: 10.1128/jmbe.v15i2.866. Disponível em: h<a href='ttps://pubmed.ncbi.nlm.nih.gov/25574254/' target='_blank'>ttps://pubmed.ncbi.nlm.nih.gov/25574254/</a>. Acesso em: 15 jul. 2022.</p>
+
+						<p>KRIMSKY, S. Conflito de interesses na universidade pós-acadêmica. <strong>Folha de São Paulo</strong>, São Paulo, 28 set. 2003. Disponível em <a href='https://www1.folha.uol.com.br/fsp/ciencia/fe2809200301.htm' target='_blank'>https://www1.folha.uol.com.br/fsp/ciencia/fe2809200301.htm</a> Acesso em: 20 maio 2024.</p>
+
+						<p>OFFICE OF SCIENCE AND TECHNOLOGY POLICY. Federal Research Misconduct Policy, <strong>Federal Register</strong>, v. 65, n. 235, p. 76260-76264, 06 dez. 2000. Disponível em: <a href='https://ori.hhs.gov/federal-research-misconduct-policy' target='_blank'>https://ori.hhs.gov/federal-research-misconduct-policy</a>. Acesso em: 20 maio 2024.</p>
+
+						<p>PALÁCIOS, M.; REGO, S. E.; LINO, M. H. Promoção e propaganda de medicamentos em ambientes de ensino: elementos para o debate. <strong>Interface Comunicação Saúde Educação</strong>, v. 12, n. 27, p.893-905, dez. 2008. </p>
+
+						<p>REGO, S. O processo de socialização profissional na medicina). In: MACHADO, M. H. (org). <strong>Profissões de saúde:</strong> uma abordagem sociológica. Rio de Janeiro: Editora FIOCRUZ, 1995. p. 119-132. Disponível em: <a href='http://books.scielo.org/id/t4ksj/epub/machado-9788575416075.epub' target='_blank'>http://books.scielo.org/id/t4ksj/epub/machado-9788575416075.epub</a> . Acesso em: 20 maio 2024.</p>
+
+						<p>REGO, S. Escola não é lugar de propaganda. Editorial. <strong>Rev. bras. educ. med.</strong>, v. 28 n. 01, 2004. Disponível em: https://www.scielo.br/j/rbem/a/N6pBtXMkmqfkVKfV96vQZRK/?format=pdf&lang=pt. Acesso em: 20 maio 2024.</p>
+
+						<p>SILVA, R., et al. Perfil e financiamento da pesquisa em saúde desencadeada pela pandemia da COVID-19 no Brasil. <strong>Vigilância Sanitária Em Debate: Sociedade, Ciência & Tecnologia</strong>, v. 8, n. 2, p. 28-38, 2020. </p>
+
+						<p>SIS Net Policy brief in research Integrity, nov. 2018 <a href='https://www.sisnetwork.eu/about/news/policy-brief-on-research-integrity' target='_blank'>https://www.sisnetwork.eu/about/news/policy-brief-on-research-integrity</a>. Acesso em: 20 maio 2024.</p>
+
+						<p>SOMERVILLE, M. A postmodern moral tale: the ethics of research relationships. <strong>Nat Rev Drug Disco</strong>, v. 1, p. 316-320, 2002. Disponível em: https://doi.org/10.1038/nrd774. Acesso em: 20 maio 2024</p>
+
+						<p>STEINMAN, M. A.; SHLIPAK, M. G.; MCPHEE, S. J. Of principles and pens: attitudes and practices of medicine housestaff toward pharmaceutical industry promotions. <strong>Am J Med</strong>., v. 110, n. 7, p. 551-7, May 2001.</p>
+
+						<p>STERNECK, Nicholas H. <strong>Introduction to the Responsible Conduct of Research (ORI</strong>). Washington, D.C.: U.S. Department of Health and Human Services, 2007. Disponível em: https://ori.hhs.gov/sites/default/files/2018-04/rcrintro.pdf. Acesso  em: 20 maio 2024. </p>
+
+						<p>THOMPSON, D. Understanding financial conflicts of interest. <strong>N Engl J Med.</strong>, v. 329, n. 8, p. 573-576, 1993.</p>
+
+						<p>WORLD CONFERENCES ON RESEARCH INTEGRITY. The Hong Kong Principles. Disponível em: <a href='https://www.wcrif.org/hong-kong-principles' target='_blank'>https://www.wcrif.org/hong-kong-principles</a></p>
+
+						<p>WARDE, I. L’université américaine vampirisée par les marchands. <strong>Le Monde Diplomatique</strong>, mars 2001. Disponível em: <a href='https://www.monde-diplomatique.fr/2001/03/WARDE/1839' target='_blank'>https://www.monde-diplomatique.fr/2001/03/WARDE/1839</a>. Acesso em: 20 maio 2024.</p>
+
+						<p></p>
 					</div>
 					
-					<div class="mb-5">
-					<span class="h5 mb-3 d-block">ANVISA</span>
-
-						<p>AGÊNCIA DE VIGILÂNCIA SANITÁRIA. RDC Nº 9, DE 20 DE FEVEREIRO DE 2015. Dispõe sobre o Regulamento para a realização de ensaios clínicos com medicamentos no Brasil. Disponível em: <a href="https://antigo.anvisa.gov.br/documents/10181/3503972/RDC_09_2015_COMP.pdf/e26e9a44-9cf4-4b30-95bc-feb39e1bacc6" target="_blank" rel="noopener noreferrer">https://antigo.anvisa.gov.br/documents/10181/3503972/RDC_09_2015_COMP.pdf/e26e9a44-9cf4-4b30-95bc-feb39e1bacc6</a>. Acesso em: 23 set. 2023.</p>
-					</div>
-					
-					<div class="mb-5">
-					<span class="h5 mb-3 d-block">Regulamentações Correlatas</span>
-
-						<p>BRASIL. Lei nº 9782, de 26 de janeiro de 1999. Define o Sistema Nacional de Vigilância Sanitária, cria a Agência Nacional de Vigilância Sanitária, e dá outras providências. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/leis/l9782.htm" target="_blank" rel="noopener noreferrer">https://www.planalto.gov.br/ccivil_03/leis/l9782.htm</a>. Acesso em: 23 set. 2023.</p>
-						<p>BRASIL. Lei nº 11.105, de 24 de março de 2005 (Lei de Biossegurança). Estabelece normas de segurança e mecanismos de fiscalização de atividades que envolvam organismos geneticamente modificados – OGM, além de permitir para fins de pesquisa e terapia, a utilização de células-tronco embrionárias obtidas de embriões humanos produzidos por fertilização in vitro e não utilizados no respectivo procedimento, sob condições específicas. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm" target="_blank" rel="noopener noreferrer">https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm</a>. Acesso em: 23 set. 2023.</p>
-					</div>
 				</div>
 			</div>
 		`,
@@ -341,7 +349,7 @@ const modalInfos = {
 	bibliografiaMod2: {
 		ariaLabel: 'bibliografiaMod2',
 		modalSize: 'modal-xl',
-		modalTitle: 'Bibliografia',
+		modalTitle: 'Bibliografia Módulo 2',
 		modalBody: `
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
@@ -390,7 +398,7 @@ const modalInfos = {
 	bibliografiaMod3: {
 		ariaLabel: 'bibliografiaMod3',
 		modalSize: 'modal-xl',
-		modalTitle: 'Bibliografia',
+		modalTitle: 'Bibliografia Módulo 3',
 		modalBody: `
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
@@ -439,7 +447,7 @@ const modalInfos = {
 	bibliografiaMod4: {
 		ariaLabel: 'bibliografiaMod4',
 		modalSize: 'modal-xl',
-		modalTitle: 'Bibliografia',
+		modalTitle: 'Bibliografia Módulo 4',
 		modalBody: `
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
@@ -488,7 +496,7 @@ const modalInfos = {
 	bibliografiaMod5: {
 		ariaLabel: 'bibliografiaMod5',
 		modalSize: 'modal-xl',
-		modalTitle: 'Bibliografia',
+		modalTitle: 'Bibliografia Módulo 5',
 		modalBody: `
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
