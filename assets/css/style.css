@@ -239,10 +239,14 @@ section {
 
 .heading__title {
 	display: inline-block;
+	text-decoration: underline var(--fio-sys-color-secondary-medium);
+	text-decoration-thickness: 10px;
+	text-decoration-skip-ink: none;
+	text-underline-offset: -4px;
 }
 
-.heading__title::after {
-	/* content: url(../../media/templates/head-block-line-large.svg); */
+/* .heading__title::after {
+	content: url(../../media/templates/head-block-line-large.svg);
 	content: '';
 	border-top: 8px solid var(--fio-sys-color-secondary-medium);
 	display: block;
@@ -251,7 +255,7 @@ section {
 	position: relative;
 	top: -20px;
 	z-index: -1;
-}
+} */
 
 /* Navegação entre aulas */
 section .page-nav {
