@@ -289,6 +289,34 @@ const modalInfos = {
 			</div>
 		`,
 	},
+	bibliografiaMod0: {
+		ariaLabel: 'bibliografiaMod0',
+		modalSize: 'modal-xl',
+		modalTitle: 'Bibliografia Módulo de Abertura',
+		modalBody: `
+			<div class="row justify-content-center pt-5">
+				<div class="col-12 col-md-10 col-lg-10">
+					<div class="mb-5">
+						<p>WESTON, Anthony. <strong>A construção do argumento</strong>. São Paulo: Editora Martins Fontes, 2009.</p>
+
+						<p>DIAS, M. C. <strong>Sobre nós:</strong> expandindo as fronteiras da moralidade. Rio de Janeiro: Pirilampo, 2016.</p>
+
+						<p>FORTES, P. D.; REGO, S. Tem cabimento o que não é justo? A propósito da justificação dos juízos morais. <strong>Revista Bioética</strong>, v. 26, n. 1; 2018.</p>
+
+						<p>HABERMAS, J. <strong>A ética do discurso: obras escolhidas</strong>. v. 3. Lisboa: Edições 70, 2014.</p>
+
+						<p>LUKES, S. Cinco fábulas sobre direitos humanos. <em>In:</em> ISHAY, M. R. (org.). <strong>Direitos humanos:</strong> uma antologia. São Paulo: Edusp; 2006.</p>
+
+						<p>RAWLS, J. <strong>Uma teoria da justiça</strong>. São Paulo: Martins Fontes, 1997.</p>
+
+						<p>FORTES, Pablo Dias. <strong>Ética e moral:</strong> um início de conversa. Disponível em: <a href='https://pablodiasfortes.com/2019/08/02/etica-e-moral/' target='_blank'>https://pablodiasfortes.com/2019/08/02/etica-e-moral/</a>. Acesso em : 02 ago. 2019.</p>
+
+					</div>
+					
+				</div>
+			</div>
+		`,
+	},
 	bibliografiaMod1: {
 		ariaLabel: 'bibliografiaMod1',
 		modalSize: 'modal-xl',
