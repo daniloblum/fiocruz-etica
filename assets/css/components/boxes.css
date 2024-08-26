@@ -1,7 +1,8 @@
 /* --- BOX --- */
 
 .box {
-	margin-top: var(--fio-sys-size-margin-xxl)
+	margin-top: var(--fio-sys-size-margin-xxl);
+	padding-bottom: var(--fio-sys-size-margin-xxl);
 }
 
 .box .card {
@@ -131,7 +132,8 @@
 
 .box .card .card-body {
 	padding: var(--fio-sys-size-padding-lg);
-	padding-top: calc(var(--fio-sys-size-padding-xl)* 1.75)
+	padding-top: calc(var(--fio-sys-size-padding-xl)* 1.75);
+	overflow: hidden;
 }
 
 .box .card .card-body span.h6 {

@@ -47,6 +47,19 @@ a[target='_blank']:after :hover {
 	text-decoration: none;
 }
 
+figure a[target='_blank']:not(.no-after):after {
+	content:'';
+}
+
+figure a[target='_blank']:not(.no-after) { 
+	transition: .5s;
+	opacity: 1;
+}
+
+figure a[target='_blank']:not(.no-after):hover{
+	opacity:.7;
+}
+
 /* LINKS QUE ESTIVEREM EM TEXTO CORRIDO */
 #page-content p > a,
 #page-content p > a:visited {
