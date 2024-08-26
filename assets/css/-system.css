@@ -193,7 +193,7 @@
 	/* Step 4: 37.3248px → 48.8281px */
 	--fio-sys-typography-size-4: clamp(2.3328rem, 2.1274rem + 1.0271vi, 3.0518rem);
 	/* Step 5: 44.7898px → 61.0352px */
-	--fio-sys-typography-size-5: clamp(2.7994rem, 2.5093rem + 1.4505vi, 3.8147rem);
+	--fio-sys-typography-size-5: clamp(2.4rem, 2.4093rem + 1.4vi, 3.8147rem);
 	/* Step 6: 53.7477px → 76.2939px */
 	--fio-sys-typography-size-6: clamp(3.3592rem, 2.9566rem + 2.0131vi, 4.7684rem);
 
