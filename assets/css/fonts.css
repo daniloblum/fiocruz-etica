@@ -118,7 +118,6 @@
 	src: url('../../source/fonts/Montserrat-ExtraBoldItalic.ttf');
 }
 
-
 @supports (font-variation-settings: normal) {
 	@font-face {
 		font-family: 'Montserrat';

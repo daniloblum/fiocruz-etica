@@ -56,26 +56,25 @@
 /* Áudio */
 
 .audio audio {
-	border-radius:var(--fio-sys-size-radius-lg);
+	border-radius: var(--fio-sys-size-radius-lg);
 	width: 100%;
 }
 
 audio::-webkit-media-controls-panel {
 	background-color: var(--fio-sys-color-accent-light);
-	border:1px solid var(--fio-sys-color-primary-dark);
+	border: 1px solid var(--fio-sys-color-primary-dark);
 	color: var(--fio-sys-color-accent);
 }
 
-.audio audio::-webkit-media-controls-play-button{
+.audio audio::-webkit-media-controls-play-button {
 	background-color: var(--fio-sys-color-secondary-medium);
 	border-radius: var(--fio-sys-size-radius-full);
-    border-color:var(--fio-sys-color-secondary-medium);
-  }
-  
+	border-color: var(--fio-sys-color-secondary-medium);
+}
+
 .audio audio::-webkit-media-controls-play-button:hover {
 	background-color: var(--fio-sys-color-secondary-light);
-  }
-
+}
 
 /* transcription */
 
@@ -93,35 +92,34 @@ audio::-webkit-media-controls-panel {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-    align-items:center;
+	align-items: center;
 	text-align: center;
 }
 
 .media .media__transcription .transcription-button[aria-expanded='true'] .transcription-button-label::after {
 	/* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23C70596'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"); */
-    background-image: url(../../../media/templates/accordion-icon.svg);
+	background-image: url(../../../media/templates/accordion-icon.svg);
 	transform: rotate(-180deg);
 }
 
 .media .media__transcription .transcription-button .transcription-button-label::after {
-    flex-shrink: 0;
-    width: 1rem;
-    height: 1rem;
-    margin-left: 10px;
-    content: '';
-    background-image: url(../../../media/templates/accordion-icon.svg);
-    background-color: var(--fio-sys-color-secondary-medium);
-    background-size: var(--fio-sys-size-padding-md);
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: transform 0.2s ease-in-out;
-    border-radius: var(--fio-sys-size-radius-full);
-    padding: var(--fio-sys-size-padding-sm);
+	flex-shrink: 0;
+	width: 1rem;
+	height: 1rem;
+	margin-left: 10px;
+	content: '';
+	background-image: url(../../../media/templates/accordion-icon.svg);
+	background-color: var(--fio-sys-color-secondary-medium);
+	background-size: var(--fio-sys-size-padding-md);
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: transform 0.2s ease-in-out;
+	border-radius: var(--fio-sys-size-radius-full);
+	padding: var(--fio-sys-size-padding-sm);
 }
 .media .media__transcription .transcription-content {
-    /* background-color: var(--fio-sys-color-secondary-light); */
-    background-color: transparent;
-    padding: var(--fio-sys-size-padding-md);
+	background-color: var(--fio-sys-color-primary-extra-light);
+	padding: var(--fio-sys-size-padding-md);
 }
 
 .box .card .media .media__transcription .transcription-content {
