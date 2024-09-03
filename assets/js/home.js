@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		var mouseY = e.pageY - viewportCenterY;
 
 		initialPositions.forEach(({ element, rectPosY, rectPosX }) => {
-			var elementSpeed = element.getAttribute('data-speed');
+			var elementSpeed = element.getAttribute('data-track');
 			elementSpeed = elementSpeed ? parseFloat(elementSpeed) : 1; // Default to 1 if no data-speed attribute
 
 			// Adjust element position based on mouse movement relative to viewport center

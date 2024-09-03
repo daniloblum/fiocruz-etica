@@ -27,7 +27,7 @@ html {
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	position: absolute;
+	position: fixed;
 
 	display: block;
 	height: 100%;
@@ -45,7 +45,7 @@ html {
 	align-items: center;
 	justify-content: start;
 	display: flex;
-	translate: 0 -10vh;
+	translate: 0 -5vh;
 }
 .hero-title .logo {
 	display: block;
@@ -93,19 +93,22 @@ html {
 	}
 	#layer-1 {
 		background-image: url(../../media/home/layer-1.png);
-		scale: 1.1;
+		scale: 1.05;
 	}
 	#layer-2 {
 		background-image: url(../../media/home/layer-2.png);
-		scale: 1.1;
+		scale: 1.05;
 	}
 	#layer-3 {
 		background-image: url(../../media/home/layer-3.png);
-		scale: 1.1;
+		scale: 1.05;
 	}
 	#layer-4 {
 		background-image: url(../../media/home/layer-4.png);
-		scale: 1.1;
+		scale: 1.05;
+	}
+	#layer-5 {
+		background-image: url(../../media/home/Asset\ 6.png);
 	}
 }
 
@@ -158,7 +161,7 @@ section {
 	padding: var(--fio-sys-size-vertical-xl) 0 var(--fio-sys-size-vertical-xl);
 }
 #course-program .list-item .icon {
-	height: 150px;
+	height: 220px;
 	margin-bottom: var(--fio-sys-size-vertical-sm);
 	text-align: center;
 }
