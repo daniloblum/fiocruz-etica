@@ -15,20 +15,37 @@ html {
 .section-hero {
 	position: relative;
 	z-index: 0;
-	background: #ffffff;
+
+	width: 100%;
+	height: 100vh;
+	background: #251d92;
+	overflow: hidden;
 }
 
-.section-hero,
 .layer-parallax {
-	height: 100vh;
+	background-position: bottom center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: absolute;
+
+	display: block;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
+
+#layer-1 {
+	background-image: url(../../media/home/layer-1-mobile.png);
+}
+
 .hero-title {
 	background: transparent;
 	height: 100%;
 	align-items: center;
 	justify-content: start;
 	display: flex;
-	translate: 0 calc(50svh - 50%);
+	translate: 0 -10vh;
 }
 .hero-title .logo {
 	display: block;
@@ -64,51 +81,31 @@ html {
 	margin-bottom: 0;
 } */
 
-.layer-parallax {
-	background-position: bottom center;
-	background-size: cover;
-	background-repeat: repeat-x;
-	width: 100%;
-	position: absolute;
-}
-.layer-parallax.parallax {
-	position: fixed;
-}
-#layer-1 {
-	background-image: url(../../media/home/layer-1-mobile.png);
-}
-#layer-2 {
-	background-image: url(../../media/home/layer-2.png);
-}
-#layer-3 {
-	background-image: url(../../media/home/layer-3.png);
-}
-#layer-4 {
-	background-image: url(../../media/home/layer-4.png);
-	background-repeat: no-repeat;
-}
-
-@media (min-width: 768px) {
-	.hero-title h1 .label {
-		font-size: var(--fio-sys-typography-label-lg-size);
-	}
-	.hero-title h1 {
-		font-size: var(--fio-sys-typography-head-xxl-size);
-	}
-	.hero-title h1 span {
-		font-size: var(--fio-sys-typography-head-lg-size);
-	}
-}
-
 @media (min-width: 992px) {
 	.hero-title h1 .label {
-		font-size: var(--fio-sys-typography-label-lg-size);
+		font-size: var(--fio-sys-typography-size-6);
 	}
 	.hero-title h1 {
-		font-size: var(--fio-sys-typography-head-xxl-size);
+		font-size: var(--fio-sys-typography-size-6);
 	}
 	.hero-title h1 span {
-		font-size: var(--fio-sys-typography-head-lg-size);
+		font-size: var(--fio-sys-typography-size-6);
+	}
+	#layer-1 {
+		background-image: url(../../media/home/layer-1.png);
+		scale: 1.025;
+	}
+	#layer-2 {
+		background-image: url(../../media/home/layer-2.png);
+		scale: 1.025;
+	}
+	#layer-3 {
+		background-image: url(../../media/home/layer-3.png);
+		scale: 1.025;
+	}
+	#layer-4 {
+		background-image: url(../../media/home/layer-4.png);
+		scale: 1.025;
 	}
 }
 
