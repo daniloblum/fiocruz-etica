@@ -278,8 +278,7 @@ section {
 	border: none;
 	flex: 1;
 }
-#course-program .card .aba .tab-content .tab-pane-content {
-}
+
 #course-program .card .aba .tab-content .tab-pane-content .tab-pane-header {
 	display: flex;
 	flex-direction: row;
