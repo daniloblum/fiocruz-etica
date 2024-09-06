@@ -103,19 +103,20 @@ audio::-webkit-media-controls-panel {
 }
 
 .media .media__transcription .transcription-button .transcription-button-label::after {
-	flex-shrink: 0;
-	width: 1rem;
+	background-color: var(--fio-sys-color-secondary-medium);
+	border-radius: var(--fio-sys-size-radius-full);
+	content: 'keyboard_arrow_down';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Material Symbols Rounded';
+	line-height: 1;
+	font-weight: 600;
 	height: 1rem;
 	margin-left: 10px;
-	content: '';
-	background-image: url(../../../media/templates/accordion-icon.svg);
-	background-color: var(--fio-sys-color-secondary-medium);
-	background-size: var(--fio-sys-size-padding-md);
-	background-position: center;
-	background-repeat: no-repeat;
-	transition: transform 0.2s ease-in-out;
-	border-radius: var(--fio-sys-size-radius-full);
 	padding: var(--fio-sys-size-padding-sm);
+	transition: transform 0.2s ease-in-out;
+	width: 1rem;
 }
 .media .media__transcription .transcription-content {
 	background-color: var(--fio-sys-color-primary-extra-light);
