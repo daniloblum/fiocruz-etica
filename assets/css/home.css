@@ -6,6 +6,13 @@ html {
 	scroll-behavior: smooth;
 }
 
+header {
+	translate: 0 -80px;
+}
+header.header--sticky {
+	translate: 0 0px;
+}
+
 @media (max-width: 991px) {
 	.container {
 		width: 95%;
@@ -325,74 +332,13 @@ section {
 		gap: 20px;
 	}
 }
-/* 
-.card-destaque {
-	border: 1px solid var(--secondary-color);
-}
-.card-destaque p {
-	font-size: inherit;
-}
-
-.presentation .bg-secondary-light {
-	background-color: rgb(227, 211, 211, 0.3) !important;
-}
-
-.presentation .table-responsive th {
-	vertical-align: middle;
-	border-bottom: 1px solid #d2a6a6;
-}
-
-.presentation.bg-section {
-	background: #f8fafc url(../images/home/section-bg.png);
-} */
 
 @media (min-width: 768px) {
 	.main {
 		background: #ffffff;
 	}
-	/* #course-program {
-		background: url(../images/page-bg.png), var(--primary-color-extra-light);
-	} */
 }
-/* BACKGROUND */
 
-/* #presentation::before,
-#course-program::before {
-	content: '';
-	background: url(../images/page-content-bg1.png);
-	background-repeat: space;
-	width: 500px;
-	max-width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	right: 0%;
-	z-index: 0;
-	opacity: 0.5;
-}
-#presentation::after,
-#course-program::after {
-	content: '';
-	display: block;
-	background: url(../images/page-content-bg2.png);
-	background-repeat: space;
-	width: 500px;
-	max-width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0%;
-	z-index: 0;
-	opacity: 0.5;
-}
-@media (min-width: 1600px) {
-	#presentation::before {
-		opacity: 1;
-	}
-	#presentation::after {
-		opacity: 1;
-	}
-} */
 footer {
 	background-color: #ffffff;
 	margin: 0;
