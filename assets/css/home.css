@@ -6,10 +6,21 @@ html {
 	scroll-behavior: smooth;
 }
 
-header {
+.header {
 	translate: 0 -80px;
+	justify-content: space-between;
 }
-header.header--sticky {
+
+.header .mobile-toggle-open {
+	display: none;
+}
+.header .brand {
+	padding-left: 20px;
+}
+.header .nav {
+	display: flex;
+}
+.header.header--sticky {
 	translate: 0 0px;
 }
 
