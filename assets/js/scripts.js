@@ -2,12 +2,14 @@
 
 window.addEventListener('scroll', function () {
 	const header = document.querySelector('.header');
-	const titleHeight = document.querySelector('.header').scrollHeight;
+	// const titleHeight = document.querySelector('.header').scrollHeight;
 
-	if (window.scrollY > 150) {
-		header.classList.add('header--sticky');
-	} else {
-		header.classList.remove('header--sticky');
+	if (header) {
+		if (window.scrollY > 150) {
+			header.classList.add('header--sticky');
+		} else {
+			header.classList.remove('header--sticky');
+		}
 	}
 });
 
@@ -78,7 +80,7 @@ imageToLightbox.forEach(image => {
 
 			document.body.appendChild(imageLightbox);
 			imageLightbox.innerHTML = `<img src="${getImageSrc}"/>`;
-			console.log(getImageSrc);
+			// console.log(getImageSrc);
 
 			image.classList.add('lightbox--show');
 
@@ -1075,10 +1077,13 @@ document.addEventListener('DOMContentLoaded', function (event) {
 	modalButtons.forEach(btn => {
 		// Check if the modal exist
 		const modalId = btn.getAttribute('data-bs-target').slice(1);
-
 		const createdModalId = document.getElementById(modalId);
+		const modalOrigin = btn.getAttribute('data-bs-target').slice(7);
+		const hasPropriety = Object.hasOwn(modalInfos, modalOrigin);
 
-		if (!createdModalId) {
+		if (!createdModalId && hasPropriety) {
+			// console.log('modalOrigin: ' + modalOrigin + ' hasPropriety: ' + hasPropriety);
+
 			// If don't exist create one
 			createModal(modalId);
 		}

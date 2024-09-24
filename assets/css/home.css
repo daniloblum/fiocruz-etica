@@ -88,16 +88,31 @@ html {
 	text-align: left;
 	text-transform: uppercase;
 }
-/* .hero-title h1 span {
-	display: block;
-	color: var(--fio-sys-color-primary-medium-contrast);
-	display: block;
-	font-family: var(--fio-ref-typography-family-secondary-regular);
-	font-weight: var(--fio-ref-typography-weight-normal);
-	font-size: var(--fio-sys-typography-head-md-size);
-	margin-top: var(--fio-sys-spacing-margin-sm);
-	margin-bottom: 0;
-} */
+
+.hero-title a {
+	overflow: hidden;
+}
+.hero-title a .material-symbols-rounded {
+	vertical-align: middle;
+}
+.hero-title a:hover .material-symbols-rounded {
+	animation: 0.75s ease-in-out infinite arrow-down;
+}
+@keyframes arrow-down {
+	0% {
+		translate: 0;
+	}
+	49% {
+		translate: 0 35px;
+	}
+	51% {
+		translate: 0 -35px;
+	}
+
+	100% {
+		translate: 0;
+	}
+}
 
 @media (min-width: 992px) {
 	.hero-title h1 .label {
