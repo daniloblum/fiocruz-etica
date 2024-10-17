@@ -294,7 +294,7 @@ const modalInfos = {
 	bibliografiaMod0: {
 		ariaLabel: 'bibliografiaMod0',
 		modalSize: 'modal-xl',
-		modalTitle: 'Bibliografia Módulo de Abertura',
+		modalTitle: 'Bibliografia Módulo Introdutório',
 		modalBody: `
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
