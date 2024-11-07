@@ -403,14 +403,14 @@
 		padding: 8px 12px;
 	}
 	.sidebar .sidebar__group .sidebar__group-item span.text.module {
-		font-size: var(--fio-sys-typography-size-0);
+		font-size: var(--fio-sys-typography-size--1);
 	}
 	.sidebar .sidebar__group .sidebar__group-item span.text.module span {
 		font-size: var(--fio-sys-typography-size-2);
 		margin: 0;
 	}
 	.sidebar .sidebar__group .sidebar__group-item span.text.class {
-		font-size: var(--fio-sys-typography-size-0);
+		font-size: var(--fio-sys-typography-size--1);
 	}
 
 	.sidebar .sidebar__inner .sidebar__group .sidebar__group-item button {
