@@ -10,7 +10,6 @@
 @import 'components/footer.css';
 @import 'components/sidebar.css';
 @import 'components/page-title.css';
-@import 'components/exercise.css';
 @import 'components/practicing.css';
 @import 'components/abas.css';
 @import 'components/accordion.css';
@@ -32,6 +31,7 @@
 @import 'components/timeline-horizontal.css';
 @import 'components/video.css';
 @import 'components/media.css';
+@import 'components/exercise.css';
 
 * {
 	margin: 0;
