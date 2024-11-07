@@ -167,12 +167,6 @@
 									<li class="dropdown-menu__item">
 										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="aula4.html"><strong>Aula 4: Aspectos que merecem destaque nas apreciações éticas</strong></a>
 									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="aula5.html"><strong>Aula 5: Principais Resoluções Vigentes</strong></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="aula6.html"><strong>Aula 6: Fórum de Comitês de Ética em Pesquisa (CEPs) da Fiocruz</strong></a>
-									</li>
 								</ul>
 							</div>
 						</div>
@@ -305,40 +299,6 @@
 									</div>
 								</div>
 							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-4 mb-5">
-									<div class="card card--out h-100 text-center">
-										<div class="card-header">
-											<span class="h6">Aula 5</span>
-										</div>
-
-										<div class="card-body">
-											<p>Principais Resoluções Vigentes</p>
-										</div>
-
-										<div class="card-footer">
-											<a class="fio-button button-sm fio-button-secondary" href="aula5.html" data-bs-toggle="modal" data-bs-target="#modal-glossario">Ver aula</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-12 col-md-10 col-lg-4 mb-5">
-									<div class="card card--out h-100 text-center">
-										<div class="card-header">
-											<span class="h6">Aula 6</span>
-										</div>
-
-										<div class="card-body">
-											<p>Fórum de Comitês de Ética em Pesquisa (CEPs) da Fiocruz</p>
-										</div>
-
-										<div class="card-footer">
-											<a class="fio-button button-sm fio-button-secondary" href="aula6.html" data-bs-toggle="modal" data-bs-target="#modal-glossario">Ver aula</a>
-										</div>
-									</div>
-								</div>
-							</div>
 						</div>
 					</section>
 				</div>
@@ -405,38 +365,6 @@
 				containerSelector: '.main',
 				innerWrapperSelector: '.sidebar__inner',
 				minWidth: 991,
-			});
-		</script>
-
-		<script>
-			$(function () {
-				// init zeynepjs side menu
-				var zeynep = $('.zeynep').zeynep({
-					opened: function () {
-						// log
-						console.log('the side menu opened');
-					},
-					closed: function () {
-						// log
-						console.log('the side menu closed');
-					},
-				});
-
-				// dynamically bind 'closing' event
-				zeynep.on('closing', function () {
-					// log
-					console.log('this event is dynamically binded');
-				});
-
-				// handle zeynepjs overlay click
-				// $('.zeynep-overlay').on('click', function () {
-				// 	zeynep.close();
-				// });
-
-				// open zeynepjs side menu
-				$('.btn-open').on('click', function () {
-					zeynep.open();
-				});
 			});
 		</script>
 

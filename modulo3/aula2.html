@@ -218,7 +218,7 @@
 								<div class="col-12 col-md-10 col-lg-8 mb-5">
 									<!-- Texto -->
 									<div class="order-1 order-lg-1">
-										<p>Antes de falar sobre a ética no uso de animais de experimentação, vamos defini-los. Segundo a <a href='https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/Lei/L11794.htm' target='_blank'>Lei Arouca</a>, lei brasileira que regulamenta o uso de animais em pesquisas científicas, estes são pertencentes ao filo Chordata, subfilo Vertebrata, usados em atividades da pesquisa básica, ciência aplicada, desenvolvimento tecnológico, produção e controle da qualidade de drogas, medicamentos, alimentos, imunobiológicos, instrumentos. Ou seja, animais usados em pesquisas científicas conduzidas com grande rigor metodológico, sempre em busca da melhoria da qualidade de vida humana e animal.</p>
+										<p>Antes de falar sobre a ética no uso de animais de experimentação, vamos defini-los. Segundo a <a href="https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/Lei/L11794.htm" target="_blank">Lei Arouca</a>, lei brasileira que regulamenta o uso de animais em pesquisas científicas, estes são pertencentes ao filo Chordata, subfilo Vertebrata, usados em atividades da pesquisa básica, ciência aplicada, desenvolvimento tecnológico, produção e controle da qualidade de drogas, medicamentos, alimentos, imunobiológicos, instrumentos. Ou seja, animais usados em pesquisas científicas conduzidas com grande rigor metodológico, sempre em busca da melhoria da qualidade de vida humana e animal.</p>
 									</div>
 
 									<!-- Texto com Imagem completa -->
@@ -343,38 +343,6 @@
 				containerSelector: '.main',
 				innerWrapperSelector: '.sidebar__inner',
 				minWidth: 991,
-			});
-		</script>
-
-		<script>
-			$(function () {
-				// init zeynepjs side menu
-				var zeynep = $('.zeynep').zeynep({
-					opened: function () {
-						// log
-						console.log('the side menu opened');
-					},
-					closed: function () {
-						// log
-						console.log('the side menu closed');
-					},
-				});
-
-				// dynamically bind 'closing' event
-				zeynep.on('closing', function () {
-					// log
-					console.log('this event is dynamically binded');
-				});
-
-				// handle zeynepjs overlay click
-				// $('.zeynep-overlay').on('click', function () {
-				// 	zeynep.close();
-				// });
-
-				// open zeynepjs side menu
-				$('.btn-open').on('click', function () {
-					zeynep.open();
-				});
 			});
 		</script>
 
