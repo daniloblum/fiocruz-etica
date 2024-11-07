@@ -217,7 +217,7 @@
 								<div class="col-12 col-md-10 col-lg-8 mb-5">
 									<p>De maneira geral, a vida em sociedade tem regras que nos orientam sobre o que é aceitável e não aceitável. Isso é determinado seja por leis ou convenções sociais.</p>
 
-									<p>Viver em sociedade é um processo dinâmico e as sociedades não são estáticas. O resultado das interações sociais, do livre-arbítrio individual e, especialmente, da capacidade dos indivíduos de pensar criticamente é o que impossibilita a existência de sociedades imutáveis. É claro que é importante conhecer as normas, regras ou leis, mas é fundamental que as decisões que cada um de nós tome sejam amparadas por reflexão crítica. Em geral, o não cumprimento de uma regra pode levar à punição, mas querer evitar uma punição é, inegavelmente, menos nobre que tomar decisões motivadas por valores e princípios que beneficiam o maior número de pessoas ou que se propõem a ter validade universal.</p>
+									<p>Viver em sociedade é um processo dinâmico e as sociedades não são estáticas. O resultado das interações sociais, do livre-arbítrio individual e, especialmente, da capacidade dos indivíduos de pensar criticamente é o que possibilita a existência de sociedades imutáveis. É claro que é importante conhecer as normas, regras ou leis, mas é fundamental que as decisões que cada um de nós tome sejam amparadas por reflexão crítica. Em geral, o não cumprimento de uma regra pode levar à punição, mas <strong>agir de forma responsável somente para evitar punições</strong> é, inegavelmente, menos nobre que tomar decisões motivadas por valores e princípios que beneficiam o maior número de pessoas ou que se propõem a ter validade universal.</p>
 
 									<p>No campo científico, também existem regras para formular/identificar uma verdade científica, não sendo suficiente ter bom senso, como Descartes demonstrou em seu livro “Discurso sobre o Método”. As decisões que tomamos na prática científica também não podem ser desprovidas dessa razão crítica que mencionamos.</p>
 								</div>
@@ -233,31 +233,25 @@
 								</div>
 							</div>
 
-							<!--div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8 mb-5">
-									<-- Box de Saiba Mais --
-									<div class="box" data-box="Saiba Mais">
-										<div class="card card--out">
-											<div class="card-header">
-												<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-												<span class="label">Saiba Mais</span>
-											</div>
-											<div class="card-body">
-												<div class="list">
-													<p class="mb-0">Conheça mais sobre o Discurso sobre o Método de Descartes acessando o material abaixo:</p>
-													<ul class="list-group">
-														<li class="list-group-item aos-init aos-animate" list-style="page">Nome do Link da Página</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div-->
-
 							<div class="row justify-content-center">
 								<div class="col-12 col-md-10 col-lg-8 mb-5">
-									<p>Para que se compreenda a ética e a integridade na condução e na divulgação da pesquisa, é importante considerar o contexto no qual as pesquisas se desenvolvem. A produção do conhecimento científico envolve, de modo geral, três dimensões a partir da ideia ou hipótese:</p>
+									<p>Para que se compreenda a ética e a integridade na condução e na divulgação da pesquisa, é importante considerar o contexto no qual as pesquisas se desenvolvem.</p>
+								</div>
+							</div>
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
+									<p>Observe a imagem a seguir:</p>
+
+									<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+										<img class="img-fluid mx-auto d-block mb-3" src="../media/modulo1/aula1-img4.jpg" alt="Imagem aleatória de exmplo" title="Fonte: nome da fonte" />
+										<figcaption class="figure-caption">Legenda da imagem</figcaption>
+										<figcaption class="figure-caption fonte">Fonte: nome da fonte</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
+									<p>A produção do conhecimento científico envolve, de modo geral, três dimensões a partir da ideia ou hipótese:</p>
 								</div>
 							</div>
 
@@ -326,18 +320,6 @@
 										</div>
 									</div>
 									<!--Fim de Accordion com imagens-->
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8 mb-5">
-									<p>Observe a imagem a seguir:</p>
-
-									<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-										<img class="img-fluid mx-auto d-block mb-3" src="../media/modulo1/aula1-img4.jpg" alt="Imagem aleatória de exmplo" title="Fonte: nome da fonte" />
-										<figcaption class="figure-caption">Legenda da imagem</figcaption>
-										<figcaption class="figure-caption fonte">Fonte: nome da fonte</figcaption>
-									</figure>
 								</div>
 							</div>
 
@@ -428,38 +410,6 @@
 				containerSelector: '.main',
 				innerWrapperSelector: '.sidebar__inner',
 				minWidth: 991,
-			});
-		</script>
-
-		<script>
-			$(function () {
-				// init zeynepjs side menu
-				var zeynep = $('.zeynep').zeynep({
-					opened: function () {
-						// log
-						console.log('the side menu opened');
-					},
-					closed: function () {
-						// log
-						console.log('the side menu closed');
-					},
-				});
-
-				// dynamically bind 'closing' event
-				zeynep.on('closing', function () {
-					// log
-					console.log('this event is dynamically binded');
-				});
-
-				// handle zeynepjs overlay click
-				// $('.zeynep-overlay').on('click', function () {
-				// 	zeynep.close();
-				// });
-
-				// open zeynepjs side menu
-				$('.btn-open').on('click', function () {
-					zeynep.open();
-				});
 			});
 		</script>
 

@@ -30,6 +30,9 @@
 .image-dropdown .image-button .image-button-thumb {
 	position: relative;
     margin-bottom: var(--fio-sys-size-margin-md);
+	max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .image-dropdown .image-button:hover .image-button-thumb img {
 	box-shadow: var(--fio-sys-size-shadow-lg);

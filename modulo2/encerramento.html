@@ -167,12 +167,6 @@
 									<li class="dropdown-menu__item">
 										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="aula4.html"><strong>Aula 4: Aspectos que merecem destaque nas apreciações éticas</strong></a>
 									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="aula5.html"><strong>Aula 5: Principais Resoluções Vigentes</strong></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="aula6.html"><strong>Aula 6: Fórum de Comitês de Ética em Pesquisa (CEPs) da Fiocruz</strong></a>
-									</li>
 								</ul>
 							</div>
 						</div>
@@ -200,7 +194,7 @@
 						<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
 							<div class="col-12 col-md-10 col-lg-8">
 								<h2 class="title">
-									<span class="label">Módulo 1</span>
+									<span class="label">Módulo 2</span>
 									Encerramento
 								</h2>
 							</div>
@@ -235,7 +229,7 @@
 						<div class="row justify-content-center">
 							<div class="col-12 col-md-10 col-lg-8">
 								<div class="page-nav d-flex justify-content-evenly">
-									<a class="fio-button fio-button-primary" href="aula6.html" rel="prev"><span class="material-symbols-rounded">west</span> Aula 6</a>
+									<a class="fio-button fio-button-primary" href="aula4.html" rel="prev"><span class="material-symbols-rounded">west</span> Aula 4</a>
 									<a class="fio-button fio-button-primary" href="../modulo3/introducao.html" rel="next">Módulo 3 <span class="material-symbols-rounded" aria-hidden="true">east</span></a>
 								</div>
 							</div>
@@ -291,38 +285,6 @@
 				containerSelector: '.main',
 				innerWrapperSelector: '.sidebar__inner',
 				minWidth: 991,
-			});
-		</script>
-
-		<script>
-			$(function () {
-				// init zeynepjs side menu
-				var zeynep = $('.zeynep').zeynep({
-					opened: function () {
-						// log
-						console.log('the side menu opened');
-					},
-					closed: function () {
-						// log
-						console.log('the side menu closed');
-					},
-				});
-
-				// dynamically bind 'closing' event
-				zeynep.on('closing', function () {
-					// log
-					console.log('this event is dynamically binded');
-				});
-
-				// handle zeynepjs overlay click
-				// $('.zeynep-overlay').on('click', function () {
-				// 	zeynep.close();
-				// });
-
-				// open zeynepjs side menu
-				$('.btn-open').on('click', function () {
-					zeynep.open();
-				});
 			});
 		</script>
 
