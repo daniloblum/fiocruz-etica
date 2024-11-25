@@ -455,42 +455,25 @@ const modalInfos = {
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
-						<p>HOMEDES, N. ; UGALDE, A. (Org.) Ética y ensayos clínicos em America Latina. 1ª ed. Buenos Aires: Lugar Editorial. 2012. 420p. <span class="text-muted">ISBN: 978-950-892-419-3.</span></p>
-						<p>OLIVEIRA, G. G. e colaboradores. Ensaios Clínicos: Princípios e Prática. 1ª ed. Brasília. Editora ANVISA. 2006. 328p.</p>
-						<p>BARBOZA, M.F.S. Manual básico para realização de ensaios clínicos conduzidos por um “Investigador-Patrocinador”: abordagem dos procedimentos por gestão de processos. Dissertação (mestrado) – Farmanguinhos/FIOCRUZ, 2015. 173p. Disponível em: <a href="https://www.arca.fiocruz.br/bitstream/handle/icict/13163/6.pdf?sequence=1&isAllowed=y" target="_blank" rel="noopener noreferrer">https://www.arca.fiocruz.br/bitstream/handle/icict/13163/6.pdf?sequence=1&isAllowed=y</a>. Acesso em: 23 set. 2023.</p>
-						<p>FREITAS, C. B. D. <em>et al.</em> Brasil: sistema de protección de los voluntários que participan en investigación. <em>In</em>: HOMEDES, N.;  UGALDE, A. (Org.). Ética y ensayos clínicos em América Latina. Buenos Aires: Lugar Editorial; 2012. p. 215-237.</p>
-						<p>FRANCISCONI, C.F. <em>et al.</em> Comitês de Ética em Pesquisa: levantamento de 26 hospitais brasileiros. <strong>Revista Bioética</strong> v. 3, p. 61-67, 1995. Disponivel em: <a href="https://revistabioetica.cfm.org.br/revista_bioetica/article/view/431/499" target="_blank" rel="noopener noreferrer">https://revistabioetica.cfm.org.br/revista_bioetica/article/view/431/499</a>. Acesso em: 23 set. 2023.</p>
-						<p>CLOTET, J. O consentimento informado nos Comitês de Ética em pesquisa e na prática médica: conceituação, origens e atualidade. <strong>Revista Bioética</strong>. v.3, n. 1, p. 51-9, 1995. Disponível em: <a href="https://revistabioetica.cfm.org.br/index.php/revista_bioetica/article/view/430" target="_blank" rel="noopener noreferrer">https://revistabioetica.cfm.org.br/index.php/revista_bioetica/article/view/430</a>. Acesso em: 23 set. 2023.</p>
-					</div>
-					
-					<div class="mb-5">
-						<span class="h5 mb-3 d-block">Documentos Internacionais</span>
-						
-						<p>ASSEMBLEIA MÉDICA MUNDIAL (FINLÂNDIA). Declaração de Helsinque, 1964. 5 p. Disponível em: <a href="https://www.fcm.unicamp.br/fcm/sites/default/files/declaracao_de_helsinque.pdf" target="_blank" rel="noopener noreferrer">https://www.fcm.unicamp.br/fcm/sites/default/files/declaracao_de_helsinque.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>TRIBUNAL MILITAR INTERNACIONAL (NURENBERG, ALEMANHA). Código de Nuremberg, 1947. Disponível em: <a href="https://www.ghc.com.br/files/CODIGO%20DE%20NEURENBERG.pdf" target="_blank" rel="noopener noreferrer">https://www.ghc.com.br/files/CODIGO%20DE%20NEURENBERG.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>BRASIL. Ministério da Saúde. Diretrizes Operacionais para Comités de Ética que Avaliam Protocolos de Pesquisa. Organização Mundial da Saúde, 2008. Disponível em: <a href="https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_operacionais_biomedicas.pdf" target="_blank" rel="noopener noreferrer">https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_operacionais_biomedicas.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>CONSELHO DAS ORGANIZAÇÕES INTERNACIONAIS DE CIÊNCIAS MÉDICAS ÉTICA. Diretrizes Internacionais de Ética para Pesquisa Médica envolvendo Seres Humanos. CIOMS. Disponível em: <a href="https://cioms.ch/wp-content/uploads/2018/11/CIOMS-final-Diretrizes-Eticas-Internacionais-Out18.pdf" target="_blank" rel="noopener noreferrer">https://cioms.ch/wp-content/uploads/2018/11/CIOMS-final-Diretrizes-Eticas-Internacionais-Out18.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>Código de Ética da Ciência e Tecnologia, Decreto n°71/2007, de 24 Dezembro de 2007-Moçambique. Disponível em: <a href="https://iset-oneworld.ac.mz/images/phocadownload/Biblioteca/ES/5.Decreto_71-2207_Codigo_Etica_CT.pdf" target="_blank" rel="noopener noreferrer">https://iset-oneworld.ac.mz/images/phocadownload/Biblioteca/ES/5.Decreto_71-2207_Codigo_Etica_CT.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>GOOD Clinical Practices (Harmonized Tripartite Guideline for Good Clinical Practice)  ICHE6(R2), 2016. Disponível em: <a href="https://www.tga.gov.au/resources/publication/publications/ich-guideline-good-clinical-practice" target="_blank" rel="noopener noreferrer">https://www.tga.gov.au/resources/publication/publications/ich-guideline-good-clinical-practice</a>. Acesso em: 23 set. 2023.</p>
-					</div>
-					
-					<div class="mb-5">
-					<span class="h5 mb-3 d-block">Conselho Nacional de Saúde</span>
+						<p>ARRIVE Guidelines. <strong>Diretrizes ARRIVE 2.0</strong>. Disponível em: <a href='https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202.0%20-%20Portuguese.pdf' target='_blank'>https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202.0%20-%20Portuguese.pdf</a>. Acesso em: 25 out. 2024.</p>
 
-						<p>CONSELHO NACIONAL DE SAÚDE. Resolução CNS 466/2012. Diretrizes e normas regulamentadoras de pesquisas envolvendo seres humanos. Disponível em: <a href="https://conselho.saude.gov.br/resolucoes/2012/Reso466.pdf" target="_blank" rel="noopener noreferrer">https://conselho.saude.gov.br/resolucoes/2012/Reso466.pdf</a>. Acesso em: 23 set. 2023.</p>
-					</div>
-					
-					<div class="mb-5">
-					<span class="h5 mb-3 d-block">ANVISA</span>
+						<p>BRASIL. <strong>Lei n.º 11.794, de 8 de outubro de 2008</strong>. Regula o uso científico de animais e revoga a Lei n.º 6.638, de 8 de maio de 1979. Disponível em: <a href='https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/Lei/L11794.htm' target='_blank'>https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/Lei/L11794.htm</a>. Acesso em: 22 nov. 2024.</p>
 
-						<p>AGÊNCIA DE VIGILÂNCIA SANITÁRIA. RDC Nº 9, DE 20 DE FEVEREIRO DE 2015. Dispõe sobre o Regulamento para a realização de ensaios clínicos com medicamentos no Brasil. Disponível em: <a href="https://antigo.anvisa.gov.br/documents/10181/3503972/RDC_09_2015_COMP.pdf/e26e9a44-9cf4-4b30-95bc-feb39e1bacc6" target="_blank" rel="noopener noreferrer">https://antigo.anvisa.gov.br/documents/10181/3503972/RDC_09_2015_COMP.pdf/e26e9a44-9cf4-4b30-95bc-feb39e1bacc6</a>. Acesso em: 23 set. 2023.</p>
-					</div>
-					
-					<div class="mb-5">
-					<span class="h5 mb-3 d-block">Regulamentações Correlatas</span>
+						<p>BRASIL. Ministério da Ciência, Tecnologia e Inovações. <strong>RENAMA - Rede Nacional de Métodos Alternativos</strong>. Disponível em: <a href='https://antigo.mctic.gov.br/mctic/opencms/ciencia/SEPED/Saude/renama/renama.html' target='_blank'>https://antigo.mctic.gov.br/mctic/opencms/ciencia/SEPED/Saude/renama/renama.html</a>. Acesso em: 20 out. 2024.</p>
 
-						<p>BRASIL. Lei nº 9782, de 26 de janeiro de 1999. Define o Sistema Nacional de Vigilância Sanitária, cria a Agência Nacional de Vigilância Sanitária, e dá outras providências. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/leis/l9782.htm" target="_blank" rel="noopener noreferrer">https://www.planalto.gov.br/ccivil_03/leis/l9782.htm</a>. Acesso em: 23 set. 2023.</p>
-						<p>BRASIL. Lei nº 11.105, de 24 de março de 2005 (Lei de Biossegurança). Estabelece normas de segurança e mecanismos de fiscalização de atividades que envolvam organismos geneticamente modificados – OGM, além de permitir para fins de pesquisa e terapia, a utilização de células-tronco embrionárias obtidas de embriões humanos produzidos por fertilização in vitro e não utilizados no respectivo procedimento, sob condições específicas. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm" target="_blank" rel="noopener noreferrer">https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm</a>. Acesso em: 23 set. 2023.</p>
+						<p>BRASIL. Ministério da Ciência, Tecnologia e Inovações. <strong>Métodos Alternativos reconhecidos pelo Concea</strong>. Disponível em: <a href='https://www.gov.br/mcti/pt-br/composicao/conselhos/concea/paginas/publicacoes-legislacao-e-guia/metodos-alternativos-reconhecidos-pelo-concea' target='_blank'>https://www.gov.br/mcti/pt-br/composicao/conselhos/concea/paginas/publicacoes-legislacao-e-guia/metodos-alternativos-reconhecidos-pelo-concea</a>. Acesso em: 21 out. 2024.</p>
+
+						<p>CANADIAN COUNCIL ON ANIMAL CARE (CCAC). <strong>CCAC animal data report 2022</strong>. Disponível em: <a href='https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2022.pdf' target='_blank'>https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2022.pdf</a>. Acesso em: 22 nov. 2024.</p>
+
+						<p>INSTITUTO NACIONAL DE CÂNCER (INCA). <strong>Fases de desenvolvimento de um novo medicamento</strong>. 26 out. 2022. Disponível em: <a href='https://www.gov.br/inca/pt-br/assuntos/pesquisa/ensaios-clinicos/fases-de-desenvolvimento-de-um-novo-medicamento' target='_blank'>https://www.gov.br/inca/pt-br/assuntos/pesquisa/ensaios-clinicos/fases-de-desenvolvimento-de-um-novo-medicamento</a>. Acesso em: 22 nov. 2024.</p>
+
+						<p>ORGANISATION FOR ECONOMIC CO-OPERATION AND DEVELOPMENT (OECD). <strong>Integrated Approaches to Testing and Assessment</strong>. Disponível em: <a href='https://www.oecd.org/en/topics/sub-issues/assessment-of-chemicals/integrated-approaches-to-testing-and-assessment.html' target='_blank'>https://www.oecd.org/en/topics/sub-issues/assessment-of-chemicals/integrated-approaches-to-testing-and-assessment.html</a>. Acesso em: 25 out. 2024.</p>
+
+						<p>REVISTA GALILEU. <strong>Medicações não precisam mais ser testadas em animais antes de humanos nos EUA</strong>. Disponível em: <a href='https://revistagalileu.globo.com/saude/noticia/2023/01/medicacoes-nao-precisam-mais-ser-testadas-em-animais-antes-de-humanos-nos-eua.ghtml' target='_blank'>https://revistagalileu.globo.com/saude/noticia/2023/01/medicacoes-nao-precisam-mais-ser-testadas-em-animais-antes-de-humanos-nos-eua.ghtml</a>. Acesso em: 25 out. 2024.</p>
+
+						<p>UNDERSTANDING ANIMAL RESEARCH. <strong>Understanding Animal Research</strong>. Disponível em: <a href='https://www.understandinganimalresearch.org.uk/' target='_blank'>https://www.understandinganimalresearch.org.uk/</a>. Acesso em: 21 out. 2024.</p>
+
+						<p>UNITED STATES. Senate. 117th Cong., 2d Sess. <strong>Purpose: In the nature of a substitute</strong>. Disponível em: <a href='https://www.appropriations.senate.gov/imo/media/doc/JRQ121922.PDF' target='_blank'>https://www.appropriations.senate.gov/imo/media/doc/JRQ121922.PDF</a>. Acesso em: 20 out. 2024.</p>
 					</div>
 				</div>
 			</div>
