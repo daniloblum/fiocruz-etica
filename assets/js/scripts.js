@@ -275,6 +275,58 @@ const modalInfos = {
 			</div>
 		`,
 	},
+	materialcomplementar: {
+		ariaLabel: 'material-complementar',
+		modalSize: 'modal-lg',
+		modalTitle: 'Material Complementar',
+		modalBody: `
+			<div class="row justify-content-center pt-5">
+				<div class="col-12 col-md-10 col-lg-10">
+					<div class="mb-5">
+						<div class="list">
+							<ol class="list-group list-group-numbered"> 
+								<li class="list-group-item"><a href='https://doi.org/10.1590/interface.240246' target='_blank'>A crise ética da pesquisa clínica no Brasil: Lei n. 14.874/2024 e as flexibilizações das normativas brasileiras de proteção dos participantes.</a></li>
+
+								<li class="list-group-item"><a href='https://doi.org/10.1590/1983-21172022240198' target='_blank'>O papel das revistas científicas na ética em pesquisa</a> </li>
+
+								<li class="list-group-item"><a href='https://www.scielo.br/j/rk/a/CwkptrFQtTcJPpHKyhCxd9f/' target='_blank'>A regulação ética em pesquisa e sua repercussão no Serviço Social</a></li>
+
+								<li class="list-group-item"><a href='https://doi.org/10.1590/S0100-55022010000200001' target='_blank'>Índice H, autoria e integridade na produção científica</a> </li>
+
+								<li class="list-group-item"><a href='https://doi.org/10.1590/S0100-55022008000300001' target='_blank'>Conflitos de interesses e a produção científica</a> </li>
+
+								<li class="list-group-item"><a href='https://www.sciencedirect.com/science/article/pii/S0264410X2200127X' target='_blank'>Revisão ética dos estudos de desafio humano da COVID-19: um workshop conjunto da HRA/OMS (em inglês)</a></li>
+
+								<li class="list-group-item"><a href='https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30438-2/fulltext' target='_blank'>Estudos de desafio humano da COVID-19: questões éticas (em inglês)</a></li>
+
+								<li class="list-group-item"><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC11318787/' target='_blank'>Considerações éticas para estudos de evidências do mundo real (em inglês)</a></li>
+
+								<li class="list-group-item"><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC3601711/' target='_blank'>Ética em pesquisa em estudos do mundo real (em inglês)</a></li>
+
+								<li class="list-group-item"><a href='https://bvsms.saude.gov.br/leptospirose/' target='_blank'>Leptospirose – Biblioteca Virtual em saúde – Ministério da Saúde</a></li>
+
+								<li class="list-group-item"><a href='https://cee.fiocruz.br/?q=Carlos-Machado-Mudancas-climatica-do-ponto-de-vista-da-saude-publica-devem-ser-tratadas-como-emergencias-climaticas' target='_blank'>Carlos Machado: ‘Precisamos estar preparados. Eventos extremos vêm se tornando mais frequentes e mais graves' | CEE Fiocruz</a></li>
+
+								<li class="list-group-item"><a href='http://clep.fiocruz.br/' target='_blank'>CLEP - Coleção de Leptospira</a></li>
+
+								<li class="list-group-item"><a href='https://portal.fiocruz.br/doenca/leptospirose#:~:text=Trata%2Dse%20de%20uma%20zoonose,%25%2C%20nos%20casos%20mais%20graves' target='_blank'>Doenças no Portal Fiocruz – Leptospirose</a></li>
+
+								<li class="list-group-item"><a href='https://vidasaudavel.einstein.br/leptospirose-tudo-o-que-voce-precisa-saber-sobre-a-doenca/' target='_blank'>Leptospirose: tudo o que você precisa saber sobre a doença</a></li>
+
+								<li class="list-group-item"><a href='https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leptospirose/faq/' target='_blank'>Perguntas frequentes sobre leptospirose – Ministério da Saúde</a></li>
+
+								<li class="list-group-item"><a href='https://www.ribeiraopreto.sp.gov.br/files/ssaude/pdf/rato_roedor.pdf' target='_blank'>Roedor - Divisão de Vigilância Ambiental em Saúde - Secretaria da Saúde da Prefeitura Municipal de Ribeirão Preto – SP</a></li>
+
+								<li class="list-group-item"><a href='https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leptospirose/publicacoes/roteiro-para-capacitacao-de-profissionais-medicos-no-diagnostico-e-tratamento-da-leptospirose-guia-do-instrutor.pdf' target='_blank'>Roteiro para capacitação de profissionais médicos no diagnóstico e tratamento da leptospirose.</a></li>
+								
+							</ol>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		`,
+	},
 	bibliografiaMod0: {
 		ariaLabel: 'bibliografiaMod0',
 		modalSize: 'modal-xl',
@@ -410,6 +462,8 @@ const modalInfos = {
 						<p>BRASIL. Conselho Nacional de Saúde. <strong>Resolução nº 304, 09 ago. 2000</strong>. Não Homologada: Aprova as seguintes Normas para Pesquisas Envolvendo Seres Humanos – Área de Povos Indígenas. Disponível em: <a href='https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2000/resolucao-no-304.pdf/view' target='_blank'>https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2000/resolucao-no-304.pdf/view</a>. Acesso em: 25 out. 2024.</p>
 
 						<p>BRASIL. Conselho Nacional de Saúde. <strong>Resolução nº 647, de 12 out. 2020</strong>. Homologada: Dispõe sobre as regras referentes à regulamentação do processo de designação e atuação dos membros de CEP indicados por entidades do controle social. Disponível em: <a href='https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2020/resolucao-no-647.pdf/view' target='_blank'>https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2020/resolucao-no-647.pdf/view</a>. Acesso em: 20 out. 2024.</p>
+
+						<p>BRASIL. Lei nº 14.874, de 28 de maio de 2024. Dispõe sobre a pesquisa com seres humanos e institui o Sistema Nacional de Ética em Pesquisa com Seres Humanos. Brasília DF: Presidência da República. Disponível em: <a href='https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14874.htm' target='_blank'>https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14874.htm</a>. Acesso em: 27 nov. 2024. </p>
 
 						<p>BRASIL. Conselho Nacional de Saúde. Comissão Nacional de Ética em Pesquisa. <strong>Ofício Circular nº 2/2021/CONEP/SECNS/MS</strong>. Brasília: 24 fev. 2021. Assunto: Orientações para procedimentos em pesquisas com qualquer etapa em ambiente virtual. Disponível em: <a href='https://edisciplinas.usp.br/pluginfile.php/7710033/mod_resource/content/1/Oficio_Circular_2_24fev2021.pdf' target='_blank'>https://edisciplinas.usp.br/pluginfile.php/7710033/mod_resource/content/1/Oficio_Circular_2_24fev2021.pdf</a>. Acesso em: 21 out. 2024.</p>
 
@@ -1166,7 +1220,7 @@ function checkitem(element) {
 	var carouselInner = document.querySelectorAll('.carousel-inner .carousel-item');
 	var itemFirstChild = carouselInner[0];
 	var itemLastChild = carouselInner[carouselInner.length - 1];
-	console.log (itemLastChild);
+	console.log(itemLastChild);
 
 	var buttonPrev = document.querySelector('.carousel-control-prev');
 	var buttonNext = document.querySelector('.carousel-control-next');
