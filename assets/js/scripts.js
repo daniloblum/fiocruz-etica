@@ -65,7 +65,6 @@ function tooltipFeedback(b) {
 	});
 }
 
-
 // Lightbox (insert the class "lightbox" into <figure>)
 
 const imageToLightbox = document.querySelectorAll('.lightbox');
@@ -1145,38 +1144,34 @@ function createModal(id) {
 }
 
 // Carrossel - Remove previous and next button from 1st and last slides:
-// document.querySelector(document).ready(function () { 
+// document.querySelector(document).ready(function () {
 // 	checkitem();
 // });
 
-document.addEventListener('DOMContentLoaded', function () {
-	checkitem();
+// document.addEventListener('DOMContentLoaded', function () {
+// });
+
+document.addEventListener('DOMContentLoaded', function (event) {});
+let carousels = document.querySelectorAll('.carousel');
+
+carousels.forEach(carousel => {
+	carousel.addEventListener('slid.bs.carousel', () => {
+		checkitem(carousel);
+	});
 });
 
-var carousel = document.querySelectorAll('.carousel');
+function checkitem(carouselElement) {
+	let carouselItem = carouselElement.querySelectorAll('.carousel-inner .carousel-item');
+	let itemFirstChild = carouselItem[0];
+	let itemLastChild = carouselItem[carouselItem.length - 1];
 
-carousel.forEach(element => {
-	element.addEventListener('slid.bs.carousel', checkitem(element));
-});
-
-
-function checkitem(element) {
-	//var document.querySelectorthis = document.querySelector('.carousel');
-
-	var carouselInner = document.querySelectorAll('.carousel-inner .carousel-item');
-	var itemFirstChild = carouselInner[0];
-	var itemLastChild = carouselInner[carouselInner.length - 1];
-	console.log (itemLastChild);
-
-	var buttonPrev = document.querySelector('.carousel-control-prev');
-	var buttonNext = document.querySelector('.carousel-control-next');
+	let buttonPrev = carouselElement.querySelector('.carousel-control-prev');
+	let buttonNext = carouselElement.querySelector('.carousel-control-next');
 
 	if (itemFirstChild.classList.contains('active')) {
-		document.querySelector(body).style.backgroundColor = '#000000';
-
 		// Hide left arrow
 		buttonPrev.style.visibility = 'hidden';
-		// But show right arrow
+		// Show right arrow
 		buttonNext.style.visibility = 'visible';
 	} else if (itemLastChild.classList.contains('active')) {
 		// Hide right arrow
@@ -1188,4 +1183,3 @@ function checkitem(element) {
 		buttonNext.style.visibility = 'visible';
 	}
 }
-
