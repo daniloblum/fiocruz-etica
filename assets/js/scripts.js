@@ -218,7 +218,7 @@ const modalInfos = {
 						<p class="mb-1">Sergio Tavares de Almeida Rego</p>
 						<p class="small text-muted"><em>Graduado em Medicina (UNIRIO), Mestre e Doutor em Saúde Coletiva (UERJ).</em></p>
 
-						<p class="mb-1">Carmen Penido Monteiro</p>
+						<p class="mb-1">Carmen Penido</p>
 						<p class="small text-muted"><em>Graduada em Ciências Biológicas (USU), Mestre e Doutora em Biologia Celular e Molecular (FIOCRUZ).</em></p>
 
 						<p class="mb-1">Mariana Conceição de Souza</p>
@@ -230,10 +230,10 @@ const modalInfos = {
 						<p class="mb-1">Ângela Fernandes Esher Moritz</p>
 						<p class="small text-muted"><em>Graduada em Ciências Sociais (UFRJ), Mestre e Doutora em Saúde Pública (FIOCRUZ).</em></p>
 
-						<p class="mb-1">Carmen Penido Monteiro</p>
+						<p class="mb-1">Carmen Penido</p>
 						<p class="small text-muted"><em>Graduada em Ciências Biológicas (USU), Mestre e Doutora em Biologia Celular e Molecular (FIOCRUZ).</em></p>
 
-						<p class="mb-1">Claude Pirex</p>
+						<p class="mb-1">Claude Pirmez</p>
 						<p class="small text-muted"><em>Graduada em Medicina (Souza Marques), Mestre em Medicina Anatomia Patológica (UFRJ) e Doutora Ciências Biológicas (UFRJ).</em></p>
 
 						<p class="mb-1">Letícia Figueira Freitas</p>
@@ -261,7 +261,7 @@ const modalInfos = {
 						<p class="mb-1">Sergio Tavares de Almeida Rego</p>
 						<p class="small text-muted"><em>Graduado em Medicina (UNIRIO), Mestre e Doutor em Saúde Coletiva (UERJ).</em></p>
 
-						<p class="mb-1">Carmen Penido Monteiro</p>
+						<p class="mb-1">Carmen Penido</p>
 						<p class="small text-muted"><em>Graduada em Ciências Biológicas (USU), Mestre e Doutora em Biologia Celular e Molecular (FIOCRUZ).</em></p>
 
 						<p class="mb-1">Mariana Conceição de Souza</p>
@@ -341,8 +341,12 @@ const modalInfos = {
 
 						<p>HABERMAS, J. <strong>A ética do discurso: obras escolhidas</strong>. v. 3. Lisboa: Edições 70, 2014.</p>
 
+						<p>LUKES, S. <strong>Cinco fábulas sobre direitos humanos.</strong> In: ISHAY, MR, organizadora. Direitos humanos: uma antologia. São Paulo: Edusp; 2006.</p>
+
 						<p>RAWLS, J. <strong>Uma teoria da justiça</strong>. São Paulo: Martins Fontes, 1997. Disponível em: <a href='https://marcosfabionuva.com/wp-content/uploads/2011/08/uma-teoria-da-justic3a7a.pdf' target='_blank'>https://marcosfabionuva.com/wp-content/uploads/2011/08/uma-teoria-da-justic3a7a.pdf</a>. Acesso em: 20 maio 2024.</p>
 
+						<p>TUGENDHAT, E. <strong>Reflexões sobre o que significa justificar juízos morais.</strong> In: Brito, NA, organizador. Ética: questões de fundamentação. Brasília: Editora Universidade de Brasília; 2007</p>
+						
 						<p>WESTON, Anthony. <strong>A construção do argumento</strong>. São Paulo: Martins Fontes, 2009.</p>
 					</div>
 					
