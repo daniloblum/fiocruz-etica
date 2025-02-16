@@ -65,7 +65,6 @@ function tooltipFeedback(b) {
 	});
 }
 
-
 // Lightbox (insert the class "lightbox" into <figure>)
 
 const imageToLightbox = document.querySelectorAll('.lightbox');
@@ -302,23 +301,6 @@ const modalInfos = {
 								<li class="list-group-item"><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC11318787/' target='_blank'>Considerações éticas para estudos de evidências do mundo real (em inglês)</a></li>
 
 								<li class="list-group-item"><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC3601711/' target='_blank'>Ética em pesquisa em estudos do mundo real (em inglês)</a></li>
-
-								<li class="list-group-item"><a href='https://bvsms.saude.gov.br/leptospirose/' target='_blank'>Leptospirose – Biblioteca Virtual em saúde – Ministério da Saúde</a></li>
-
-								<li class="list-group-item"><a href='https://cee.fiocruz.br/?q=Carlos-Machado-Mudancas-climatica-do-ponto-de-vista-da-saude-publica-devem-ser-tratadas-como-emergencias-climaticas' target='_blank'>Carlos Machado: ‘Precisamos estar preparados. Eventos extremos vêm se tornando mais frequentes e mais graves' | CEE Fiocruz</a></li>
-
-								<li class="list-group-item"><a href='http://clep.fiocruz.br/' target='_blank'>CLEP - Coleção de Leptospira</a></li>
-
-								<li class="list-group-item"><a href='https://portal.fiocruz.br/doenca/leptospirose#:~:text=Trata%2Dse%20de%20uma%20zoonose,%25%2C%20nos%20casos%20mais%20graves' target='_blank'>Doenças no Portal Fiocruz – Leptospirose</a></li>
-
-								<li class="list-group-item"><a href='https://vidasaudavel.einstein.br/leptospirose-tudo-o-que-voce-precisa-saber-sobre-a-doenca/' target='_blank'>Leptospirose: tudo o que você precisa saber sobre a doença</a></li>
-
-								<li class="list-group-item"><a href='https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leptospirose/faq/' target='_blank'>Perguntas frequentes sobre leptospirose – Ministério da Saúde</a></li>
-
-								<li class="list-group-item"><a href='https://www.ribeiraopreto.sp.gov.br/files/ssaude/pdf/rato_roedor.pdf' target='_blank'>Roedor - Divisão de Vigilância Ambiental em Saúde - Secretaria da Saúde da Prefeitura Municipal de Ribeirão Preto – SP</a></li>
-
-								<li class="list-group-item"><a href='https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leptospirose/publicacoes/roteiro-para-capacitacao-de-profissionais-medicos-no-diagnostico-e-tratamento-da-leptospirose-guia-do-instrutor.pdf' target='_blank'>Roteiro para capacitação de profissionais médicos no diagnóstico e tratamento da leptospirose.</a></li>
-								
 							</ol>
 						</div>
 					</div>
@@ -1203,38 +1185,27 @@ function createModal(id) {
 }
 
 // Carrossel - Remove previous and next button from 1st and last slides:
-// document.querySelector(document).ready(function () { 
-// 	checkitem();
-// });
 
-document.addEventListener('DOMContentLoaded', function () {
-	checkitem();
+let carousels = document.querySelectorAll('.carousel');
+
+carousels.forEach(carousel => {
+	carousel.addEventListener('slid.bs.carousel', () => {
+		checkitem(carousel);
+	});
 });
 
-var carousel = document.querySelectorAll('.carousel');
+function checkitem(carouselElement) {
+	let carouselItem = carouselElement.querySelectorAll('.carousel-inner .carousel-item');
+	let itemFirstChild = carouselItem[0];
+	let itemLastChild = carouselItem[carouselItem.length - 1];
 
-carousel.forEach(element => {
-	element.addEventListener('slid.bs.carousel', checkitem(element));
-});
-
-
-function checkitem(element) {
-	//var document.querySelectorthis = document.querySelector('.carousel');
-
-	var carouselInner = document.querySelectorAll('.carousel-inner .carousel-item');
-	var itemFirstChild = carouselInner[0];
-	var itemLastChild = carouselInner[carouselInner.length - 1];
-	console.log(itemLastChild);
-
-	var buttonPrev = document.querySelector('.carousel-control-prev');
-	var buttonNext = document.querySelector('.carousel-control-next');
+	let buttonPrev = carouselElement.querySelector('.carousel-control-prev');
+	let buttonNext = carouselElement.querySelector('.carousel-control-next');
 
 	if (itemFirstChild.classList.contains('active')) {
-		document.querySelector(body).style.backgroundColor = '#000000';
-
 		// Hide left arrow
 		buttonPrev.style.visibility = 'hidden';
-		// But show right arrow
+		// Show right arrow
 		buttonNext.style.visibility = 'visible';
 	} else if (itemLastChild.classList.contains('active')) {
 		// Hide right arrow
@@ -1246,4 +1217,3 @@ function checkitem(element) {
 		buttonNext.style.visibility = 'visible';
 	}
 }
-
