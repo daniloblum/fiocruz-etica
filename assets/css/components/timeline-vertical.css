@@ -46,7 +46,7 @@
 	width: 100%;
 	max-width: 1170px;
 	margin: 0 auto;
-	padding: 2em 0;
+	padding: 2em 0 2em 2em;
 }
 
 .cd-timeline__container::before {
@@ -54,7 +54,7 @@
 	content: '';
 	position: absolute;
 	top: 0;
-	left: 18px;
+	left: 6px;
 	height: 100%;
 	width: var(--fio-sys-size-stroke-sm);
 	background: var(--fio-sys-color-secondary-medium);
@@ -76,7 +76,7 @@
 
 .cd-timeline__block {
 	position: relative;
-	margin: 2em 0;
+	margin: 2em 0 2em 1em;
 }
 
 .cd-timeline__block:after {
@@ -106,7 +106,7 @@
 	justify-content: center;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: -61px;
 	width: 40px;
 	height: 40px;
 	color: var(--fio-sys-color-neutral-white);
@@ -255,7 +255,7 @@
 	height: 0;
 	width: 0;
 	border: 7px solid transparent;
-	border-right: 7px solid var(--fio-sys-color-neutral-white);
+	border-right: 7px solid var(--fio-sys-color-primary-dark);
 }
 
 .cd-timeline__date {
