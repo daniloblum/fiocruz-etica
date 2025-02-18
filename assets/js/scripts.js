@@ -327,7 +327,7 @@ const modalInfos = {
 
 						<p>RAWLS, J. <strong>Uma teoria da justiça</strong>. São Paulo: Martins Fontes, 1997. Disponível em: <a href='https://marcosfabionuva.com/wp-content/uploads/2011/08/uma-teoria-da-justic3a7a.pdf' target='_blank'>https://marcosfabionuva.com/wp-content/uploads/2011/08/uma-teoria-da-justic3a7a.pdf</a>. Acesso em: 20 maio 2024.</p>
 
-						<p>TUGENDHAT, E. <strong>Reflexões sobre o que significa justificar juízos morais.</strong> In: Brito, NA, organizador. Ética: questões de fundamentação. Brasília: Editora Universidade de Brasília; 2007</p>
+						<p>TUGENDHAT, E. <strong>Reflexões sobre o que significa justificar juízos morais.</strong> In: Brito, NA, organizador. Ética: questões de fundamentação. Brasília: Editora Universidade de Brasília; 2007.</p>
 						
 						<p>WESTON, Anthony. <strong>A construção do argumento</strong>. São Paulo: Martins Fontes, 2009.</p>
 					</div>
