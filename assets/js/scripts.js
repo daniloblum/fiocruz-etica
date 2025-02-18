@@ -284,23 +284,33 @@ const modalInfos = {
 					<div class="mb-5">
 						<div class="list">
 							<ol class="list-group list-group-numbered"> 
-								<li class="list-group-item"><a href='https://doi.org/10.1590/interface.240246' target='_blank'>A crise ética da pesquisa clínica no Brasil: Lei n. 14.874/2024 e as flexibilizações das normativas brasileiras de proteção dos participantes.</a></li>
-
-								<li class="list-group-item"><a href='https://doi.org/10.1590/1983-21172022240198' target='_blank'>O papel das revistas científicas na ética em pesquisa</a> </li>
+								<li class="list-group-item"><a href='https://doi.org/10.1590/interface.240246' target='_blank'>A crise ética da pesquisa clínica no Brasil: Lei n. 14.874/2024 e as flexibilizações das normativas brasileiras de proteção dos participantes</a></li>
 
 								<li class="list-group-item"><a href='https://www.scielo.br/j/rk/a/CwkptrFQtTcJPpHKyhCxd9f/' target='_blank'>A regulação ética em pesquisa e sua repercussão no Serviço Social</a></li>
 
-								<li class="list-group-item"><a href='https://doi.org/10.1590/S0100-55022010000200001' target='_blank'>Índice H, autoria e integridade na produção científica</a> </li>
 
-								<li class="list-group-item"><a href='https://doi.org/10.1590/S0100-55022008000300001' target='_blank'>Conflitos de interesses e a produção científica</a> </li>
+								<li class="list-group-item"><a href='https://cep.ensp.fiocruz.br/boletins' target='_blank'>Boletins do CEP/ENSP - Escola Nacional de Saúde Pública.</a></li>
 
-								<li class="list-group-item"><a href='https://www.sciencedirect.com/science/article/pii/S0264410X2200127X' target='_blank'>Revisão ética dos estudos de desafio humano da COVID-19: um workshop conjunto da HRA/OMS (em inglês)</a></li>
+								<li class="list-group-item"><a href='https://doi.org/10.1590/S0100-55022008000300001' target='_blank'>Conflitos de interesses e a produção científica</a></li>
+
+
+								<li class="list-group-item"><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC11318787/' target='_blank'>Considerações éticas para estudos de evidências do mundo real (em inglês)</li> 
 
 								<li class="list-group-item"><a href='https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30438-2/fulltext' target='_blank'>Estudos de desafio humano da COVID-19: questões éticas (em inglês)</a></li>
 
-								<li class="list-group-item"><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC11318787/' target='_blank'>Considerações éticas para estudos de evidências do mundo real (em inglês)</a></li>
 
 								<li class="list-group-item"><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC3601711/' target='_blank'>Ética em pesquisa em estudos do mundo real (em inglês)</a></li>
+
+
+								<li class="list-group-item"><a href='https://doi.org/10.1590/S0100-55022010000200001' target='_blank'>Índice H, autoria e integridade na produção científica</a></li> 
+
+								<li class="list-group-item"><a href='https://doi.org/10.1590/1983-21172022240198' target='_blank'>O papel das revistas científicas na ética em pesquisa</a></li>
+
+
+								<li class="list-group-item"><a href='https://www.scielo.br/j/csc/a/JkVNtsmfgXBYcgnxnZjSSdL/?lang=pt#<' target='_blank'>O Sistema CEP-Conep em 2020: enfrentamento da COVID-19, desafios e lições aprendidas.</a></li> 
+
+								<li class="list-group-item"><a href='https://www.sciencedirect.com/science/article/pii/S0264410X2200127X' target='_blank'>Revisão ética dos estudos de desafio humano da COVID-19: um workshop conjunto da HRA/OMS (em inglês)</a></li>
+
 							</ol>
 						</div>
 					</div>
