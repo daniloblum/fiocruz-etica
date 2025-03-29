@@ -322,11 +322,17 @@ const modalInfos = {
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
 						<p>DIAS, M. C. <strong>Sobre nós: expandindo as fronteiras da moralidade.</strong> Rio de Janeiro: Pirilampo, 2016.</p>
+						
 						<p>FORTES, P. D.; <strong>REGO, S. Tem cabimento o que não é justo? A propósito da justificação dos juízos morais.</strong> Revista Bioética, v. 26, n. 1; 2018. Disponível em: <a href='https://revistabioetica.cfm.org.br/revista_bioetica/article/view/1653/1786' target='_blank'>https://revistabioetica.cfm.org.br/revista_bioetica/article/view/1653/1786</a>. Acesso em: 20 maio 2024.</p>
+						
 						<p>HABERMAS, J. <strong>A ética do discurso: obras escolhidas</strong>. Lisboa: Edições 70, 2014. v. 3. </p>
+						
 						<p>LUKES, S. <strong>Cinco fábulas sobre direitos humanos</strong>. In: ISHAY, M. R. (org.). Direitos humanos: uma antologia. São Paulo: Edusp; 2006.</p>
+						
 						<p>RAWLS, J.<strong> Uma teoria da justiça</strong>. São Paulo: Martins Fontes, 1997. Disponível em: <a href='https://marcosfabionuva.com/wp-content/uploads/2011/08/uma-teoria-da-justic3a7a.pdf' target='_blank'>https://marcosfabionuva.com/wp-content/uploads/2011/08/uma-teoria-da-justic3a7a.pdf</a>. Acesso em: 20 maio 2024.</p>
+						
 						<p>TUGENDHAT, <strong>E. Reflexões sobre o que significa justificar juízos morais.</strong> In: BRITO, N. A. (org.). Ética: questões de fundamentação. Brasília: Editora da UnB, 2007.</p>
+						
 						<p>WESTON, A. <strong>A construção do argumento</strong>. São Paulo: Martins Fontes, 2009.</p>
 					</div>
 					
@@ -342,66 +348,36 @@ const modalInfos = {
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
-						<p>ACADEMIA BRASILEIRA DE CIÊNCIAS. <strong>Rigor e Integridade na condução da pesquisa científica</strong>. Guia de recomendações de práticas responsáveis. ABC, 2013. Disponível em: <a href='http://www.abc.org.br/IMG/pdf/doc-4311.pdf' target='_blank'>http://www.abc.org.br/IMG/pdf/doc-4311.pdf</a>. Acesso em: 12 nov. 2024.</p>
-
-						<p>ALL EUROPEAN ACADEMIES. <strong>Código europeu de conduta para a integridade da investigação</strong>. Berlin: ALLEA, june 2024. Disponível em: <a href='https://allea.org/wp-content/uploads/2024/09/CoC2023-PT.pdf' target='_blank'>https://allea.org/wp-content/uploads/2024/09/CoC2023-PT.pdf</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>ALL EUROPEAN ACADEMIES. <strong>The European code of conduct for research integrity</strong>. Berlin: ALLEA, 2017. Disponível em: <a href='https://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf' target='_blank'>https://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf</a>. Acesso em: 12 nov. 2024.</p>
-
-						<p>BAKER, Monya. <strong>Is There a Reproducibility Crisis?</strong> Nature, v. 533, 26 maio 2016. Disponível em: <a href='https://www.nature.com/news/polopoly_fs/1.19970!/menu/main/topColumns/topLeftColumn/pdf/533452a.pdf' target='_blank'>https://www.nature.com/news/polopoly_fs/1.19970!/menu/main/topColumns/topLeftColumn/pdf/533452a.pdf</a>. Acesso em: 20 maio 2024.</p>
-
-						<p>BRASIL. Ministério da Ciência, Tecnologia e Inovação. Conselho Nacional de Desenvolvimento Científico e Tecnológico. <strong>Diretrizes</strong>. Disponível em: <a href='http://memoria2.cnpq.br/web/guest/diretrizes/' target='_blank'>http://memoria2.cnpq.br/web/guest/diretrizes/</a>. Acesso em: 20 out. 2024.</p>
-
-						<p>CENTER FOR OPEN SCIENCE. <strong>Reproducibility Project: Cancer Biology</strong>. Disponível em: <a href='https://www.cos.io/rpcb' target='_blank'>https://www.cos.io/rpcb</a>. Acesso em: 20 out. 2024.</p>
-
-						<p>COMMITTEE ON PUBLICATION ETHICS. <strong>Discussion document: authorship</strong>. Disponível em: COPE_DD_A4_Authorship_SEPT19_SCREEN_AW.pdf (<a href='https://publicationethics.org/sites/default/files/COPE_DD_A4_Authorship_SEPT19_SCREEN_AW.pdf' target='_blank'>publicationethics.org</a>). Acesso em: 20 out. 2024.</p>
-
-						<p>COMMITTEE ON PUBLICATION ETHICS. <strong>Guidelines on Good Publication Practice</strong>. The COPE Report, 1999. Disponível em: <a href='https://publicationethics.org/files/u7141/1999pdf13.pdf' target='_blank'>https://publicationethics.org/files/u7141/1999pdf13.pdf</a>. Acesso em: 21 out. 2024.</p>
-
-						<p>DORA. <strong>Declaração de São Francisco sobre Avaliação de Pesquisa</strong>. Disponível em: <a href='https://sfdora.org/wp-content/uploads/2020/12/DORA_Brazilian-Portuguese.pdf' target='_blank'>https://sfdora.org/wp-content/uploads/2020/12/DORA_Brazilian-Portuguese.pdf</a>. Acesso em: 21 out. 2024.</p>
-
-						<p>GLOBAL RESEARCH COUNCIL. <strong>Statement of Principles for Research Integrity</strong>. Disponível em : <a href='https://www.globalresearchcouncil.org/fileadmin/documents/GRC_Publications/grc_statement_principles_research_integrity_FINAL.pdf' target='_blank'>https://www.globalresearchcouncil.org/fileadmin/documents/GRC_Publications/grc_statement_principles_research_integrity_FINAL.pdf</a>. Acesso em: 20 maio 2024.</p>
-
-						<p>INSTITUTE OF MEDICINE NATIONAL RESEARCH COUNCL. <strong>Integrity in Scientific Research: creating an environment that promotes responsible conduct</strong>. Washington, D. C., 2002. The National Academic Press, 2002. Disponível em: <a href='https://nap.nationalacademies.org/read/10430/chapter/1#ii' target='_blank'>https://nap.nationalacademies.org/read/10430/chapter/1#ii</a>. Acesso em: 20 maio 2024.</p>
-
-						<p>IOANNIDIS, John P. A. <strong>Why Most Published Research Findings are False</strong>. Plos Medicine, v. 19, n. 8, 2005. Disponível em: <a href='https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124' target='_blank'>https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124</a>. Acesso em: 20 maio 2024.</p>
-
-						<p>KALICHMAN, Michael. <strong>A modest proposal to move RCR education out of the classroom and into research</strong>. J Microbiol Biol Educ., v. 15, n. 2, p. 93-95, 2014. Disponível em: <a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC4278527/' target='_blank'>https://pmc.ncbi.nlm.nih.gov/articles/PMC4278527/</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>KRIMSKY, S. <strong>Conflito de interesses na universidade pós-acadêmica</strong>. Folha de São Paulo, São Paulo, 28 set. 2003. Disponível em <a href='https://www1.folha.uol.com.br/fsp/ciencia/fe2809200301.htm' target='_blank'>https://www1.folha.uol.com.br/fsp/ciencia/fe2809200301.htm</a> Acesso em: 20 maio 2024.</p>
-
-						<p>NASSI-CALÒ, Lilian. <strong>Avaliação sobre a reprodutibilidade de resultados de pesquisa traz mais perguntas que respostas</strong>. Scielo em Perspectiva, 08 fev. 2017. Disponível em: <a href='https://blog.scielo.org/blog/2017/02/08/avaliacao-sobre-a-reprodutibilidade-de-resultados-de-pesquisa-traz-mais-perguntas-que-respostas/' target='_blank'>https://blog.scielo.org/blog/2017/02/08/avaliacao-sobre-a-reprodutibilidade-de-resultados-de-pesquisa-traz-mais-perguntas-que-respostas/</a>. Acesso em: 21 out. 2024.</p>
-
-						<p>PALÁCIOS, M.; REGO, S. E.; LINO, M. H. <strong>Promoção e propaganda de medicamentos em ambientes de ensino: elementos para o debate</strong>. Interface Comunicação Saúde Educação, v. 12, n. 27, p.893-905, dez. 2008. </p>
-
-						<p>REDE BRASILEIRA DE REPRODUTIVIDADE. Disponível em: <a href='https://www.reprodutibilidade.org/' target='_blank'>https://www.reprodutibilidade.org/</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>REGO, S. <strong>Escola não é lugar de propaganda</strong>. Editorial. Rev. bras. educ. med., v. 28 n. 01, 2004. Disponível em: <a href='https://www.scielo.br/j/rbem/a/N6pBtXMkmqfkVKfV96vQZRK/?format=pdf&lang=pt' target='_blank'>https://www.scielo.br/j/rbem/a/N6pBtXMkmqfkVKfV96vQZRK/?format=pdf&lang=pt</a>. Acesso em: 20 maio 2024.</p>
-
-						<p>REGO, S. <strong>O processo de socialização profissional na medicina</strong>. In: MACHADO, M. H. (org). Profissões de saúde: uma abordagem sociológica. Rio de Janeiro: Editora FIOCRUZ, 1995. p. 119-132. Disponível em: <a href='http://books.scielo.org/id/t4ksj/epub/machado-9788575416075.epub' target='_blank'>http://books.scielo.org/id/t4ksj/epub/machado-9788575416075.epub</a>. Acesso em: 20 maio 2024.</p>
-
-						<p>SILVA, R., <em>et al</em>. <strong>Perfil e financiamento da pesquisa em saúde desencadeada pela pandemia da COVID-19 no Brasil</strong>. Vigilância Sanitária Em Debate: Sociedade, Ciência & Tecnologia, v. 8, n. 2, p. 28-38, 2020. </p>
-
-						<p>SIS Net Policy brief in research Integrity, nov. 2018 <a href='https://www.sisnetwork.eu/about/news/policy-brief-on-research-integrity' target='_blank'>https://www.sisnetwork.eu/about/news/policy-brief-on-research-integrity</a>. Acesso em: 20 maio 2024.</p>
-
-						<p>SOMERVILLE, M. <strong>A postmodern moral tale: the ethics of research relationships</strong>. Nat Rev Drug Disco, v. 1, p. 316-320, 2002. Disponível em: <a href='https://doi.org/10.1038/nrd774' target='_blank'>https://doi.org/10.1038/nrd774</a>. Acesso em: 20 maio 2024.</p>
-
-						<p>STEINMAN, M. A.; SHLIPAK, M. G.; MCPHEE, S. J. <strong>Of principles and pens: attitudes and practices of medicine housestaff toward pharmaceutical industry promotions</strong>. Am J Med., v. 110, n. 7, p. 551-7, May 2001.</p>
-
-						<p>STERNECK, Nicholas H. <strong>Introduction to the Responsible Conduct of Research (ORI)</strong>. Washington, D.C.: U.S. Department of Health and Human Services, 2007. Disponível em: <a href='https://ori.hhs.gov/sites/default/files/2018-04/rcrintro.pdf' target='_blank'>https://ori.hhs.gov/sites/default/files/2018-04/rcrintro.pdf</a>. Acesso  em: 20 maio 2024. </p>
-
-						<p>THE OFFICE OF RESEARCH INTEGRILY. <strong>Federal Research Misconduct Policy</strong>, Federal Register, v. 65, n. 235, p. 76260-76264, 06 dez. 2000. Disponível em: <a href='https://ori.hhs.gov/federal-research-misconduct-policy' target='_blank'>https://ori.hhs.gov/federal-research-misconduct-policy</a>. Acesso em: 20 maio 2024.</p>
-
-						<p>THOMPSON, D. <strong>Understanding financial conflicts of interest</strong>. N Engl J Med., v. 329, n. 8, p. 573-576, 1993.</p>
-
-						<p>UNIVERSIDADE DO ESTADO DE SANTA CATARINA. <strong>Orientações do COPE para editores de periódicos</strong>. Florianópolis: UDESC, 2023. Disponível em: <a href='https://www.udesc.br/arquivos/udesc/id_cpmenu/15958/Orienta__es_COPE__2023_16836447006564_15958.pdf' target='_blank'>https://www.udesc.br/arquivos/udesc/id_cpmenu/15958/Orienta__es_COPE__2023_16836447006564_15958.pdf</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>WARDE, I. <strong>L’université américaine vampirisée par les marchands</strong>. Le Monde Diplomatique, mars 2001. Disponível em: <a href='https://www.monde-diplomatique.fr/2001/03/WARDE/1839' target='_blank'>https://www.monde-diplomatique.fr/2001/03/WARDE/1839</a>. Acesso em: 20 maio 2024.</p>
-
-						<p>WELLCOME. <strong>What researchers think about the culture they work in</strong>. London: Wellcome Trust, 2020. Disponível em: <a href='https://wellcome.org/sites/default/files/what-researchers-think-about-the-culture-they-work-in.pdf' target='_blank'>https://wellcome.org/sites/default/files/what-researchers-think-about-the-culture-they-work-in.pdf</a>. Acesso em: 20 out. 2024.</p>
-
-						<p>WORLD CONFERENCES ON RESEARCH INTEGRITY. <strong>The Hong Kong Principles</strong>. Disponível em: <a href='https://www.wcrif.org/hong-kong-principles' target='_blank'>https://www.wcrif.org/hong-kong-principles</a>. Acesso em: 20 maio 2024.</p>
-					</div>
+						<p>ACADEMIA BRASILEIRA DE CIÊNCIAS. Rigor e Integridade na condução da pesquisa científica. Guia de recomendações de práticas responsáveis. Rio de Janeiro: ABC, 2013. Disponível em: http://www.abc.org.br/IMG/pdf/doc-4311.pdf. Acesso em: 12 nov. 2024.</p>
+						<p>ALL EUROPEAN ACADEMIES. Código europeu de conduta para a integridade da investigação. Berlin: ALLEA, june 2024. Disponível em: https://allea.org/wp-content/uploads/2024/09/CoC2023-PT.pdf. Acesso em: 25 out. 2024.</p>
+						<p>ALL EUROPEAN ACADEMIES. The European code of conduct for research integrity. Berlin: ALLEA, 2017. Disponível em: https://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf. Acesso em: 12 nov. 2024.</p>
+						<p>BAKER, M. Is There a Reproducibility Crisis? Nature, v. 533, 26 maio 2016. Disponível em: https://www.nature.com/news/polopoly_fs/1.19970!/menu/main/topColumns/topLeftColumn/pdf/533452a.pdf. Acesso em: 20 maio 2024.</p>
+						<p>BRASIL. Ministério da Ciência, Tecnologia e Inovação. Conselho Nacional de Desenvolvimento Científico e Tecnológico. Diretrizes. Brasília, DF: MCTI, [s. d.]. Disponível em: http://memoria2.cnpq.br/web/guest/diretrizes/. Acesso em: 20 out. 2024.</p>
+						<p>CENTER FOR OPEN SCIENCE. Reproducibility Project: Cancer Biology. Disponível em: https://www.cos.io/rpcb. Charlottesville, VA (USA), 2010-2012. Acesso em: 20 out. 2024.</p>
+						<p>COMMITTEE ON PUBLICATION ETHICS. Discussion document: authorship. Disponível em: COPE_DD_A4_Authorship_SEPT19_SCREEN_AW.pdf (publicationethics.org). Acesso em: 20 out. 2024.</p>
+						<p>COMMITTEE ON PUBLICATION ETHICS. Guidelines on Good Publication Practice. The COPE Report, 1999. Disponível em: https://publicationethics.org/files/u7141/1999pdf13.pdf. Acesso em: 21 out. 2024.</p>
+						<p>DORA. Declaração de São Francisco sobre Avaliação de Pesquisa. San Francisco, CA. [s. l.], [s. d.].Disponível em: https://sfdora.org/wp-content/uploads/2020/12/DORA_Brazilian-Portuguese.pdf. Acesso em: 21 out. 2024.</p>
+						<p>GLOBAL RESEARCH COUNCIL. Statement of Principles for Research Integrity. Philadelphia, PA, [s. d.]. Disponível em : https://www.globalresearchcouncil.org/fileadmin/documents/GRC_Publications/grc_statement_principles_research_integrity_FINAL.pdf. [s. l.], [s. d.].Acesso em: 20 maio 2024.</p>
+						<p>INSTITUTE OF MEDICINE NATIONAL RESEARCH COUNCL. Integrity in Scientific Research: creating an environment that promotes responsible conduct. Washington, D. C., 2002. The National Academic Press, 2002. Disponível em: https://nap.nationalacademies.org/read/10430/chapter/1#ii. Acesso em: 20 maio 2024.</p>
+						<p>IOANNIDIS, J. P. A. Why Most Published Research Findings are False. Plos Medicine, v. 19, n. 8, 2005. Disponível em: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124. Acesso em: 20 maio 2024.</p>
+						<p>KALICHMAN, Ml. A modest proposal to move RCR education out of the classroom and into research. J. Microbiol. Biol. Educ., v. 15, n. 2, p. 93-95, 2014. Disponível em: https://pmc.ncbi.nlm.nih.gov/articles/PMC4278527/. Acesso em: 25 out. 2024.</p>
+						<p>KRIMSKY, S. Conflito de interesses na universidade pós-acadêmica. Folha de São Paulo, São Paulo, 28 set. 2003. Disponível em https://www1.folha.uol.com.br/fsp/ciencia/fe2809200301.htm Acesso em: 20 maio 2024.</p>
+						<p>NASSI-CALÒ, Lilian. Avaliação sobre a reprodutibilidade de resultados de pesquisa traz mais perguntas que respostas. Scielo em Perspectiva, 8 fev. 2017. Disponível em: https://blog.scielo.org/blog/2017/02/08/avaliacao-sobre-a-reprodutibilidade-de-resultados-de-pesquisa-traz-mais-perguntas-que-respostas/. Acesso em: 21 out. 2024.</p>
+						<p>PALÁCIOS, M.; REGO, S. E.; LINO, M. H. Promoção e propaganda de medicamentos em ambientes de ensino: elementos para o debate. Interface Comunicação Saúde Educação, v. 12, n. 27, p.893-905, dez. 2008.</p>
+						<p>REDE BRASILEIRA DE REPRODUTIVIDADE. Rio de Janeiro: Fiocruz, [s. d.].Disponível em: https://www.reprodutibilidade.org/. Acesso em: 25 out. 2024.</p>
+						<p>REGO, S. Escola não é lugar de propaganda. Editorial. Rev. Bras. Educ. Med., v. 28 n. 01, 2004. Disponível em: https://www.scielo.br/j/rbem/a/N6pBtXMkmqfkVKfV96vQZRK/?format=pdf&lang=pt. Acesso em: 20 maio 2024.</p>
+						<p>REGO, S. O processo de socialização profissional na medicina. In: MACHADO, M. H. (org). Profissões de saúde: uma abordagem sociológica. Rio de Janeiro: Editora da Fiocruz, 1995. p. 119-132. Disponível em: http://books.scielo.org/id/t4ksj/epub/machado-9788575416075.epub. Acesso em: 20 maio 2024.</p>
+						<p>SILVA, R., et al. Perfil e financiamento da pesquisa em saúde desencadeada pela pandemia da COVID-19 no Brasil. Vigilância Sanitária em Debate. Sociedade, Ciência & Tecnologia, v. 8, n. 2, p. 28-38, 2020.</p>
+						<p>SIS NET POLICY BRIEF IN RESEARCH INTEGRITY, [s. l.]. nov. 2018 https://www.sisnetwork.eu/about/news/policy-brief-on-research-integrity. Acesso em: 20 maio 2024.</p>
+						<p>SOMERVILLE, M. A postmodern moral tale: the ethics of research relationships. Nat. ver. Drug. Disco, v. 1, p. 316-320, 2002. Disponível em: https://doi.org/10.1038/nrd774. Acesso em: 20 maio 2024.</p>
+						<p>STEINMAN, M. A.; SHLIPAK, M. G.; MCPHEE, S. J. Of principles and pens: attitudes and practices of medicine housestaff toward pharmaceutical industry promotions. Am J. Med., v. 110, n. 7, p. 551-7, May 2001.</p>
+						<p>STERNECK, N. H. Introduction to the Responsible Conduct of Research (ORI). Washington, D.C. (U.S). Department of Health and Human Services, 2007. Disponível em: https://ori.hhs.gov/sites/default/files/2018-04/rcrintro.pdf. Acesso em: 20 maio 2024.</p>
+						<p>THE OFFICE OF RESEARCH INTEGRILY. Federal Research Misconduct Policy, Federal Register, v. 65, n. 235, p. 76260-76264, 06 dez. 2000. Disponível em: https://ori.hhs.gov/federal-research-misconduct-policy. Acesso em: 20 maio 2024.</p>
+						<p>THOMPSON, D. Understanding financial conflicts of interest. N. Engl. J. Med., v. 329, n. 8, p. 573-576, 1993.
+						<p>UNIVERSIDADE DO ESTADO DE SANTA CATARINA. Orientações do COPE para editores de periódicos. Florianópolis: Udesc, 2023. Disponível em: https://www.udesc.br/arquivos/udesc/id_cpmenu/15958/Orienta__es_COPE__2023_16836447006564_15958.pdf. Acesso em: 25 out. 2024.</p>
+						<p>WARDE, I. L’université américaine vampirisée par les marchands. Le Monde Diplomatique, mars 2001. Disponível em: https://www.monde-diplomatique.fr/2001/03/WARDE/1839. Acesso em: 20 maio 2024.</p>
+						<p>WELLCOME. What researchers think about the culture they work in. London: Wellcome Trust, 2020. Disponível em: https://wellcome.org/sites/default/files/what-researchers-think-about-the-culture-they-work-in.pdf. Acesso em: 20 out. 2024.</p>
+						<p>WORLD CONFERENCES ON RESEARCH INTEGRITY. The Hong Kong Principles. Hong Kong, CHN, Jun, 2019. Disponível em: https://www.wcrif.org/hong-kong-principles. Acesso em: 20 maio 2024.</p>
 					
 				</div>
 			</div>
@@ -415,71 +391,40 @@ const modalInfos = {
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
-						<p>ARAÚJO, Laís Záu Serpa de. <strong>Aspectos éticos da pesquisa científica</strong>. Pesquisa Odontológica Brasileira, v. 17, Supl. 1, p. 57-63, 2003. Disponível em: <a href='https://www.scielo.br/j/pob/a/MZVSYxKncfrNnsKxbjg5Gxr/?lang=pt' target='_blank'>https://www.scielo.br/j/pob/a/MZVSYxKncfrNnsKxbjg5Gxr/?lang=pt</a>. Acesso em: 12 nov. 2024.</p>
+						<p>ARAÚJO, L. Z. S. de. Aspectos éticos da pesquisa científica. Pesquisa Odontológica Brasileira, v. 17, Supl. 1, p. 57-63, 2003. Disponível em: https://www.scielo.br/j/pob/a/MZVSYxKncfrNnsKxbjg5Gxr/?lang=pt. Acesso em: 12 nov. 2024.</p>
+						<p>AREOSA, J. O risco nas ciências sociais: uma visão crítica ao paradigma dominante. Revista Angolana de Sociologia, Luanda, n. 5/6, p. 11-33, 2010.</p>
+						<p>ASSEMBLEIA MÉDICA MUNDIAL. Declaração de Helsinki I. 18a. Assembleia Médica Mundial, Helsinki, Finlândia 1964. Disponível em: https://www.ufrgs.br/bioetica/helsin1.htm. Acesso em: 21 out. 2024.</p>
+						<p>BOSI, M. L. M. Problematizando o conceito de risco em diretrizes éticas para pesquisas em ciências humanas e sociais na Saúde Coletiva. Ciência & Saúde Coletiva, v. 20, n. 9, p. 2675-2682, 2025.</p>
+						<p>BEECHER, H. Ética e pesquisa clínica. The New England Journal of Medicine, v. 274, n. 24, p. 1354-1350, 1966. Disponível em: https://www.nejm.org/doi/full/10.1056/NEJM196606162742405. Acesso em: 25 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Norma Operacional nº 001, de 2013. Organização e funcionamento do Sistema CEP/Conep e procedimentos para submissão, avaliação e acompanhamento do desenvolvimento da pesquisa envolvendo seres humanos no Brasil. Brasília, DF: CNS, 2013. Disponível em: https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/sobre-o-conselho/camaras-tecnicas-e-comissoes/conep/legislacao/norma/norma-operacional-no-001-de-2013.pdf/view. Acesso em: 25 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Comissão Nacional de Ética em Pesquisa. Ofício Circular nº 2/2021/CONEP/SECNS/MS. Brasília, DF: 24 fev. 2021. Assunto: Orientações para procedimentos em pesquisas com qualquer etapa em ambiente virtual. Disponível em: https://edisciplinas.usp.br/pluginfile.php/7710033/mod_resource/content/1/Oficio_Circular_2_24fev2021.pdf. Acesso em: 21 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Resolução nº 001, de 13 de junho de 1988. Revogada: Aprova as Normas de Pesquisa em Saúde. Estabelece aspectos éticos em pesquisa em seres humanos. Revoga a portaria 16 de 27.11.81, da Divisão Nacional de Vigilância Sanitária de Medicamentos que instituiu o termo de consentimento de risco (TCR); Revogada pela Res 196/96. Brasília, DF: CNS, 1998. Disponível em: https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/1988/resolucao-no-001.pdf/view. Acesso em: 20 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Resolução nº 196, de 16 de outubro de 1996. Diretrizes e Normas Regulamentadoras de Pesquisas Envolvendo Seres Humanos. Brasília, DF: CNS, 1996.Disponível em: https://www.ufrgs.br/bioetica/res19696.htm Acesso em: 25 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Resolução nº 466, de 12 de dezembro de 2012. Aprova as diretrizes e normas regulamentadoras de pesquisas envolvendo seres humanos e revoga as Resoluções CNS nos. 196/96, 303/2000 e 404/2008. Brasília, DF: Diário Oficial da União, 13 jun. 2013, Seção 1. Disponível em: https://www.inca.gov.br/sites/ufu.sti.inca.local/files//media/document//resolucao-cns-466-12.pdf . Acesso em: 21 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Comissão Nacional de Ética em Pesquisa (CONEP/CNS/MS. Manual de pendências frequentes em protocolos de pesquisa clínica de 2015. Brasília, DF: CNS, 2015. Disponível em: https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/sobre-o-conselho/camaras-tecnicas-e-comissoes/conep/publicacoes/manual-de-pendencias-frequentes-em-protocolos-de-pesquisa-clinica-de-2015.pdf/view. Acesso em: 21 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Resolução nº 506, de 3 fevereiro de 2016. Em Vigor: Aprova a seguinte Resolução referente ao processo de acreditação de comitês de ética em Pesquisa (CEP) que compõem o Sistema CEP/Conep. Brasília, DF: CNS, 2016. Disponível em: https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2016/resolucao-no-506.pdf/view. Acesso em: 25 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Resolução nº 510, de 7 de abril de 2016. Em Vigor: Esta Resolução dispõe sobre as normas aplicáveis a pesquisas em Ciências Humanas e Sociais cujos procedimentos metodológicos envolvam a utilização de dados diretamente obtidos com os participantes ou de informações identificáveis ou que possam acarretar riscos maiores do que os existentes na vida cotidiana, na forma definida nesta Resolução. Brasília, DF: CNS, 2016. Disponível em: https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2016/resolucao-no-510.pdf/view. Acesso em: 25 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Resolução nº 563, de 10 de novembro de 2017. Homologada: Esta resolução regulamenta o direito do participante de pesquisa ao acesso pós-estudo em protocolos de pesquisa clínica destinados aos pacientes diagnosticados com doenças ultrarraras. Brasília, DF: CNS, 2017. Disponível em: https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2017/resolucao-no-563.pdf/view. Acesso em: 25 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Resolução nº 580, de 22 de março de 2018. Homologada: Regulamenta o disposto no item XIII.4 da Resolução CNS nº 466, de 12 de dezembro de 2012, que estabelece que as especificidades éticas das pesquisas de interesse estratégico para o Sistema Único de Saúde (SUS) serão contempladas em Resolução específica, e dá outras providências. Brasília, DF: CNS, 2018.Disponível em: https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2018/resolucao-no-580.pdf/view. Acesso em: 21 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Resolução nº 304, de 9 de agosto de 2000. Não Homologada: Aprova as seguintes Normas para Pesquisas Envolvendo Seres Humanos – Área de Povos Indígenas. Brasília, DF: CNS, 2000. Disponível em: https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2000/resolucao-no-304.pdf/view. Acesso em: 25 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Resolução nº 647, de 12 de outubro de 2020. Homologada: Dispõe sobre as regras referentes à regulamentação do processo de designação e atuação dos membros de CEP indicados por entidades do controle social. Brasília, DF: CNS, 2020. Disponível em: https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2020/resolucao-no-647.pdf/view. Acesso em: 20 out. 2024.</p>
+						<p>BRASIL. Conselho Nacional de Saúde. Resolução nº 674, de 6 maio 2022. Homologada: Dispõe sobre a tipificação da pesquisa e a tramitação dos protocolos de pesquisa no Sistema CEP/Conep. Disponível em: https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2022/resolucao-no-674.pdf/view. Acesso em: 25 out. 2024.</p>
+						<p>BRASIL. Lei nº 14.874, de 28 de maio de 2024. Dispõe sobre a pesquisa com seres humanos e institui o Sistema Nacional de Ética em Pesquisa com Seres Humanos. Brasília DF: Presidência da República, 2014.. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14874.htm. Acesso em: 27 nov. 2024.</p>
+						<p>BRASIL. Ministério da Saúde. Conselho Nacional de Saúde. Comissão Nacional de Ética em Pesquisa. Cartilha dos Direitos dos Participantes de Pesquisa. Versão 1.0. Brasília, DF: CONEP/CNS/MS, 2020. Disponível em: http://cephumanas.sites.uff.br/wp-content/uploads/sites/337/2023/05/Cartilha-dos-Direitos-dos-Participantes-de-Pesquisa-2020-1.pdf. Acesso em: 25 out. 2024.</p>
+						<p>CASTIEL, L. D. A Medida do Possível... saúde, risco e tecnobiociências. Rio de Janeiro: Contracapa/Editora da Fiocruz, 1999. https://static.scielo.org/scielobooks/ynw9g/pdf/castiel-9788575412701.pdf. Acesso em: 12 nov. 2024.</p>
+						<p>CÓDIGO DE NUREMBERG - 1947. Ministério da Saúde. Biblioteca Virtual em Saúde. Experimentação Humana. Brasília, DF: MS, [s. d.]. Disponível em: https://bvsms.saude.gov.br/bvs/publicacoes/codigo_nuremberg.pdf. Acesso em: 21 out. 2024.</p>
+						<p>CONSELHO REGIONAL DE MEDICINA DO ESTADO DE SÃO PAULO. Código de Nuremberg. São Paulo: CREMESP, 30 set. 2002. Disponível em: http://www.bioetica.org.br/?siteAcao=DiretrizesDeclaracoesIntegra&id=2 . Acesso em: 25 out. 2024.</p>
+						<p>DINIZ, D.; GUERRIERO, I. Ética na pesquisa social: desafios ao modelo biomédico. RECIIS – R. Eletr. de Com. Inf. Inov. Saúde, Rio de Janeiro, v.2, Sup.1, p. S78-S90, 2008.</p>
+						<p>FUNDAÇÃO OSWALDO CRUZ. Instituto Oswaldo Cruz. Termo de Consentimento Livre e Esclarecido. Rio de Janeiro, Fiocruz, 2024. Disponível em: https://www.ioc.fiocruz.br/sites/default/files/orientacoes_para_redacao_do_tcle_v2.1_0.pdf. Acesso em: 17 out. 2024.</p>
+						<p>GOLDIM, J. R. Diretrizes e Normas em Pesquisa em Saúde. Porto Alegre, UFRGS, [s. d.]. Disponível em: https://www.ufrgs.br/bioetica/aleman31.htm . Acesso em: 20 out. 2024.</p>
+						<p>GOLDIM, J. R. O Caso Tuskegee: quando a ciência se torna eticamente inadequada. Núcleo Interinstitucional de Bioética. Porto Alegre: UFRGS, 1999. Disponível em: https://www.ufrgs.br/bioetica/tueke2.htm Acesso em: 20 out. 2024.</p>
+						<p>KOTTOW, M. História da ética em pesquisa com seres humanos. RECIIS – R. Eletr. de Com. Inf. Inov. Saúde, Rio de Janeiro, v. 2, Sup.1, p. S7-S18, 2008.</p>
+						<p>MINAYO, M. C. de S.; GUERRIERO, I. C. Z. Reflexividade como éthos da pesquisa qualitativa. Ciência & Saúde Coletiva, v. 19, n. 4, p. 1103-1112. Disponível em: http://www.scielo.br/j/csc/a/DgfNdVrZzZbN7rKTSQ8v4qR/?lang=pt. Acesso em: 7 maio 2024.</p>
+						<p>PALÁCIOS, M.; REGO, S.; SCHRAMM, F. R. A eticidade da pesquisa em seres humanos. Escola Nacional de Saúde Pública. Comitê de Ética em Pesquisa. Rio de Janeiro: ENSP, 2001. Disponível em: https://www.fct.unesp.br/Home/Administracao/TecnicaAcademica/Comite%20de%20Etica%20-%20Eticidade.pdf. Acesso em: 12 nov. 2014.</p>
+						<p>PLATAFORMA BRASIL. Brasília, DF: MS, [s. d.]. Disponível em: https://plataformabrasil.saude.gov.br/login.jsf . Acesso em: 25 out. 2024.</p>
+						<p>U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES. Office for Human Research Protections. The Belmont Report. 18 Apr. 1979. Disponível em: https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html. Acesso em: 25 out. 2024.</p>
+						<p>SCHRAMM, F. R.; PALÁCIOS, M.; REGO, S. O modelo bioético principialista na análise da moralidade da pesquisa científica envolvendo seres-humanos ainda é satisfatório? Ciência & Saúde Coletiva, v. 13, n. 2, p. 361-370, 2008. Disponível em: https://www.scielo.br/j/csc/a/4yDHmDXND4PCMbR6BBSzgNN/?lang=pt. Acesso em: 12 nov. 2024.</p>
 
-						<p>AREOSA, João. <strong>O risco nas ciências sociais: Uma visão crítica ao paradigma dominante</strong>. Revista Angolana de Sociologia, Luanda, n. 5/6, p. 11-33, 2010.</p>
-
-						<p>ASSEMBLEIA MÉDICA MUNDIAL. <strong>Declaração de Helsinki I</strong>. 18a. Assembleia Médica Mundial, Helsinki, Finlândia 1964. Disponível em: <a href='https://www.ufrgs.br/bioetica/helsin1.htm' target='_blank'>https://www.ufrgs.br/bioetica/helsin1.htm</a>. Acesso em: 21 out. 2024.</p>
-
-						<p>BOSI, Maria Lúcia Magalhães. <strong>Problematizando o conceito de risco em diretrizes éticas para pesquisas em ciências humanas e sociais na Saúde Coletiva</strong>. Ciência & Saúde Coletiva, v. 20, n. 9, p. 2675-2682, 2025. </p>
-
-						<p>BEECHER, H. <strong>Ética e pesquisa clínica</strong>. The New England Journal of Medicine, v. 274, n. 24, p. 1354-1350, 1966. Disponível em: <a href='https://www.nejm.org/doi/full/10.1056/NEJM196606162742405' target='_blank'>https://www.nejm.org/doi/full/10.1056/NEJM196606162742405</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. <strong>Resolução nº 001, 13 jun. 1988</strong>. Revogada: Aprova as Normas de Pesquisa em Saúde. Estabelece aspectos éticos em pesquisa em seres humanos. Revoga a portaria 16 de 27.11.81, da Divisão Nacional de Vigilância Sanitária de Medicamentos que instituiu o termo de consentimento de risco (TCR); Revogada pela Res 196/96. Disponível em: <a href='https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/1988/resolucao-no-001.pdf/vie' target='_blank'>https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/1988/resolucao-no-001.pdf/vie</a>w. Acesso em: 20 out. 2024.</p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. <strong>Resolução nº 196/96</strong>. Diretrizes e Normas Regulamentadoras de Pesquisas Envolvendo Seres Humanos. Disponível em: <a href='https://www.ufrgs.br/bioetica/res19696.htm' target='_blank'>https://www.ufrgs.br/bioetica/res19696.htm</a> Acesso em: 25 out. 2024.</p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. <strong>Resolução nº 466/12</strong>. Aprova as diretrizes e normas regulamentadoras de pesquisas envolvendo seres humanos e revoga as Resoluções CNS nos. 196/96, 303/2000 e 404/2008. Diário Oficial da União, 13 jun. 2013, Seção 1. Disponível em: <a href='https://www.inca.gov.br/sites/ufu.sti.inca.local/files//media/document//resolucao-cns-466-12.pdf' target='_blank'>https://www.inca.gov.br/sites/ufu.sti.inca.local/files//media/document//resolucao-cns-466-12.pdf</a> . Acesso em: 21 out. 2024.</p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. <strong>Norma Operacional nº 001, de 2013</strong>. Organização e funcionamento do Sistema CEP/Conep e procedimentos para submissão, avaliação e acompanhamento do desenvolvimento da pesquisa envolvendo seres humanos no Brasil.. Disponível em: <a href='https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/sobre-o-conselho/camaras-tecnicas-e-comissoes/conep/legislacao/norma/norma-operacional-no-001-de-2013.pdf/view' target='_blank'>https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/sobre-o-conselho/camaras-tecnicas-e-comissoes/conep/legislacao/norma/norma-operacional-no-001-de-2013.pdf/view</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. Comissão Nacional de Ética em Pesquisa (CONEP/CNS/MS. <strong>Manual de pendências frequentes em protocolos de pesquisa clínica de 2015</strong>. Disponível em: <a href='https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/sobre-o-conselho/camaras-tecnicas-e-comissoes/conep/publicacoes/manual-de-pendencias-frequentes-em-protocolos-de-pesquisa-clinica-de-2015.pdf/view' target='_blank'>https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/sobre-o-conselho/camaras-tecnicas-e-comissoes/conep/publicacoes/manual-de-pendencias-frequentes-em-protocolos-de-pesquisa-clinica-de-2015.pdf/view</a>. Acesso em: 21 out. 2024.</p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. <strong>Resolução nº 506, de 03 fev. 2016</strong>. Em Vigor: Aprova a seguinte Resolução referente ao processo de acreditação de comitês de ética em Pesquisa (CEP) que compõem o Sistema CEP/Conep. Disponível em: <a href='https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2016/resolucao-no-506.pdf/view' target='_blank'>https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2016/resolucao-no-506.pdf/view</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. <strong>Resolução nº 510, de 07 abr. 2016</strong>. Em Vigor: Esta Resolução dispõe sobre as normas aplicáveis a pesquisas em Ciências Humanas e Sociais cujos procedimentos metodológicos envolvam a utilização de dados diretamente obtidos com os participantes ou de informações identificáveis ou que possam acarretar riscos maiores do que os existentes na vida cotidiana, na forma definida nesta Resolução. Disponível em: <a href='https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2016/resolucao-no-510.pdf/view' target='_blank'>https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2016/resolucao-no-510.pdf/view</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. <strong>Resolução nº 563, de 10 nov. 2017</strong>. Homologada: Esta resolução regulamenta o direito do participante de pesquisa ao acesso pós-estudo em protocolos de pesquisa clínica destinados aos pacientes diagnosticados com doenças ultrarraras. Disponível em: <a href='https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2017/resolucao-no-563.pdf/view' target='_blank'>https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2017/resolucao-no-563.pdf/view</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. <strong>Resolução nº 580, de 22 mar. 2018</strong>. Homologada: Regulamenta o disposto no item XIII.4 da Resolução CNS nº 466, de 12 de dezembro de 2012, que estabelece que as especificidades éticas das pesquisas de interesse estratégico para o Sistema Único de Saúde (SUS) serão contempladas em Resolução específica, e dá outras providências. Disponível em: <a href='https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2018/resolucao-no-580.pdf/view' target='_blank'>https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2018/resolucao-no-580.pdf/view</a>. Acesso em: 21 out. 2024.</p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. <strong>Resolução nº 304, 09 ago. 2000</strong>. Não Homologada: Aprova as seguintes Normas para Pesquisas Envolvendo Seres Humanos – Área de Povos Indígenas. Disponível em: <a href='https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2000/resolucao-no-304.pdf/view' target='_blank'>https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2000/resolucao-no-304.pdf/view</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. <strong>Resolução nº 647, de 12 out. 2020</strong>. Homologada: Dispõe sobre as regras referentes à regulamentação do processo de designação e atuação dos membros de CEP indicados por entidades do controle social. Disponível em: <a href='https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2020/resolucao-no-647.pdf/view' target='_blank'>https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2020/resolucao-no-647.pdf/view</a>. Acesso em: 20 out. 2024.</p>
-
-						<p>BRASIL. Lei nº 14.874, de 28 de maio de 2024. Dispõe sobre a pesquisa com seres humanos e institui o Sistema Nacional de Ética em Pesquisa com Seres Humanos. Brasília DF: Presidência da República. Disponível em: <a href='https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14874.htm' target='_blank'>https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14874.htm</a>. Acesso em: 27 nov. 2024. </p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. Comissão Nacional de Ética em Pesquisa. <strong>Ofício Circular nº 2/2021/CONEP/SECNS/MS</strong>. Brasília: 24 fev. 2021. Assunto: Orientações para procedimentos em pesquisas com qualquer etapa em ambiente virtual. Disponível em: <a href='https://edisciplinas.usp.br/pluginfile.php/7710033/mod_resource/content/1/Oficio_Circular_2_24fev2021.pdf' target='_blank'>https://edisciplinas.usp.br/pluginfile.php/7710033/mod_resource/content/1/Oficio_Circular_2_24fev2021.pdf</a>. Acesso em: 21 out. 2024.</p>
-
-						<p>BRASIL. Conselho Nacional de Saúde. <strong>Resolução nº 674, de 6 maio 2022</strong>. Homologada: Dispõe sobre a tipificação da pesquisa e a tramitação dos protocolos de pesquisa no Sistema CEP/Conep. Disponível em: <a href='https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2022/resolucao-no-674.pdf/view' target='_blank'>https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/legislacao/resolucoes/2022/resolucao-no-674.pdf/view</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>BRASIL. Ministério da Saúde. Conselho Nacional de Saúde. Comissão Nacional de Ética em Pesquisa. <strong>Cartilha dos Direitos dos Participantes de Pesquisa</strong>. Versão 1.0. Brasília: CONEP/CNS/MS, 2020. Disponível em: <a href='http://cephumanas.sites.uff.br/wp-content/uploads/sites/337/2023/05/Cartilha-dos-Direitos-dos-Participantes-de-Pesquisa-2020-1.pdf' target='_blank'>http://cephumanas.sites.uff.br/wp-content/uploads/sites/337/2023/05/Cartilha-dos-Direitos-dos-Participantes-de-Pesquisa-2020-1.pdf</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>CASTIEL, L. D. 1999. A Medida do Possível... saúde, risco e tecnobiociências. Rio de Janeiro: Contracapa; Editora Fiocruz, 1999. 204 p. <a href='https://static.scielo.org/scielobooks/ynw9g/pdf/castiel-9788575412701.pdf' target='_blank'>https://static.scielo.org/scielobooks/ynw9g/pdf/castiel-9788575412701.pdf</a>. Acesso em: 12 nov. 2024.</p>
-
-						<p>CÓDIGO DE NUREMBERG. <strong>Experimentação Humana</strong>. 1947. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/publicacoes/codigo_nuremberg.pdf' target='_blank'>https://bvsms.saude.gov.br/bvs/publicacoes/codigo_nuremberg.pdf</a>. Acesso em: 21 out. 2024.</p>
-
-						<p>CONSELHO REGIONAL DE MEDICINA DO ESTADO DE SÃO PAULO. <strong>Código de Nuremberg</strong>. São Paulo: CREMESP, 30 set. 2002. Disponível em: <a href='http://www.bioetica.org.br/?siteAcao=DiretrizesDeclaracoesIntegra&id=2' target='_blank'>http://www.bioetica.org.br/?siteAcao=DiretrizesDeclaracoesIntegra&id=2</a> . Acesso em: 25 out. 2024.</p>
-
-						<p>DINIZ, D.; GUERRIERO, I. <strong>Ética na pesquisa social: desafios ao modelo biomédico</strong>. RECIIS – R. Eletr. de Com. Inf. Inov. Saúde, Rio de Janeiro, v.2, Sup.1, p. S78-S90, 2008.</p>
-
-						<p>FUNDAÇÃO OSWALDO CRUZ. Instituto Oswaldo Cruz. <strong>Termo de Consentimento Livre e Esclarecido</strong>. Disponível em: <a href='https://www.ioc.fiocruz.br/sites/default/files/orientacoes_para_redacao_do_tcle_v2.1_0.pdf' target='_blank'>https://www.ioc.fiocruz.br/sites/default/files/orientacoes_para_redacao_do_tcle_v2.1_0.pdf</a>.  Acesso em: 17 out. 2024.</p>
-
-						<p>GOLDIM, José Roberto. <strong>Diretrizes e Normas em Pesquisa em Saúde</strong>. Disponível em: <a href='https://www.ufrgs.br/bioetica/aleman31.htm' target='_blank'>https://www.ufrgs.br/bioetica/aleman31.htm</a> . Acesso em: 20 out. 2024.</p>
-
-						<p>GOLDIM, José Roberto. <strong>O Caso Tuskegee: quando a ciência se torna eticamente inadequada</strong>. Disponível em: <a href='https://www.ufrgs.br/bioetica/tueke2.htm' target='_blank'>https://www.ufrgs.br/bioetica/tueke2.htm</a> Acesso em: 20 out. 2024.</p>
-
-						<p>KOTTOW, Miguel. “<strong>História da ética em pesquisa com seres humanos”</strong>. RECIIS –R. Eletr. de Com. Inf. Inov. Saúde, Rio de Janeiro, v. 2, Sup.1, p. S7-S18, 2008.</p>
-
-						<p>MINAYO, Maria Cecília de Souza; GUERRIERO, Iara Coelho Zito. <strong>Reflexividade como éthos da pesquisa qualitativa</strong>. Ciência & Saúde Coletiva, v. 19, n. 4, p. 1103-1112. Disponível em: <a href='http://www.scielo.br/j/csc/a/DgfNdVrZzZbN7rKTSQ8v4qR/?lang=pt' target='_blank'>http://www.scielo.br/j/csc/a/DgfNdVrZzZbN7rKTSQ8v4qR/?lang=pt</a>. Acesso em: 7 maio 2024.</p>
-
-						<p>PALÁCIOS, M.; REGO, S.; SCHRAMM, F. R. <strong>A eticidade da pesquisa em seres humanos</strong>. Escola Nacional de Saúde Pública. Comitê de Ética em Pesquisa. Rio de Janeiro: ENSP, 2001. Disponível em: <a href='https://www.fct.unesp.br/Home/Administracao/TecnicaAcademica/Comite%20de%20Etica%20-%20Eticidade.pdf' target='_blank'>https://www.fct.unesp.br/Home/Administracao/TecnicaAcademica/Comite%20de%20Etica%20-%20Eticidade.pdf</a>. Acesso em: 12 nov. 2014.</p>
-
-						<p>PLATAFORMA BRASIL. Disponível em: <a href='https://plataformabrasil.saude.gov.br/login.jsf' target='_blank'>https://plataformabrasil.saude.gov.br/login.jsf</a> . Acesso em: 25 out. 2024.</p>
-
-						<p>U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES. Office for Human Research Protections. <strong>The Belmont Report</strong>. 18 Apr. 1979. Disponível em: <a href='https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html' target='_blank'>https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>SCHRAMM, F. R.; PALÁCIOS, M.; REGO, S. <strong>O modelo bioético principialista na análise da moralidade da pesquisa científica envolvendo seres-humanos ainda é satisfatório?</strong> Ciência & Saúde Coletiva, v. 13, n. 2, p. 361-370, 2008. Disponível em: <a href='https://www.scielo.br/j/csc/a/4yDHmDXND4PCMbR6BBSzgNN/?lang=pt' target='_blank'>https://www.scielo.br/j/csc/a/4yDHmDXND4PCMbR6BBSzgNN/?lang=pt</a>. Acesso em: 12 nov. 2024.</p>
 					</div>
 				</div>
 			</div>
@@ -493,25 +438,17 @@ const modalInfos = {
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
-						<p>ARRIVE Guidelines. <strong>Diretrizes ARRIVE 2.0</strong>. Disponível em: <a href='https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202.0%20-%20Portuguese.pdf' target='_blank'>https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202.0%20-%20Portuguese.pdf</a>. Acesso em: 25 out. 2024.</p>
+						<p>ARRIVE Guidelines. Diretrizes ARRIVE 2.0. NC3Rs, 2020.Disponível em: https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202.0%20-%20Portuguese.pdf. Acesso em: 25 out. 2024.</p>
+						<p>BRASIL. Lei n.º 11.794, de 8 de outubro de 2008. Regula o uso científico de animais e revoga a Lei n.º 6.638, de 8 de maio de 1979. Brasília, DF: Presidência da República, 2008. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/Lei/L11794.htm.Acesso em: 22 nov. 2024.</p>
+						<p>BRASIL. Ministério da Ciência, Tecnologia e Inovações. RENAMA - Rede Nacional de Métodos Alternativos. Brasília, DF: MCTI, 2017. Disponível em:https://antigo.mctic.gov.br/mctic/opencms/ciencia/SEPED/Saude/renama/renama.html. Acesso em: 20 out. 2024.</p>
+						<p>BRASIL. Ministério da Ciência, Tecnologia e Inovações. Métodos Alternativos reconhecidos pelo Concea. Brasília, DF: MCTI, 2022. Disponível em: https://www.gov.br/mcti/pt-br/composicao/conselhos/concea/paginas/publicacoes-legislacao-e-guia/metodos-alternativos-reconhecidos-pelo-concea. Acesso em: 21 out. 2024.</p>
+						<p>CANADIAN COUNCIL ON ANIMAL CARE (CCAC). CCAC animal data report 2022. Ottawa, ON., 2022. Disponível em: https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2022.pdf. Acesso em: 22 nov. 2024. </p>
+						<p>INSTITUTO NACIONAL DE CÂNCER (INCA). Fases de desenvolvimento de um novo medicamento. 26 out. 2022. Rio de Janeiro: INCA, 2022. Disponível em: https://www.gov.br/inca/pt-br/assuntos/pesquisa/ensaios-clinicos/fases-de-desenvolvimento-de-um-novo-medicamento. Acesso em: 22 nov. 2024.</p>
+						<p>ORGANISATION FOR ECONOMIC CO-OPERATION AND DEVELOPMENT (OECD). Integrated Approaches to Testing and Assessment. Paris: France, 2017. Disponível em: https://www.oecd.org/en/topics/sub-issues/assessment-of-chemicals/integrated-approaches-to-testing-and-assessment.html. Acesso em: 25 out. 2024.</p>
+						<p>REVISTA GALILEU. Medicações não precisam mais ser testadas em animais antes de humanos nos EUA. São Paulo, Galileu, 2023. Disponível em: https://revistagalileu.globo.com/saude/noticia/2023/01/medicacoes-nao-precisam-mais-ser-testadas-em-animais-antes-de-humanos-nos-eua.ghtml. Acesso em: 25 out. 2024.</p>
+						<p>UNDERSTANDING ANIMAL RESEARCH. Understanding Animal Research. London, [s. d.]. Disponível em: https://www.understandinganimalresearch.org.uk/. Acesso em: 21 out. 2024.</p>
+						<p>UNITED STATES. Senate. 117th Cong., 2d Sess. Purpose: In the nature of a substitute. Disponível em: https://www.appropriations.senate.gov/imo/media/doc/JRQ121922.PDF. Acesso em: 20 out. 2024.</p>
 
-						<p>BRASIL. <strong>Lei n.º 11.794, de 8 de outubro de 2008</strong>. Regula o uso científico de animais e revoga a Lei n.º 6.638, de 8 de maio de 1979. Disponível em: <a href='https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/Lei/L11794.htm' target='_blank'>https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/Lei/L11794.htm</a>. Acesso em: 22 nov. 2024.</p>
-
-						<p>BRASIL. Ministério da Ciência, Tecnologia e Inovações. <strong>RENAMA - Rede Nacional de Métodos Alternativos</strong>. Disponível em: <a href='https://antigo.mctic.gov.br/mctic/opencms/ciencia/SEPED/Saude/renama/renama.html' target='_blank'>https://antigo.mctic.gov.br/mctic/opencms/ciencia/SEPED/Saude/renama/renama.html</a>. Acesso em: 20 out. 2024.</p>
-
-						<p>BRASIL. Ministério da Ciência, Tecnologia e Inovações. <strong>Métodos Alternativos reconhecidos pelo Concea</strong>. Disponível em: <a href='https://www.gov.br/mcti/pt-br/composicao/conselhos/concea/paginas/publicacoes-legislacao-e-guia/metodos-alternativos-reconhecidos-pelo-concea' target='_blank'>https://www.gov.br/mcti/pt-br/composicao/conselhos/concea/paginas/publicacoes-legislacao-e-guia/metodos-alternativos-reconhecidos-pelo-concea</a>. Acesso em: 21 out. 2024.</p>
-
-						<p>CANADIAN COUNCIL ON ANIMAL CARE (CCAC). <strong>CCAC animal data report 2022</strong>. Disponível em: <a href='https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2022.pdf' target='_blank'>https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2022.pdf</a>. Acesso em: 22 nov. 2024.</p>
-
-						<p>INSTITUTO NACIONAL DE CÂNCER (INCA). <strong>Fases de desenvolvimento de um novo medicamento</strong>. 26 out. 2022. Disponível em: <a href='https://www.gov.br/inca/pt-br/assuntos/pesquisa/ensaios-clinicos/fases-de-desenvolvimento-de-um-novo-medicamento' target='_blank'>https://www.gov.br/inca/pt-br/assuntos/pesquisa/ensaios-clinicos/fases-de-desenvolvimento-de-um-novo-medicamento</a>. Acesso em: 22 nov. 2024.</p>
-
-						<p>ORGANISATION FOR ECONOMIC CO-OPERATION AND DEVELOPMENT (OECD). <strong>Integrated Approaches to Testing and Assessment</strong>. Disponível em: <a href='https://www.oecd.org/en/topics/sub-issues/assessment-of-chemicals/integrated-approaches-to-testing-and-assessment.html' target='_blank'>https://www.oecd.org/en/topics/sub-issues/assessment-of-chemicals/integrated-approaches-to-testing-and-assessment.html</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>REVISTA GALILEU. <strong>Medicações não precisam mais ser testadas em animais antes de humanos nos EUA</strong>. Disponível em: <a href='https://revistagalileu.globo.com/saude/noticia/2023/01/medicacoes-nao-precisam-mais-ser-testadas-em-animais-antes-de-humanos-nos-eua.ghtml' target='_blank'>https://revistagalileu.globo.com/saude/noticia/2023/01/medicacoes-nao-precisam-mais-ser-testadas-em-animais-antes-de-humanos-nos-eua.ghtml</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>UNDERSTANDING ANIMAL RESEARCH. <strong>Understanding Animal Research</strong>. Disponível em: <a href='https://www.understandinganimalresearch.org.uk/' target='_blank'>https://www.understandinganimalresearch.org.uk/</a>. Acesso em: 21 out. 2024.</p>
-
-						<p>UNITED STATES. Senate. 117th Cong., 2d Sess. <strong>Purpose: In the nature of a substitute</strong>. Disponível em: <a href='https://www.appropriations.senate.gov/imo/media/doc/JRQ121922.PDF' target='_blank'>https://www.appropriations.senate.gov/imo/media/doc/JRQ121922.PDF</a>. Acesso em: 20 out. 2024.</p>
 					</div>
 				</div>
 			</div>
@@ -525,41 +462,26 @@ const modalInfos = {
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
-						<p>AVALIAÇÃO: Revista da Avaliação da Educação Superior. s.d. <strong>Política de Ética e Más condutas, Errata e Retratação</strong>. Disponível em: <a href='https://submission.scielo.br/index.php/aval/mascondutaerrataretratacao' target='_blank'>https://submission.scielo.br/index.php/aval/mascondutaerrataretratacao</a>. Acesso em: 21 out. 2024.</p>
 
-						<p>CAPES. <strong>Acordos transformativos são apresentados em Conferência Livre</strong>. Gov.br, 11 abr. 2024. Disponível em: <a href='https://www.gov.br/capes/pt-br/assuntos/noticias/acordos-transformativos-sao-apresentados-em-conferencia-livre' target='_blank'>https://www.gov.br/capes/pt-br/assuntos/noticias/acordos-transformativos-sao-apresentados-em-conferencia-livre</a>. Acesso em: 21 out. 2024.</p>
-
-						<p>CAPES, <strong>Manifesto de Leiden</strong>. 2015. Disponível em: <a href='https://www.gov.br/capes/pt-br/centrais-de-conteudo/2782015-principios-do-manifesto-leiden-pdf' target='_blank'>https://www.gov.br/capes/pt-br/centrais-de-conteudo/2782015-principios-do-manifesto-leiden-pdf</a> . Acesso em: 25 out. 2024.</p>
-
-						<p>CLINIO, Anne. <strong>Conferência Livre na Fiocruz debate “Acesso Aberto: Possibilidades e Limites dos Acordos Transformativos e APCs”</strong>. Portal da Fiocruz, 01 abr. 2024. Disponível em: <a href='https://portal.fiocruz.br/noticia/2024/04/conferencia-livre-na-fiocruz-debate-acesso-aberto-possibilidades-e-limites-dos' target='_blank'>https://portal.fiocruz.br/noticia/2024/04/conferencia-livre-na-fiocruz-debate-acesso-aberto-possibilidades-e-limites-dos</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>COMMITTEE ON PUBLICATION ETHICS. Guidelines on Good Publication Practice. <strong>The COPE Report</strong>, 1999. Disponível em: <a href='https://publicationethics.org/files/u7141/1999pdf13.pdf' target='_blank'>https://publicationethics.org/files/u7141/1999pdf13.pdf</a>. Acesso em: 12 nov. 2024.</p>
-
-						<p>DECLARAÇÃO DE SINGAPURA SOBRE INTEGRIDADE EM PESQUISA. <strong>Dados</strong>, v. 53, n. 3, 2010. Disponível em: <a href='https://www.scielo.br/j/dados/a/XNLzDn8zTKmxCxVWVSrcmFh/?format=pdf&lang=pt' target='_blank'>https://www.scielo.br/j/dados/a/XNLzDn8zTKmxCxVWVSrcmFh/?format=pdf&lang=pt</a>. Acesso em: 20 out. 2024.</p>
-
-						<p>DORA. <strong>Declaração de São Francisco sobre Avaliação de Pesquisa</strong>. 2020 Disponível em: <a href='https://sfdora.org/wp-content/uploads/2020/12/DORA_Brazilian-Portuguese.pdf' target='_blank'>https://sfdora.org/wp-content/uploads/2020/12/DORA_Brazilian-Portuguese.pdf</a>. Acesso em: 20 maio 2024. Acesso em:  21 out. 2024.</p>
-
-						<p>EQUIPE GALOÁ. <strong>O que é fator de impacto das revistas científicas?</strong> Galoá – Ciência com propósito, 28 jul. 2017. Disponível em: <a href='https://galoa.com.br/blog/o-que-e-fator-de-impacto-das-revistas-cientificas/' target='_blank'>https://galoa.com.br/blog/o-que-e-fator-de-impacto-das-revistas-cientificas/</a>. Acesso em: 12 nov. 2024.</p>
-
-						<p>GAO, Catherine A. <em>et al</em>. <strong>Comparing scientific abstracts generated by ChatGPT to real abstracts with detectors and blinded human reviewers</strong>. Digital Medicine, v. 6, n. 75, 2023. Disponível em: <a href='https://www.nature.com/articles/s41746-023-00819-6' target='_blank'>https://www.nature.com/articles/s41746-023-00819-6</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>GOTTLIEB, Michael. <strong>ChatGPT and conversational artificial intelligence: Friend, foe, or future of research?</strong> The American Journal of Emergency Medicine, v. 70, p. 81-83, 2023. Disponível em: <a href='https://www.sciencedirect.com/science/article/abs/pii/S0735675723002620' target='_blank'>https://www.sciencedirect.com/science/article/abs/pii/S0735675723002620</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>INTERNATIONAL COMMITTEE OF MEDICAL JOURNAL EDITORS (ICMJE).<strong> Recommendations for the conduct, reporting, editing, and publication of scholarly work in medical journals</strong>. International Committee of Medical Journal, jan. 2024. Disponível em: <a href='https://www.icmje.org/icmje-recommendations.pdf' target='_blank'>https://www.icmje.org/icmje-recommendations.pdf</a>. Acesso em: 12 nov. 2024.</p>
-
-						<p>MINAYO, M. C. S.; GUERRIERO, I. C. Z. <strong>Reflexividade como éthos da pesquisa qualitativa</strong>. Ciência Saúde Coletiva. 19, 4, Abr. 2014. Disponível em: <a href='http://www.scielo.br/j/csc/a/DgfNdVrZzZbN7rKTSQ8v4qR/?lang=pt' target='_blank'>http://www.scielo.br/j/csc/a/DgfNdVrZzZbN7rKTSQ8v4qR/?lang=pt</a>. Acesso em:7 Maio 2024.</p>
-
-						<p>SCIELO. <strong>Guia para Marcação e Publicação de Contribuição de Autores: Taxonomia CRediT</strong>. SciELO, 2022. Disponível em: <a href='https://wp.scielo.org/wp-content/uploads/credit.pdf' target='_blank'>https://wp.scielo.org/wp-content/uploads/credit.pdf</a>. Acesso em: 20 out. 2024.</p>
-
-						<p>SCIELO. <strong>Recomendações para elaboração, redação, edição e publicação de trabalhos acadêmicos em periódicos médicos</strong>. Epidemiol. Serv. Saúde, v. 24, n. 3, set. 2015. Disponível em: <a href='https://www.scielo.br/j/ress/a/yqJfgnqpGrxrs6LhcvmTmpQ/' target='_blank'>https://www.scielo.br/j/ress/a/yqJfgnqpGrxrs6LhcvmTmpQ/</a>. Acesso em: 25 out. 2024.</p>
-
-						<p>SCIELO Preprints. Disponível em: <a href='https://preprints.scielo.org/index.php/scielo' target='_blank'>https://preprints.scielo.org/index.php/scielo</a>. Acesso em: 20 out. 2024.</p>
-
-						<p>SPINAK, Ernesto. <strong>Acelerando o Plano S: acordos de acesso aberto com publishers pequenos</strong>. Scielo em Perspectiva, 23 jun. 2021. Disponível em: <a href='https://blog.scielo.org/blog/2021/06/23/acelerando-o-plano-s-acordos-de-acesso-aberto-com-publishers-pequenos/' target='_blank'>https://blog.scielo.org/blog/2021/06/23/acelerando-o-plano-s-acordos-de-acesso-aberto-com-publishers-pequenos/</a>. Acesso em:  25 out. 2024.</p>
-
-						<p>VAN DIS; Eva A. M. <em>et al</em>. <strong>ChatGPT: five priorities for research</strong>. Nature, v. 614, n. 7947, p. 224-226, 03 Seb. 2023. Disponível em: <a href='https://www.nature.com/articles/d41586-023-00288-7' target='_blank'>https://www.nature.com/articles/d41586-023-00288-7</a>. Acesso em: 21 out. 2024.</p>
-
-						<p>VASCONCELLOS, Vinicius Gomes de. Editorial – <strong>Inteligência artificial e coautoria de trabalhos científicos: discussões sobre utilização de ChatGPT em pesquisa e redação científicas</strong>. Rev. Bras. Direito Processual Penal, Porto Alegre, v. 9, n. 3, p. 1047-1057, set-dez. 2023. Disponível em: <a href='https://www.scielo.br/j/rbdpp/a/N6v3JDGgcZsxkFsHZVtgx4P/?format=pdf&lang=pt' target='_blank'>https://www.scielo.br/j/rbdpp/a/N6v3JDGgcZsxkFsHZVtgx4P/?format=pdf&lang=pt</a>. Acesso em: 25 out. 2024.</p>
+					<p>AVALIAÇÃO. Revista da Avaliação da Educação Superior. Política de Ética e Más condutas, Errata e Retratação. Campinas, [s. d.]. Disponível em: https://submission.scielo.br/index.php/aval/mascondutaerrataretratacao.Acesso em: 21 out. 2024.</p>
+					<p>CAPES. Acordos transformativos são apresentados em Conferência Livre. Brasília, DF: CAPES, 2024. Disponível em: https://www.gov.br/capes/pt-br/assuntos/noticias/acordos-transformativos-sao-apresentados-em-conferencia-livre.Acesso em: 21 out. 2024.</p>
+					<p>CAPES, Manifesto de Leiden. Brasília, DF: CAPES, 2015. Disponível em: https://www.gov.br/capes/pt-br/centrais-de-conteudo/2782015-principios-do-manifesto-leiden-pdf . Acesso em: 25 out. 2024.</p>
+					<p>CLINIO, A. Conferência Livre na Fiocruz debate “Acesso Aberto: Possibilidades e Limites dos Acordos Transformativos e APCs”. Portal da Fiocruz, 1º  abr. 2024. Disponível em: https://portal.fiocruz.br/noticia/2024/04/conferencia-livre-na-fiocruz-debate-acesso-aberto-possibilidades-e-limites-dos. Acesso em: 25 out. 2024.</p>
+					<p>COMMITTEE ON PUBLICATION ETHICS. Guidelins on Good Publication Practice. The COPE Report, 1999. Disponível em: https://publicationethics.org/files/u7141/1999pdf13.pdf. Acesso em: 12 nov. 2024.</p>
+					<p>DECLARAÇÃO DE SINGAPURA SOBRE INTEGRIDADE EM PESQUISA. Dados, v. 53, n. 3, 2010. Disponível em: https://www.scielo.br/j/dados/a/XNLzDn8zTKmxCxVWVSrcmFh/?format=pdf&lang=ptAcesso em: 20 out. 2024.</p>
+					<p>DORA. Declaração de São Francisco sobre Avaliação de Pesquisa. 2020 Disponível em: https://sfdora.org/wp-content/uploads/2020/12/DORA_Brazilian-Portuguese.pdf. São Francisco, CA, EUA. Acesso em: 20 maio 2024. </p>
+					<p>EQUIPE GALOÁ. O que é fator de impacto das revistas científicas? Galoá – Ciência com propósito, 28 jul. 2017. Campinas, São Paulo. Disponível em: https://galoa.com.br/blog/o-que-e-fator-de-impacto-das-revistas-cientificas/. Acesso em: 12 nov. 2024.</p>
+					<p>GAO, C. A. et al. Comparing scientific abstracts generated by ChatGPT to real abstracts with detectors and blinded human reviewers. Digital Medicine, v. 6, n. 75, 2023. Disponível em: https://www.nature.com/articles/s41746-023-00819-6. Acesso em: 25 out. 2024.</p>
+					<p>GOTTLIEB, M. ChatGPT and conversational artificial intelligence: Friend, foe, or future of research? The American Journal of Emergency Medicine, v. 70, p. 81-83, 2023. Disponível em: https://www.sciencedirect.com/science/article/abs/pii/S0735675723002620. Acesso em: 25 out. 2024.</p>
+					<p>INTERNATIONAL COMMITTEE OF MEDICAL JOURNAL EDITORS (ICMJE). Recommendations for the conduct, reporting, editing, and publication of scholarly work in medical journals. International Committee of Medical Journal, jan. 2024. Disponível em: https://www.icmje.org/icmje-recommendations.pdfAcesso em: 12 nov. 2024.</p>
+					<p>MINAYO, M. C. S.; GUERRIERO, I. C. Z. Reflexividade como éthos da pesquisa qualitativa. Ciência Saúde Coletiva. 19, 4, Abr. 2014. Disponível em:http://www.scielo.br/j/csc/a/DgfNdVrZzZbN7rKTSQ8v4qR/?lang=pt. Acesso em:7 Maio 2024.</p>
+					<p>SCIELO. Guia para Marcação e Publicação de Contribuição de Autores: Taxonomia CRediT. SciELO, 2022. Disponível emhttps://wp.scielo.org/wp-content/uploads/credit.pdf. Acesso em: 20 out. 2024.</p>
+					<p>SCIELO. Recomendações para elaboração, redação, edição e publicação de trabalhos acadêmicos em periódicos médicos. Epidemiol. Serv. Saúde, v. 24, n. 3, set. 2015. Disponível em:https://www.scielo.br/j/ress/a/yqJfgnqpGrxrs6LhcvmTmpQ/. Acesso em: 25 out. 2024.</p>
+					<p>SCIELO Preprints. São Paulo, SP, 1997.Disponível em: https://preprints.scielo.org/index.php/scielo.Acesso em: 20 out. 2024.</p>
+					<p>SPINAK, E. Acelerando o Plano S: acordos de acesso aberto com publishers pequenos. Scielo em Perspectiva, 23 jun. 2021. Disponível em: 
+					https://blog.scielo.org/blog/2021/06/23/acelerando-o-plano-s-acordos-de-acesso-aberto-com-publishers-pequenos/. Acesso em:  25 out. 2024.</p>
+					<p>VAN DIS; E. A. M. et al. ChatGPT: five priorities for research. Nature, v. 614, n. 7947, p. 224-226, 03 Seb. 2023. Disponível em: https://www.nature.com/articles/d41586-023-00288-7. Acesso em: 21 out. 2024.</p>
+					<p>VASCONCELLOS, V. G. de. Editorial – Inteligência artificial e coautoria de trabalhos científicos: discussões sobre utilização de ChatGPT em pesquisa e redação científicas. Rev. Bras. Direito Processual Penal, Porto Alegre, v. 9, n. 3, p. 1047-1057, set-dez. 2023. Disponível em: https://www.scielo.br/j/rbdpp/a/N6v3JDGgcZsxkFsHZVtgx4P/?format=pdf&lang=pt. Acesso em: 25 out. 2024.</p>
 					</div>
 					
 				</div>
