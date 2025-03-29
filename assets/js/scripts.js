@@ -322,18 +322,12 @@ const modalInfos = {
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
 						<p>DIAS, M. C. <strong>Sobre nós: expandindo as fronteiras da moralidade.</strong> Rio de Janeiro: Pirilampo, 2016.</p>
-
-						<p>FORTES, P. D.; REGO, S. <strong>Tem cabimento o que não é justo? A propósito da justificação dos juízos morais</strong>. Revista Bioética, v. 26, n. 1; 2018. Disponível em: <a href='https://revistabioetica.cfm.org.br/revista_bioetica/article/view/1653/1786' target='_blank'>https://revistabioetica.cfm.org.br/revista_bioetica/article/view/1653/1786</a>. Acesso em: 20 maio 2024.</p>
-
-						<p>HABERMAS, J. <strong>A ética do discurso: obras escolhidas</strong>. v. 3. Lisboa: Edições 70, 2014.</p>
-
-						<p>LUKES, S. <strong>Cinco fábulas sobre direitos humanos.</strong> In: ISHAY, MR, organizadora. Direitos humanos: uma antologia. São Paulo: Edusp; 2006.</p>
-
-						<p>RAWLS, J. <strong>Uma teoria da justiça</strong>. São Paulo: Martins Fontes, 1997. Disponível em: <a href='https://marcosfabionuva.com/wp-content/uploads/2011/08/uma-teoria-da-justic3a7a.pdf' target='_blank'>https://marcosfabionuva.com/wp-content/uploads/2011/08/uma-teoria-da-justic3a7a.pdf</a>. Acesso em: 20 maio 2024.</p>
-
-						<p>TUGENDHAT, E. <strong>Reflexões sobre o que significa justificar juízos morais.</strong> In: Brito, NA, organizador. Ética: questões de fundamentação. Brasília: Editora Universidade de Brasília; 2007.</p>
-						
-						<p>WESTON, Anthony. <strong>A construção do argumento</strong>. São Paulo: Martins Fontes, 2009.</p>
+						<p>FORTES, P. D.; <strong>REGO, S. Tem cabimento o que não é justo? A propósito da justificação dos juízos morais.</strong> Revista Bioética, v. 26, n. 1; 2018. Disponível em: <a href='https://revistabioetica.cfm.org.br/revista_bioetica/article/view/1653/1786' target='_blank'>https://revistabioetica.cfm.org.br/revista_bioetica/article/view/1653/1786</a>. Acesso em: 20 maio 2024.</p>
+						<p>HABERMAS, J. <strong>A ética do discurso: obras escolhidas</strong>. Lisboa: Edições 70, 2014. v. 3. </p>
+						<p>LUKES, S. <strong>Cinco fábulas sobre direitos humanos</strong>. In: ISHAY, M. R. (org.). Direitos humanos: uma antologia. São Paulo: Edusp; 2006.</p>
+						<p>RAWLS, J.<strong> Uma teoria da justiça</strong>. São Paulo: Martins Fontes, 1997. Disponível em: <a href='https://marcosfabionuva.com/wp-content/uploads/2011/08/uma-teoria-da-justic3a7a.pdf' target='_blank'>https://marcosfabionuva.com/wp-content/uploads/2011/08/uma-teoria-da-justic3a7a.pdf</a>. Acesso em: 20 maio 2024.</p>
+						<p>TUGENDHAT, <strong>E. Reflexões sobre o que significa justificar juízos morais.</strong> In: BRITO, N. A. (org.). Ética: questões de fundamentação. Brasília: Editora da UnB, 2007.</p>
+						<p>WESTON, A. <strong>A construção do argumento</strong>. São Paulo: Martins Fontes, 2009.</p>
 					</div>
 					
 				</div>
